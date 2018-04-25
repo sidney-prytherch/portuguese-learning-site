@@ -1,0 +1,52 @@
+body {
+    background: green;
+}
+
+.col-sm-3 {
+    background: orange;
+    height: 100%;
+}
+
+.navbar {
+    margin: 0;
+    padding: 20 20 0 20;
+}
+
+.navcontainer {
+    overflow: auto;
+    background: purple;
+    height: calc(100% - 40px);
+}
+
+.leftbar {
+    height: 100%;
+    padding: 0;
+}
+
+.buttons {
+    width: 100%;
+    padding: 3px;
+}
+
+.buttons .btn {
+    width: 33.33%;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+hr {
+    padding: 0;
+    margin: 0; 
+}
+
+.btn-xs, hr {
+    margin-top: 4px;
+}
+
+.btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }
