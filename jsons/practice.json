@@ -1,0 +1,396 @@
+{
+	"lessons" : {
+		"1": {
+			"practice" : {
+				"1": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "_ restautante (the restaurant)",
+							"answer": "o"
+						},
+						{
+							"number": "2",
+							"question": "_ escritório (the office)",
+							"answer": "o"
+						},
+						{
+							"number": "3",
+							"question": "_ igrega (the church)",
+							"answer": "a"
+						},
+						{
+							"number": "4",
+							"question": "_ americano (the American man)",
+							"answer": "o"
+						},
+						{
+							"number": "5",
+							"question": "_ francesa (the French woman)",
+							"answer": "a"
+						},
+						{
+							"number": "6",
+							"question": "_ enfermeira (the female nurse)",
+							"answer": "a"
+						},
+						{
+							"number": "7",
+							"question": "_ água (the water)",
+							"answer": "a"
+						},
+						{
+							"number": "8",
+							"question": "_ café (the coffee)",
+							"answer": "o"
+						},
+						{
+							"number": "9",
+							"question": "_ açúcar (the sugar)",
+							"answer": "o"
+						},
+						{
+							"number": "10",
+							"question": "_ praia (the beach)",
+							"answer": "a"
+						}
+					],
+					"type": "FIB",
+					"instructions": "Give the correct definite article, *o* or *a*."
+				},
+				"2 - 1": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "os hotéis",
+							"answer": "the hotels"
+						},
+						{
+							"number": "2",
+							"question": "os carros",
+							"answer": "the cars"
+						},
+						{
+							"number": "3",
+							"question": "as praias",
+							"answer": "the beaches"
+						},
+						{
+							"number": "4",
+							"question": "os livros",
+							"answer": "the books"
+						},
+						{
+							"number": "5",
+							"question": "os escritórios",
+							"answer": "the offices"
+						}
+					],
+					"type": "FIBA",
+					"instructions": "Translate the following:"
+				},
+				"2 - 2": {
+					"questions" : [
+						{
+							"number": "6",
+							"question": "a ação",
+							"answer": "as ações"
+						},
+						{
+							"number": "7",
+							"question": "o homem",
+							"answer": "os homens"
+						},
+						{
+							"number": "8",
+							"question": "o jornal",
+							"answer": "os jornais"
+						},
+						{
+							"number": "9",
+							"question": "o mês",
+							"answer": "os meses"
+						},
+						{
+							"number": "10",
+							"question": "o professor",
+							"answer": "os professores"
+						}
+					],
+					"type": "FIBA",
+					"instructions": "Give the plural forms of each of these nouns:"
+				}
+			}
+		},
+		"2": {
+			"practice" : {
+				"1": {
+					"questions" : [
+						{
+							"number": "Ex.",
+							"question": "Eu e Paulo",
+							"answer": "nós"
+						},
+						{
+							"number": "1",
+							"question": "Pedro",
+							"answer": "Ele"
+						},
+						{
+							"number": "2",
+							"question": "Mariana",
+							"answer": "Ela"
+						},
+						{
+							"number": "3",
+							"question": "Mariana e Sofia",
+							"answer": "Elas"
+						},
+						{
+							"number": "4",
+							"question": "Eu, Mariana, e Pedro",
+							"answer": "Nós"
+						},
+						{
+							"number": "5",
+							"question": "Pedro e Paulo",
+							"answer": "Eles"
+						},
+						{
+							"number": "6",
+							"question": "Mariana e Pedro",
+							"answer": "Eles"
+						},
+						{
+							"number": "7",
+							"question": "Pedro, Mariana, e Sofia",
+							"answer": "Eles"
+						},
+						{
+							"number": "8",
+							"question": "Você, Mariana, e Paulo",
+							"answer": "Vocês"
+						}
+					],
+					"type": "FIBA",
+					"instructions": "Replace each phrase with a subject pronoun."
+				},
+				"2": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "Ele _ brasileiro. (He's Brazilian.)",
+							"answer": "é"
+						},
+						{
+							"number": "2",
+							"question": "Você _ de Los Angeles. (You're from Los Angeles.)",
+							"answer": "é"
+						},
+						{
+							"number": "3",
+							"question": "Helena _ professora. (Helena is a teacher.)",
+							"answer": "é"
+						},
+						{
+							"number": "4",
+							"question": "Eu _ casado. (I'm married.)",
+							"answer": "sou"
+						},
+						{
+							"number": "5",
+							"question": "A casa _ grande. (The house is big.)",
+							"answer": "é"
+						},
+						{
+							"number": "6",
+							"question": "Você _ o novo médico. (You're the new doctor.)",
+							"answer": "é"
+						},
+						{
+							"number": "7",
+							"question": "Tom _ meu amigo. (Tom is my friend.)",
+							"answer": "é"
+						},
+						{
+							"number": "8",
+							"question": "Ela _ americana. (She's American.)",
+							"answer": "é"
+						},
+						{
+							"number": "9",
+							"question": "Nós _ aqui. (We're here.)",
+							"answer": "somos"
+						},
+						{
+							"number": "10",
+							"question": "Elas _ de Nova Iorque. (They're from New York. [f.])",
+							"answer": "são"
+						}
+					],
+					"type": "FIB",
+					"instructions": "Complete with the correct form of the verb *ser*."
+				}
+			}
+		},
+		"3": {
+			"practice" : {
+				"1": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "Nós _ de Nova Iorque. _ americanos. (We're from New York. We're American.)",
+							"answer": "somos~somos"
+						},
+						{
+							"number": "2",
+							"question": "Pedro e Mariana _ casados. Eles não _ solteiros. (Pedro and Mariana are married. They're not single.)",
+							"answer": "são~são"
+						},
+						{
+							"number": "3",
+							"question": "Os dois amigos _ estudantes. (The two friends are students.)",
+							"answer": "são"
+						},
+						{
+							"number": "4",
+							"question": "Os três estudantes _ da Califórnia? (Are the three friends from California?)",
+							"answer": "são"
+						},
+						{
+							"number": "5",
+							"question": "As duas professoras _ italianas. (The two teachers are Italian. [f.])",
+							"answer": "são"
+						}
+					],
+					"type": "FIB",
+					"instructions": "Complete each sentence with the correct form of the verb *ser*."
+				},
+				"2": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "Pedro é casado? (Is Pedro married?)",
+							"answer": "Pedro não é casado",
+							"format": "Não, _"
+						},
+						{
+							"number": "2",
+							"question": "Os jornais são americanos? (Are the newspapers American?)",
+							"answer": "os jornais não são americanos",
+							"format": "Não, _"
+						},
+						{
+							"number": "3",
+							"question": "Você é de São Paulo? (Are you from São Paulo?)",
+							"answer": "eu não de São Paulo",
+							"format": "Não, _"
+						},
+						{
+							"number": "4",
+							"question": "Vocês são do Paraná? (Are you [pl.] from Paraná?)",
+							"answer": "nós não somos do Paraná",
+							"format": "Não, _"
+						},
+						{
+							"number": "5",
+							"question": "Carolina é de Boston? (Is Carolina from Boston?)",
+							"answer": "Carolina não é de Boston",
+							"format": "Não, _"
+						},
+						{
+							"number": "6",
+							"question": "As crianças são francesas? (Are the children French?)",
+							"answer": "as crianças não são francesas",
+							"format": "Não, _"
+						}
+					],
+					"type": "FIBA",
+					"instructions": "Answer these questions in the negative."
+				}
+			}
+		},
+		"4": {
+			"practice" : {
+				"1": {
+					"questions" : [
+						{
+							"number": "Ex.",
+							"question": "Você e de Roma?",
+							"answer": "Não, eu não sou de Roma. Eu sou de Milão.",
+							"format": "Não, _. _ de Milão."
+						},
+						{
+							"number": "1",
+							"question": "O Senhor é de São Paulo?",
+							"answer": "eu não sou de São Paulo~Eu sou",
+							"format": "Não, _. _ de Miami."
+						},
+						{
+							"number": "2",
+							"question": "Você é de Paris?",
+							"answer": "eu não sou de Paris~Eu sou",
+							"format": "Não, _. _ de Londres."
+						},
+						{
+							"number": "3",
+							"question": "Ela é da Califórnia?",
+							"answer": "ela não é da Califórnia~Ela é",
+							"format": "Não, _. _ da Bahia."
+						},
+						{
+							"number": "4",
+							"question": "Dona Claudia é a nova gerente?",
+							"answer": "ela não é a nova generente~Ela é a",
+							"format": "Não, _. _ nova diretora."
+						},
+						{
+							"number": "5",
+							"question": "Eles são espanhóis?",
+							"answer": "eles não são espanhóis~Elas são",
+							"format": "Não, _. _ alemães."
+						}
+					],
+					"type": "FIBA",
+					"instructions": "Answer the questions with a complete sentence following the cues provided."
+				},
+				"2": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "Felipe: Oi, Mariana. Tudo Bem?",
+							"answer": "Bem, e você?",
+							"format": "Mariana: _"
+						},
+						{
+							"number": "2",
+							"question": "Felipe: Também. Este é o meu amigo Bill.",
+							"answer": "Oi, prazer.",
+							"format": "Mariana: _"
+						},
+						{
+							"number": "3",
+							"question": "Bill: O prazer é meu.",
+							"answer": "Você é americano?",
+							"format": "Mariana: _"
+						},
+						{
+							"number": "4",
+							"question": "Bill: Não, não sou americano.",
+							"answer": "De onde você é?",
+							"format": "Mariana: _"
+						},
+						{
+							"number": "5",
+							"question": "Bill: Sou da Inglaterra, sou inglês.",
+							"answer": "Até mais.",
+							"format": "Mariana: Preciso ir. _"
+						}
+					],
+					"type": "DTCP",
+					"instructions": "Complete the informal dialogue with the given expressions."
+				}
+			}
+		}
+	}
+}
