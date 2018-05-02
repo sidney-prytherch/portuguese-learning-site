@@ -89,8 +89,22 @@ function loadVocabulary(lessonNumber, pageNumber) {
     }
 
     mainString += '<table class="table"><tr><th>Portuguese</th><th>English</th></tr>';
+    let row = 1;
+    const filePath = 'audio/L' + lessonNumber + '/V' + pageNumber;
     for (let vocabObj of vocab[vocabType]) {
-        mainString += '<tr><td><b>' + vocabObj['portuguese'] + '</b></td><td><i>' + vocabObj['english'] + '</i></td></tr>';
+        let audioIds = [filePath + '/P' + row, filePath + '/E' + row];
+        mainString += '<audio id="' + audioIds[0] + '" src="' + audioIds[0] + '.mp3" preload="auto"></audio>';
+        if (vocabType != 'conversations') {
+            mainString += '<audio id="' + audioIds[1] + '" src="' + audioIds[1] + '.mp3" preload="auto"></audio>';
+        }
+        mainString += '<tr><td><b>' + vocabObj['portuguese'];
+        mainString += '<button class="audio" onclick="document.getElementById(\'' + audioIds[0] + '\').play();"><span class="glyphicon glyphicon-volume-up"></span></button></b></td>';
+        mainString += '<td><i>' + vocabObj['english'];
+        if (vocabType != 'conversations') {
+            mainString += '<button class="audio" onclick="document.getElementById(\'' + audioIds[1] + '\').play();"><span class="glyphicon glyphicon-volume-up"></span></button>';
+        }
+        mainString += '</i></td></tr>';
+        row++;
     }
     mainString += '</table>';
 
@@ -100,6 +114,13 @@ function loadVocabulary(lessonNumber, pageNumber) {
 
     mainString += '</article>';
     $('#main').append(mainString);
+}
+
+function playSound(filePath) {
+    alert("On Press of " + filePath);
+    var snd = new Audio(filePath);
+    snd.play();
+    snd.currentTime=0;
 }
 
 function getHeader(lessonNumber, section) {

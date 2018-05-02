@@ -83,3 +83,8 @@ p {
 th {
     font-size: large;
 }
+
+.audio {
+    border: none;
+    outline: none;
+}
