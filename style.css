@@ -1,9 +1,9 @@
 body {
-    background: green;
+    background: #77A0A9;
 }
 
 .col-sm-3 {
-    background: orange;
+    background: #6C596E;
     height: 100%;
 }
 
@@ -14,8 +14,11 @@ body {
 
 .navcontainer {
     overflow: auto;
-    background: purple;
     height: calc(100% - 40px);
+}
+
+.list-group-item {
+    background: #8A8E91;
 }
 
 .leftbar {
@@ -49,4 +52,26 @@ hr {
 .btn:focus, .btn:active {
     outline: none !important;
     box-shadow: none;
- }
+}
+
+article {
+    margin: 4% 8% 0% 8%;
+}
+
+button {
+    background-color: #77A0A9;
+}
+
+a, a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+.special {
+    background-color: #28112B;
+    color: #EFECCA;
+}
