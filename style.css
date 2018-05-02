@@ -75,3 +75,11 @@ a:hover {
     background-color: #28112B;
     color: #EFECCA;
 }
+
+p {
+    font-size: medium;
+}
+
+th {
+    font-size: large;
+}

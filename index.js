@@ -20,6 +20,7 @@ window.addEventListener('hashchange', event => {
 }, false);
 
 function loadPage() {
+    $(window).scrollTop(0);
     if (window.location.href.indexOf('#') > -1) {
         const hash = window.location.href.replace(/.+#/g, '');
         const splitHash = hash.split('/');
@@ -104,7 +105,7 @@ function loadVocabulary(lessonNumber, pageNumber) {
 function getHeader(lessonNumber, section) {
     const unit = Math.ceil(lessonNumber / 4);
     let header = '<h2>Unit ' + unit + ' - ' + unitCategories[unit] + '</h2>';
-    header += '<h3>Lesson ' + lessonNumber + ' - ' + section + '</h3>';
+    header += '<h3>Lesson ' + lessonNumber + ' - ' + section + '</h3><br>';
     return header;
 }
 
