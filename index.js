@@ -12,6 +12,7 @@ const unitCategories = {
 }
 
 let glyphTimestamp = null;
+const glyphSpeed = 600;
 
 window.addEventListener('load', event => {
     lastTimeUrlChanged = Date.now();
@@ -22,7 +23,7 @@ window.addEventListener('hashchange', event => {
     clearTimeout(glyphTimestamp);
     glyphTimestamp = setTimeout(()=>{
         showCorrectGlyph();
-    }, 1000);
+    }, glyphSpeed);
     loadPage();
 }, false);
 
@@ -64,10 +65,10 @@ function showCorrectGlyph() {
         let span = $(this).parent().find('.glyphicon-arrow-right');
         if ($(this).attr('href').replace('#', '') === hash) {
             if ($(span).is(':hidden')) {
-                $(span).show(600);
+                $(span).show(glyphSpeed);
             }
         } else if (!$(span).is(':hidden')) {
-            $(span).hide(600);
+            $(span).hide(glyphSpeed);
         }
     });
 }
