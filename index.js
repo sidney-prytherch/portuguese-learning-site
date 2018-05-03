@@ -21,14 +21,13 @@ window.addEventListener('load', event => {
     
 window.addEventListener('hashchange', event => {
     clearTimeout(glyphTimestamp);
-    glyphTimestamp = setTimeout(()=>{
+    glyphTimestamp = setTimeout(() => {
         showCorrectGlyph();
     }, glyphSpeed + 200);
     loadPage();
 }, false);
 
 function loadPage() {
-    $(window).scrollTop(0);
     if (window.location.href.indexOf('#') > -1) {
         const hash = window.location.href.replace(/.+#/g, '');
         const splitHash = hash.split('/');
@@ -40,22 +39,25 @@ function loadPage() {
         const lessonNumber = splitHash[0].replace(/\D*/g, '');
         const pageType = splitHash[1].replace(/\d*/g, '');
         const pageNumber = splitHash[1].replace(/\D*/g, '');
-        $('#main').empty();
         showCorrectGlyph();
-        switch (pageType) {
-            case 'NB':
-                loadNutsAndBolts(lessonNumber, pageNumber);
-                break;
-            case 'V':
-                loadVocabulary(lessonNumber, pageNumber);
-                break;
-            case 'P':
-                loadPractice(lessonNumber, pageNumber);
-                break;
-            case 'E':
-                loadExtra(lessonNumber, pageNumber);
-                break;
-        }
+        $('#main').slideUp(700, function() {
+            $('#main').empty();
+            switch (pageType) {
+                case 'NB':
+                    loadNutsAndBolts(lessonNumber, pageNumber);
+                    break;
+                case 'V':
+                    loadVocabulary(lessonNumber, pageNumber);
+                    break;
+                case 'P':
+                    loadPractice(lessonNumber, pageNumber);
+                    break;
+                case 'E':
+                    loadExtra(lessonNumber, pageNumber);
+                    break;
+            }
+            $('#main').slideDown(700);
+        });
     }
 }
 

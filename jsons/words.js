@@ -312,7 +312,7 @@ var wordsJson = {
 							"english": "alarm clock"
 						},
 						{
-							"portuguese": "a rádio-relógio",
+							"portuguese": "o rádio-relógio",
 							"english": "clock radio"
 						}
 					]

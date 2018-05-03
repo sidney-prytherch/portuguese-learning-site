@@ -1,15 +1,24 @@
 body {
+    background: #28666E;
+}
+
+#main {
     background: #77A0A9;
+}
+
+.list-group {
+    margin: 0;
 }
 
 .col-sm-3 {
     background: #6C596E;
+    border-right: thick solid #59495B;
     height: 100%;
 }
 
 .navbar {
     margin: 0;
-    padding: 20 20 0 20;
+    padding: 20px;
 }
 
 .navcontainer {
@@ -18,7 +27,8 @@ body {
 }
 
 .list-group-item {
-    background: #8A8E91;
+    border: medium solid #59495B;
+    background: rgba(216, 219, 226, .3);
 }
 
 .leftbar {
@@ -43,6 +53,7 @@ ul {
 hr {
     padding: 0;
     margin: 0; 
+    border-top-color: #59495B;
 }
 
 .btn-xs, hr {
