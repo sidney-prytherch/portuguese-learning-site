@@ -23,7 +23,7 @@ window.addEventListener('hashchange', event => {
     clearTimeout(glyphTimestamp);
     glyphTimestamp = setTimeout(()=>{
         showCorrectGlyph();
-    }, glyphSpeed);
+    }, glyphSpeed + 200);
     loadPage();
 }, false);
 
