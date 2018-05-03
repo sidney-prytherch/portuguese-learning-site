@@ -91,7 +91,7 @@ var wordsJson = {
 						},
 						{
 							"portuguese": "o celular",
-							"english": "cell phone"
+							"english": "the cell phone"
 						},
 						{
 							"portuguese": "onde",
@@ -103,7 +103,7 @@ var wordsJson = {
 						},
 						{
 							"portuguese": "Oi!",
-							"english": "Hello (infml.)"
+							"english": "Hi! (infml.)"
 						},
 						{
 							"portuguese": "Até logo!",
@@ -127,11 +127,15 @@ var wordsJson = {
 						},
 						{
 							"portuguese": "o filho, a filha",
-							"english": "brother, sister"
+							"english": "son, daughter"
 						},
 						{
 							"portuguese": "o primo, a prima",
 							"english": "cousin"
+						},
+						{
+							"portuguese": "o irmão, a irmã",
+							"english": "brother, sister"
 						},
 						{
 							"portuguese": "o avô, a avó",

@@ -125,7 +125,11 @@ var sentencesJson = {
 							"english": "Your documents are in order."
 						},
 						{
-							"portuguese": "Os nossos amigas são húngaras.",
+							"portuguese": "Os nossos pratos são velhos",
+							"english": "Our plates are old."
+						},
+						{
+							"portuguese": "As nossas amigas são húngaras.",
 							"english": "Our friends are Hungarian."
 						},
 						{

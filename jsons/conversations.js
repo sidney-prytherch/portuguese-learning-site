@@ -189,7 +189,7 @@ var conversationsJson = {
 							"english": "Carolina: And your husband? Isn't he in the picture?"
 						},
 						{
-							"portuguese": "Luiza: Ele não está na foto. Ele é o fotografo!",
+							"portuguese": "Luiza: Não, ele não está na foto. Ele é o fotografo!",
 							"english": "Luiza: He isn't in the picture. He's the photographer!"
 						}
 					],
