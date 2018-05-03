@@ -33,6 +33,14 @@ function loadPage() {
         const pageType = splitHash[1].replace(/\d*/g, '');
         const pageNumber = splitHash[1].replace(/\D*/g, '');
         $('#main').empty();
+        $('.glyphicon-arrow-right').remove();
+        let listItems = $('#lesson' + lessonNumber).children();
+        for (let listItem of listItems) {
+            if ($(listItem).children()[0].href.replace(/.+#/g, '') === hash) {
+                $(listItem).prepend('<span class="glyphicon glyphicon-arrow-right"></span> ');
+                break;
+            }
+        }
         switch (pageType) {
             case 'NB':
                 loadNutsAndBolts(lessonNumber, pageNumber);

@@ -1005,9 +1005,137 @@ var nutsAndBoltsJson = {
 		},
 		"9": {
 			"nutsAndBolts" : {
-				"": {
+				"1": {
 					"tips" : {
-						"": {
+						"1": {
+							"tip category": "Telling Time",
+							"tip": "The word *hora/s* means _hour/s_, and it's also used to ask for and give the time: *Que horas são?* (_What time is it?_) To answer just use *é* for 1:00 and *são* for 2:00 or higher: *É uma hora.* (_It's one o'clock._) *São duas horas.* (_It's two o'clock._) Because *hora* is feminine, you have to use the feminine forms *uma* and *duas*. Just like in English, you can specify that a time is _in the early morning_ (midnight to 6:00 A.M.) with *da madrugada*, _in the morning_ with *da manhã*, _in the afternoon_ with *da tarde*, and _in the evening_ or _at night_ with *da noite*.",
+							"list" : [
+								{
+									"portuguese": "São três da madruga.",
+									"english": "It's three o'clock in the (early) morning."
+								},
+								{
+									"portuguese": "São dez da manhã.",
+									"english": "It's ten in the morning."
+								},
+								{
+									"portuguese": "São quatro da tarde.",
+									"english": "It's four in the afternoon."
+								},
+								{
+									"portuguese": "São sete da noite.",
+									"english": "It's seven in the evening."
+								},
+								{
+									"portuguese": "São onze da noite.",
+									"english": "It's eleven at night."
+								}
+							]
+						},
+						"2": {
+							"tip": "To say that it's half past an hour, use *e meia* (_and a half_). To say that it's quarter past an hour, use *e quinze*. To say that it's quarter to an hour use *quinze para as ...*",
+							"list" : [
+								{
+									"portuguese": "São cinco e meia da tarde.",
+									"english": "It's 5:30 in the afternoon."
+								},
+								{
+									"portuguese": "São onze e quinze da manhã.",
+									"english": "It's 11:15 in the morning."
+								},
+								{
+									"portuguese": "São quinze para as dez da noite.",
+									"english": "It's 9:45 at night."
+								}
+							]
+						},
+						"3": {
+							"tip": "To express other times between the hours, use *e* (_and_) for minutes after the hour, and *faltam ... para* or just *para* for minutes before the hour:",
+							"list" : [
+								{
+									"portuguese": "É uma e cinco.",
+									"english": "It's 1:05."
+								},
+								{
+									"portuguese": "São quatro e vinte.",
+									"english": "It's 4:20."
+								},
+								{
+									"portuguese": "Faltam dez para as duas.",
+									"english": "It's ten to two."
+								},
+								{
+									"portuguese": "São vinte para as sete.",
+									"english": "It's twenty to seven."
+								}
+							]
+						},
+						"4": {
+							"tip": "Notice that you have three possible ways of expressing a time like 9:50: *São nove e cinqüenta.* (_It's nine fifty._) *São dez para as dez.* (_It's ten to nine._) *Faltam dez para as dez.* (_It's ten minutes before ten._) One more thing to keep in mind is that the 24-hour clock, or \"military\" time is also used for official times or schedules. So, you'll see 13:00 for 1:00 P.M., 15:00 for 3:00 P.M., and so on."
+						}
+					}
+				},
+				"2": {
+					"tips" : {
+						"1": {
+							"tip category": "The Preposition De (_Of_)",
+							"tip": "A very common and useful preposition in Portuguese is *de*, meaning _of_ or _from_, as in: *Eu sou de Nova Iorque.* (_I'm from New York_.) When *de* comes right before a definite article, it forms a contraction: *do (de + o)*, *da (de + a)*, *dos (de + os)*, and *das (de + as)*. You'll see these contractions a lot in expressions of time or origin, because Portuguese uses definite articles much more often than English does. But note that the definite article isn't used with place names that begin with *São*, *Santo*, or *Santa*, or with foreign names.",
+							"list" : [
+								{
+									"portuguese": "Nós somos do Rio, ele é de São Paulo, e ela é de Chicago.",
+									"english": "We're from Rio, he's from São Paulo, and she's from Chicago."
+								},
+								{
+									"portuguese": "Os meus pais são dos Estados Unidos.",
+									"english": "My parents are from the United States."
+								},
+								{
+									"portuguese": "O seu casaco é da Itália?",
+									"english": "Is your coat from Italy?"
+								},
+								{
+									"portuguese": "Minha aula é das seis às sete.",
+									"english": "My class is from 6:00 to 7:00."
+								}
+							]
+						},
+						"2": {
+							"tip": "Notice in the last example the form *às* (_to the_). It's a contraction with the preposition *a* (_to, at_), but we'll come back to that. *De* is also used to show possession or association:",
+							"list" : [
+								{
+									"portuguese": "Esse é o novo carro do Marco.",
+									"english": "This is Marco's new car."
+								},
+								{
+									"portuguese": "O carro do meu pai é branco.",
+									"english": "My father's car is white."
+								},
+								{
+									"portuguese": "Os amigos do meu irmão são legais.",
+									"english": "My brother's friends are nice."
+								}
+							]
+						},
+						"3": {
+							"tip": "*De* is also used to show contents, to indicate what something is made of, and in the equivalent of compound noun constructions.",
+							"list" : [
+								{
+									"portuguese": "Eu gostaria uma copo de vinho, por favor.",
+									"english": "I'd like a glass of wine, please."
+								},
+								{
+									"portuguese": "As prateleiras da estante são de madeira.",
+									"english": "The shelves of the bookcase are made of wood."
+								},
+								{
+									"portuguese": "Eu gostaria de uma nova toalha de banho, por favor.",
+									"english": "I'd like a new bath towel, please."
+								}
+							]
+						},
+						"4": {
+							"tip": "Finally, *de* is used with means of transportation: *de trem* (_by train_), *de avião* (_by plane_), *de ônibus* (_by bus_), *de carro* (_by car_), *de navio* (_by ship_), but *a pé* (_by foot_)."
 						}
 					}
 				}

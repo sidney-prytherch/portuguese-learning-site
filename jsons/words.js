@@ -238,6 +238,150 @@ var wordsJson = {
 					]
 				}
 			}
+		},
+		"9": {
+			"sections" : {
+				"1": {
+					"words" : [
+						{
+							"portuguese": "a hora",
+							"english": "hour"
+						},
+						{
+							"portuguese": "a manhã",
+							"english": "morning"
+						},
+						{
+							"portuguese": "a tarde",
+							"english": "afternoon"
+						},
+						{
+							"portuguese": "a noite",
+							"english": "night"
+						},
+						{
+							"portuguese": "atrasado/a",
+							"english": "late"
+						},
+						{
+							"portuguese": "adiantado/a",
+							"english": "early"
+						},
+						{
+							"portuguese": "na hora",
+							"english": "on time"
+						},
+						{
+							"portuguese": "o relógio",
+							"english": "clock/watch"
+						},
+						{
+							"portuguese": "todo/s",
+							"english": "every"
+						},
+						{
+							"portuguese": "o minuto",
+							"english": "minute"
+						},
+						{
+							"portuguese": "o segundo",
+							"english": "second"
+						},
+						{
+							"portuguese": "quase",
+							"english": "almost"
+						},
+						{
+							"portuguese": "hoje",
+							"english": "today"
+						},
+						{
+							"portuguese": "a atividade",
+							"english": "activity"
+						},
+						{
+							"portuguese": "a aula",
+							"english": "lesson/class"
+						},
+						{
+							"portuguese": "a academia",
+							"english": "gym"
+						},
+						{
+							"portuguese": "o despertador",
+							"english": "alarm clock"
+						},
+						{
+							"portuguese": "a rádio-relógio",
+							"english": "clock radio"
+						}
+					]
+				},
+				"2": {
+					"words" : [
+						{
+							"portuguese": "despois",
+							"english": "after"
+						},
+						{
+							"portuguese": "antes",
+							"english": "before"
+						},
+						{
+							"portuguese": "o café da manhã",
+							"english": "breakfast"
+						},
+						{
+							"portuguese": "o chuveiro",
+							"english": "shower"
+						},
+						{
+							"portuguese": "o banho",
+							"english": "bath"
+						},
+						{
+							"portuguese": "a escova de dentes",
+							"english": "toothbrush"
+						},
+						{
+							"portuguese": "a pasta de dentes",
+							"english": "toothpaste"
+						},
+						{
+							"portuguese": "a escova de cabelo",
+							"english": "hairbrush"
+						},
+						{
+							"portuguese": "o sabonete",
+							"english": "soap"
+						},
+						{
+							"portuguese": "a garrafa de cerveja",
+							"english": "beer bottle"
+						},
+						{
+							"portuguese": "o frasco de xampu",
+							"english": "shampoo bottle"
+						},
+						{
+							"portuguese": "o aparelho de barbear",
+							"english": "razor"
+						},
+						{
+							"portuguese": "a xícara de café",
+							"english": "coffee cup"
+						},
+						{
+							"portuguese": "a colher de sopa",
+							"english": "soup spoon"
+						},
+						{
+							"portuguese": "o copo de vinho",
+							"english": "wineglass"
+						}
+					]
+				}
+			}
 		}
 	}
 }

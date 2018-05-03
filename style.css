@@ -60,15 +60,31 @@ article {
 
 button {
     background-color: #77A0A9;
+    white-space: normal;
 }
 
-a, a:link, a:visited {
-    color: black;
+a:link, a:visited {
     text-decoration: none;
 }
 
 a:hover {
     text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.unitLink, .unitLink:hover {
+    font-size: large;
+    color: #33223A;
+}
+
+.lessonLink, .lessonLink:hover {
+    font-size: medium;
+    color: #4F345A;
+}
+
+.sectionLink, .sectionLink:link, .sectionLink:visited {
+    font-size: small;
+    color: #65506E;
 }
 
 .special {
@@ -85,6 +101,7 @@ th {
 }
 
 .audio {
+    margin: 4px;
     border: none;
     outline: none;
 }

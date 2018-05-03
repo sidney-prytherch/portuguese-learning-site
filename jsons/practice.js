@@ -830,6 +830,112 @@ var practiceJson = {
 					"instructions": "Translate these sentences, writing out the numbers."
 				}
 			}
+		},
+		"9": {
+			"practice" : {
+				"1": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "What time is it?",
+							"answer": "Que horas são?"
+						},
+						{
+							"number": "2",
+							"question": "It's 10:30.",
+							"answer": "São dez e trinta./São dez e meia."
+						},
+						{
+							"number": "3",
+							"question": "It's 3:15.",
+							"answer": "São três e quinze."
+						},
+						{
+							"number": "4",
+							"question": "It's 8:30.",
+							"answer": "São oito e trinta./São oito e meia."
+						},
+						{
+							"number": "5",
+							"question": "It's 3:50. (Use faltam.)",
+							"answer": "Faltam dez para as quatro."
+						},
+						{
+							"number": "6",
+							"question": "It's 12:30 A.M. (Use meia.)",
+							"answer": "É meua noite e meia."
+						},
+						{
+							"number": "7",
+							"question": "It's 10:45.",
+							"answer": "São dez e quarenta e cinqo./São quinze para as onze."
+						},
+						{
+							"number": "8",
+							"question": "It's 1:05 in the afternoon.",
+							"answer": "É uma e cinqo da tarde."
+						}
+					],
+					"type": "FIBA",
+					"instructions": "Translate the following."
+				},
+				"2": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "Eles são _ Nova Iorque. (They're from New York City.)",
+							"answer": "de"
+						},
+						{
+							"number": "2",
+							"question": "Meu amigo é _ Califórnia. (My friend is from California.)",
+							"answer": "da"
+						},
+						{
+							"number": "3",
+							"question": "As camisas são _ Paris? Não, as camisas são _ Barcelona. (Are the shirts from Paris? No, the shirts are from Barcelona.)",
+							"answer": "de"
+						},
+						{
+							"number": "4",
+							"question": "Os copos _ vinho são _ minhas amigas. (The glass of wine are my friends'.)",
+							"answer": "de~de"
+						},
+						{
+							"number": "5",
+							"question": "O diretor _ marketing é _ Japão. (The marketing director is from Japan.)",
+							"answer": "de~do"
+						},
+						{
+							"number": "6",
+							"question": "Os livros _ matemática são _ escola. (The mathematics books are the school's.)",
+							"answer": "da~da"
+						},
+						{
+							"number": "7",
+							"question": "Os copos _ suco são _ estudantes. (The glasses of juice are the students'.)",
+							"answer": "do~dos"
+						},
+						{
+							"number": "8",
+							"question": "Este é o telefone _ hotel? Não, este é o telefone _ minha casa. (Is this the hotel's phone number? No this is my home phone number.)",
+							"answer": "do~da"
+						},
+						{
+							"number": "9",
+							"question": "A que horas é o café _ manhã? É _ oito às dez da manhã. (What time is breakfast? It's from 8:00 to 10:00 in the morning.)",
+							"answer": "da~das"
+						},
+						{
+							"number": "10",
+							"question": "As toalhas _ banho _ hotel são _ algodão. (The hotel bath towels are made of cotton.)",
+							"answer": "de~do~de"
+						}
+					],
+					"type": "FIB",
+					"instructions": "Complete with the appropriate form of *de*."
+				}
+			}
 		}
 	}
 }
