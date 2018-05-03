@@ -72,6 +72,10 @@ a:hover {
     cursor: pointer;
 }
 
+.glyphicon-arrow-right {
+    color: #65506E;
+}
+
 .unitLink, .unitLink:hover {
     font-size: large;
     color: #33223A;
