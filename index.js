@@ -11,24 +11,18 @@ const unitCategories = {
     10: "Sports and Leisure",
 }
 
+let glyphTimestamp = null;
+
 window.addEventListener('load', event => {
-    $('.sectionLink').each(function(index) {
-        let span = $(this).parent().find('.glyphicon-arrow-right');
-        $(this).click(function() {
-            $('.glyphicon-arrow-right').each(function(i){
-                if (!$(this).is($(span))) {
-                    $(this).hide('slow');
-                }
-            });
-            if ($(span).is(':hidden')) {
-                $(span).show('slow');
-            }
-        });
-    });
+    lastTimeUrlChanged = Date.now();
     loadPage();
 }, false);
     
 window.addEventListener('hashchange', event => {
+    clearTimeout(glyphTimestamp);
+    glyphTimestamp = setTimeout(()=>{
+        showCorrectGlyph();
+    }, 1000);
     loadPage();
 }, false);
 
@@ -46,14 +40,7 @@ function loadPage() {
         const pageType = splitHash[1].replace(/\d*/g, '');
         const pageNumber = splitHash[1].replace(/\D*/g, '');
         $('#main').empty();
-        //$('.glyphicon-arrow-right').remove();
-        // let listItems = $('#lesson' + lessonNumber).children();
-        // for (let listItem of listItems) {
-        //     if ($(listItem).children()[1].href.replace(/.+#/g, '') === hash) {
-        //         //$(listItem).prepend('<span class="glyphicon glyphicon-arrow-right"></span> ').slideDown();
-        //         break;
-        //     }
-        // }
+        showCorrectGlyph();
         switch (pageType) {
             case 'NB':
                 loadNutsAndBolts(lessonNumber, pageNumber);
@@ -69,6 +56,20 @@ function loadPage() {
                 break;
         }
     }
+}
+
+function showCorrectGlyph() {
+    const hash = window.location.href.replace(/.+#/g, '');
+    $('.sectionLink').each(function(index) {
+        let span = $(this).parent().find('.glyphicon-arrow-right');
+        if ($(this).attr('href').replace('#', '') === hash) {
+            if ($(span).is(':hidden')) {
+                $(span).show(600);
+            }
+        } else if (!$(span).is(':hidden')) {
+            $(span).hide(600);
+        }
+    });
 }
 
 function loadNutsAndBolts(lessonNumber, pageNumber) {
@@ -153,7 +154,6 @@ function getHeader(lessonNumber, section) {
 
 function format(string) {
     while(string.indexOf('_') >= 0) {
-        console.warn(string.indexOf('_'));
         string = string.replace('_', '<i>').replace('_', '</i>');
     }
     while(string.indexOf('*') >= 0) {
