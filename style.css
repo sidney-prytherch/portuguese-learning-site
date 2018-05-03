@@ -74,6 +74,7 @@ a:hover {
 
 .glyphicon-arrow-right {
     color: #65506E;
+    display: none;
 }
 
 .unitLink, .unitLink:hover {

@@ -12,6 +12,19 @@ const unitCategories = {
 }
 
 window.addEventListener('load', event => {
+    $('.sectionLink').each(function(index) {
+        let span = $(this).parent().find('.glyphicon-arrow-right');
+        $(this).click(function() {
+            $('.glyphicon-arrow-right').each(function(i){
+                if (!$(this).is($(span))) {
+                    $(this).hide('slow');
+                }
+            });
+            if ($(span).is(':hidden')) {
+                $(span).show('slow');
+            }
+        });
+    });
     loadPage();
 }, false);
     
@@ -33,14 +46,14 @@ function loadPage() {
         const pageType = splitHash[1].replace(/\d*/g, '');
         const pageNumber = splitHash[1].replace(/\D*/g, '');
         $('#main').empty();
-        $('.glyphicon-arrow-right').remove();
-        let listItems = $('#lesson' + lessonNumber).children();
-        for (let listItem of listItems) {
-            if ($(listItem).children()[0].href.replace(/.+#/g, '') === hash) {
-                $(listItem).prepend('<span class="glyphicon glyphicon-arrow-right"></span> ');
-                break;
-            }
-        }
+        //$('.glyphicon-arrow-right').remove();
+        // let listItems = $('#lesson' + lessonNumber).children();
+        // for (let listItem of listItems) {
+        //     if ($(listItem).children()[1].href.replace(/.+#/g, '') === hash) {
+        //         //$(listItem).prepend('<span class="glyphicon glyphicon-arrow-right"></span> ').slideDown();
+        //         break;
+        //     }
+        // }
         switch (pageType) {
             case 'NB':
                 loadNutsAndBolts(lessonNumber, pageNumber);
