@@ -12,7 +12,7 @@ const unitCategories = {
 }
 
 let glyphTimestamp = null;
-const glyphSpeed = 600;
+const glyphSpeed = 300;
 
 window.addEventListener('load', event => {
     lastTimeUrlChanged = Date.now();
@@ -64,13 +64,21 @@ function loadPage() {
 function showCorrectGlyph() {
     const hash = window.location.href.replace(/.+#/g, '');
     $('.sectionLink').each(function(index) {
-        let span = $(this).parent().find('.glyphicon-arrow-right');
+        let glyph = $(this).parent().find('.glyphicon');
         if ($(this).attr('href').replace('#', '') === hash) {
-            if ($(span).is(':hidden')) {
-                $(span).show(glyphSpeed);
+            if ($(glyph).hasClass('glyphicon-minus')) {
+                $(glyph).fadeOut(glyphSpeed, function() {
+                    $(glyph).removeClass('glyphicon-minus');
+                    $(glyph).addClass('glyphicon-arrow-right');
+                    $(glyph).fadeIn(glyphSpeed);
+                });
             }
-        } else if (!$(span).is(':hidden')) {
-            $(span).hide(glyphSpeed);
+        } else if ($(glyph).hasClass('glyphicon-arrow-right')) {
+            $(glyph).fadeOut(glyphSpeed, function() {
+                $(glyph).removeClass('glyphicon-arrow-right');
+                $(glyph).addClass('glyphicon-minus');
+                $(glyph).fadeIn(glyphSpeed);
+            });
         }
     });
 }

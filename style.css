@@ -27,7 +27,7 @@ body {
 }
 
 .list-group-item {
-    border: medium solid #59495B;
+    border: 2px solid #59495B;
     background: rgba(216, 219, 226, .3);
 }
 
@@ -83,9 +83,8 @@ a:hover {
     cursor: pointer;
 }
 
-.glyphicon-arrow-right {
+.glyphicon-arrow-right, .glyphicon-minus, .sectionLink, .sectionLink:link, .sectionLink:visited {
     color: #65506E;
-    display: none;
 }
 
 .unitLink, .unitLink:hover {
@@ -100,7 +99,6 @@ a:hover {
 
 .sectionLink, .sectionLink:link, .sectionLink:visited {
     font-size: small;
-    color: #65506E;
 }
 
 .special {
