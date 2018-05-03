@@ -31,6 +31,16 @@ body {
     background: rgba(216, 219, 226, .3);
 }
 
+.list-group-item:first-child {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.list-group-item:last-child {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
 .leftbar {
     height: 100%;
     padding: 0;
