@@ -259,6 +259,138 @@ var phrasesJson = {
 					]
 				}
 			}
+		},
+		"10": {
+			"sections" : {
+				"1": {
+					"phrases" : [
+						{
+							"portuguese": "estar atrasado para",
+							"english": "to be late for"
+						},
+						{
+							"portuguese": "trabalhar muito",
+							"english": "to work a lot"
+						},
+						{
+							"portuguese": "estudar inglês",
+							"english": "to study English"
+						},
+						{
+							"portuguese": "morar no Rio",
+							"english": "to live in Rio"
+						},
+						{
+							"portuguese": "falar português",
+							"english": "to speak Portuguese"
+						},
+						{
+							"portuguese": "viajar de trem",
+							"english": "to travel by train"
+						},
+						{
+							"portuguese": "encontrar os amigos",
+							"english": "to see friends"
+						},
+						{
+							"portuguese": "tirar fotos",
+							"english": "to take photos"
+						},
+						{
+							"portuguese": "acordar cedo",
+							"english": "to wak up early"
+						},
+						{
+							"portuguese": "combinar encontros",
+							"english": "to make plans to meet"
+						},
+						{
+							"portuguese": "tirar férias",
+							"english": "to take vacations"
+						},
+						{
+							"portuguese": "entrar no Banco 24 Horas",
+							"english": "to go to the ATM"
+						},
+						{
+							"portuguese": "conversar no bar",
+							"english": "to talk in a bar"
+						},
+						{
+							"portuguese": "parar no sinal vermelho",
+							"english": "to stop at the red light"
+						},
+						{
+							"portuguese": "mandar flores",
+							"english": "to send flowers"
+						}
+					]
+				},
+				"2": {
+					"phrases" : [
+						{
+							"portuguese": "gostar de ...",
+							"english": "to like..."
+						},
+						{
+							"portuguese": "gosto de ...",
+							"english": "I like..."
+						},
+						{
+							"portuguese": "gostar de vinho",
+							"english": "to like wine"
+						},
+						{
+							"portuguese": "gostar de leite",
+							"english": "to like milk"
+						},
+						{
+							"portuguese": "não gostar de sorvete",
+							"english": "to not like ice cream"
+						},
+						{
+							"portuguese": "gostar dos amigos",
+							"english": "to like friends"
+						},
+						{
+							"portuguese": "amar nossos filhos",
+							"english": "to love our children"
+						},
+						{
+							"portuguese": "odiar trânsito",
+							"english": "to hate traffic"
+						},
+						{
+							"portuguese": "não agüntar",
+							"english": "can't stand"
+						},
+						{
+							"portuguese": "adorar viajar",
+							"english": "to love to travel"
+						},
+						{
+							"portuguese": "demora?",
+							"english": "does it take long?"
+						},
+						{
+							"portuguese": "é só?",
+							"english": "is that all?"
+						},
+						{
+							"portuguese": "geralmente cedo",
+							"english": "usually early"
+						},
+						{
+							"portuguese": "nunca tarde",
+							"english": "never late"
+						},
+						{
+							"portuguese": "estar sem tempo",
+							"english": "to not have time"
+						}
+					]
+				}
+			}
 		}
 	}
 }

@@ -5,7 +5,7 @@ var conversationsJson = {
 				"1": {
 					"conversations" : [
 						{
-							"portuguese": "Eduardo: Bom dia, Dona Cláudio. Gostaria de apresentá-lo ao Senhor Paul Jones. O Seu Paul é o nosso novo arquiteto. Ele é de Los Angeles.",
+							"portuguese": "Eduardo: Bom dia, Dona Cláudio. Gostaria de apresentá-la ao Senhor Paul Jones. O Seu Paul é o nosso novo arquiteto. Ele é de Los Angeles.",
 							"english": "Eduardo: Good morning, Ms. Claudia. I'd like to introduce you to Mr. Paul Jones. He's our new architect. He's from Los Angeles."
 						},
 						{

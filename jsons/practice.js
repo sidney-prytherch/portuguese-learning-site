@@ -837,103 +837,113 @@ var practiceJson = {
 					"questions" : [
 						{
 							"number": "1",
-							"question": "What time is it?",
-							"answer": "Que horas são?"
+							"question": "Eu _ (acordar) às seis e meia todos os dias. (I wake up at 6:30 every day.)",
+							"answer": "acordo"
 						},
 						{
 							"number": "2",
-							"question": "It's 10:30.",
-							"answer": "São dez e trinta./São dez e meia."
+							"question": "As atividades _ (começar) às sete da noite? (Do the activities start at 7:00 P.M.?)",
+							"answer": "começam"
 						},
 						{
 							"number": "3",
-							"question": "It's 3:15.",
-							"answer": "São três e quinze."
+							"question": "Eu e meus amigos _ (combinar) uma festa. (My friends and I make plans for a party.)",
+							"answer": "combinamos"
 						},
 						{
 							"number": "4",
-							"question": "It's 8:30.",
-							"answer": "São oito e trinta./São oito e meia."
+							"question": "A aula de português _ (terminar) às quatorze horas. (The Portugese lesson ends at 2:00 P.M.)",
+							"answer": "termina"
 						},
 						{
 							"number": "5",
-							"question": "It's 3:50. (Use faltam.)",
-							"answer": "Faltam dez para as quatro."
+							"question": "O advogado _ (mandar) o contrato. (The lawyer sends the agreement.)",
+							"answer": "manda"
 						},
 						{
 							"number": "6",
-							"question": "It's 12:30 A.M. (Use meia.)",
-							"answer": "É meua noite e meia."
+							"question": "A senhora _ (trabalhar) aqui? (Do you work here?)",
+							"answer": "trabalha"
 						},
 						{
 							"number": "7",
-							"question": "It's 10:45.",
-							"answer": "São dez e quarenta e cinqo./São quinze para as onze."
+							"question": "Os carros _ (parar) no sinal vermelho. (The cars stop at the red light.)",
+							"answer": "param"
 						},
 						{
 							"number": "8",
-							"question": "It's 1:05 in the afternoon.",
-							"answer": "É uma e cinqo da tarde."
+							"question": "Eu _ (tirar) fotos dos meus amigos. (I take pictures of my friends.)",
+							"answer": "tiro"
+						},
+						{
+							"number": "9",
+							"question": "Os turistas _ (olhar) os monumentos. (The tourists look at the monuments.)",
+							"answer": "olham"
+						},
+						{
+							"number": "10",
+							"question": "Brasileiros não _ (chegar) adiantados; brasileiros _ (chegar) atrasados. (Brazilians don't arrive early; Brazilian arrive late.)",
+							"answer": "chegam~chegam"
 						}
 					],
-					"type": "FIBA",
-					"instructions": "Translate the following."
+					"type": "FIB",
+					"instructions": "Supply the correct form of the verbs in parentheses."
 				},
 				"2": {
 					"questions" : [
 						{
 							"number": "1",
-							"question": "Eles são _ Nova Iorque. (They're from New York City.)",
-							"answer": "de"
+							"question": "Brasileiros _ praia. (Brazilians like the beach.)",
+							"answer": "gostam de"
 						},
 						{
 							"number": "2",
-							"question": "Meu amigo é _ Califórnia. (My friend is from California.)",
-							"answer": "da"
+							"question": "Ele _ Praia de Copacabana. (He likes Copacabana Beach.)",
+							"answer": "gosta da"
 						},
 						{
 							"number": "3",
-							"question": "As camisas são _ Paris? Não, as camisas são _ Barcelona. (Are the shirts from Paris? No, the shirts are from Barcelona.)",
-							"answer": "de"
+							"question": "Nós não _ chegar atrasados. (We don't like to arrive late.)",
+							"answer": "gostamos de"
 						},
 						{
 							"number": "4",
-							"question": "Os copos _ vinho são _ minhas amigas. (The glass of wine are my friends'.)",
-							"answer": "de~de"
+							"question": "Crianças não _ estudar gramática. (Children don't like to study grammar.)",
+							"answer": "gostam de"
 						},
 						{
 							"number": "5",
-							"question": "O diretor _ marketing é _ Japão. (The marketing director is from Japan.)",
-							"answer": "de~do"
+							"question": "Vocês _ diretora de marketing? (Do you like the marketing director?)",
+							"answer": "gostam da"
 						},
 						{
 							"number": "6",
-							"question": "Os livros _ matemática são _ escola. (The mathematics books are the school's.)",
-							"answer": "da~da"
+							"question": "As minhas amigas _ minha casa de praia. (My friends like my beach house.)",
+							"answer": "gostam da"
 						},
 						{
 							"number": "7",
-							"question": "Os copos _ suco são _ estudantes. (The glasses of juice are the students'.)",
-							"answer": "do~dos"
+							"question": "Você _ trabalhar no banco? (Do you like to work at the bank?)",
+							"answer": "gosta de"
 						},
 						{
 							"number": "8",
-							"question": "Este é o telefone _ hotel? Não, este é o telefone _ minha casa. (Is this the hotel's phone number? No this is my home phone number.)",
-							"answer": "do~da"
+							"question": "Geralmente, professores não _ alunos atrasados. (Usually, teachers don't like late students.)",
+							"answer": "gostam de"
 						},
 						{
 							"number": "9",
-							"question": "A que horas é o café _ manhã? É _ oito às dez da manhã. (What time is breakfast? It's from 8:00 to 10:00 in the morning.)",
-							"answer": "da~das"
+							"question": "Ele _ cerveja, mas ela _ vinho. (He likes beer, but she likes wine.)",
+							"answer": "gosta de~gosta de"
 						},
 						{
 							"number": "10",
-							"question": "As toalhas _ banho _ hotel são _ algodão. (The hotel bath towels are made of cotton.)",
-							"answer": "de~do~de"
+							"question": "Eu não _ meu apartamento, mas _ sua casa. (I don't like my apartment, but Ilike your house.)",
+							"answer": "gosto do~gosta da"
 						}
 					],
 					"type": "FIB",
-					"instructions": "Complete with the appropriate form of *de*."
+					"instructions": "Fill in the blanks with the verb *gostar* using the corect form of the preposition *de*."
 				}
 			}
 		}

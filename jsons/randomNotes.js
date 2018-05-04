@@ -64,6 +64,14 @@ var randomNotesJson = {
 				}
 			]
 		},
+		"10": {
+			"text" : [
+				{
+					"type": "Discovery Activity",
+					"text": "Make a list of things you like, love, dislike, hatem or can't stand. Use the expressions *eu gosto de...* (_I like..._), *eu não gosto de...* (_I don't like..._), *eu não suporto...* (_I can't stand..._), *eu adoro...* (_I love..._, used for things), *eu amo...* (_I love..._, used for people), and *eu odeio...* (_I hate..._) Then, interview a friend, and add his or her preferences, changin the verb forms of course. Finally, make a list comparing both."
+				}
+			]
+		},
 		"19": {
 			"text" : [
 				{
