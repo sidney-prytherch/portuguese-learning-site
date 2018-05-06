@@ -187,6 +187,142 @@ var sentencesJson = {
 					]
 				}
 			}
+		},
+		"11": {
+			"sections" : {
+				"1": {
+					"sentences" : [
+						{
+							"portuguese": "Quando ele estuda?",
+							"english": "When does he study?"
+						},
+						{
+							"portuguese": "Ele estuda de noite.",
+							"english": "He studies at night."
+						},
+						{
+							"portuguese": "Onde vocês moram?",
+							"english": "Where do you live?"
+						},
+						{
+							"portuguese": "Nós moramos na Rua Pamplona, número 26.",
+							"english": "We live at 26 Pamplona Street."
+						},
+						{
+							"portuguese": "Por que ela estuda português?",
+							"english": "Why does she study Portuguese?"
+						},
+						{
+							"portuguese": "Ela estuda português porque gosta.",
+							"english": "She studies Portuguese because she likes it."
+						},
+						{
+							"portuguese": "O que vocês estudam?",
+							"english": "What do you study?"
+						},
+						{
+							"portuguese": "Estudamos português.",
+							"english": "We study Portuguese."
+						},
+						{
+							"portuguese": "Como elas viajam?",
+							"english": "How do they travel?"
+						},
+						{
+							"portuguese": "Elas viajam de trem.",
+							"english": "They travel by train."
+						},
+						{
+							"portuguese": "A professora está atrasada.",
+							"english": "The teacher is late."
+						},
+						{
+							"portuguese": "O avião está adiantado.",
+							"english": "The plane is early."
+						},
+						{
+							"portuguese": "O relógio está adiantado.",
+							"english": "The clock is fast."
+						},
+						{
+							"portuguese": "Meu relógio está atrasado.",
+							"english": "My watch is slow."
+						},
+						{
+							"portuguese": "Mariana adora festas.",
+							"english": "Mariana loves parties."
+						},
+						{
+							"portuguese": "Mariana ama Paulo.",
+							"english": "Mariana loves Paulo."
+						},
+						{
+							"portuguese": "Eu odeio trânsito.",
+							"english": "I hate traffic."
+						},
+						{
+							"portuguese": "Nós não supartamos o calor.",
+							"english": "We can't stand the heat."
+						}
+					]
+				},
+				"2": {
+					"sentences" : [
+						{
+							"portuguese": "Como é seu sobrenome?",
+							"english": "What's your last name?"
+						},
+						{
+							"portuguese": "Meu sobrenome é Smith.",
+							"english": "My last name is Smith."
+						},
+						{
+							"portuguese": "O que você faz de manhã",
+							"english": "What do you do in the morning?"
+						},
+						{
+							"portuguese": "Eu acordo às seis, tomo banho, depois tomo café da manhã, e estudo português.",
+							"english": "I wake up at 6:00, take a bath, then I have breakfast, and I study Portuguese."
+						},
+						{
+							"portuguese": "O que você faz no seu tempo livre?",
+							"english": "What do you do in your free time?"
+						},
+						{
+							"portuguese": "Eu faço muitas coisas interessantes no meu tempo livre.",
+							"english": "I do lots of interesting things in my free time."
+						},
+						{
+							"portuguese": "Eles fazem muitas pergunas sobre o meu dia a dia.",
+							"english": "They ask a lot of questions about my daily routine."
+						},
+						{
+							"portuguese": "A minha amiga está combinando um cinema para as oito da noite.",
+							"english": "My friend is making plans to fo to the movies at 8:00 P.M."
+						},
+						{
+							"portuguese": "A diretora marca a reunião para as dez da manhã",
+							"english": "The director is scheduling the meeting for 10:00 A.M."
+						},
+						{
+							"portuguese": "Faz tempo que eu não encontro meus amigos.",
+							"english": "I haven't seen my friends in a long time."
+						},
+						{
+							"portuguese": "Vocês gostam de fazer esporte?",
+							"english": "Do you like to play sports?"
+						},
+						{
+							"portuguese": "Ele faz negócios com o Japão.",
+							"english": "He does business with Japan."
+						},
+						{
+							"portuguese": "A Estrela faz brinquedos.",
+							"english": "Estrela makes toys."
+						}
+					]
+				}
+			}
 		}
 	}
 }

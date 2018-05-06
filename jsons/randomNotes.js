@@ -72,6 +72,14 @@ var randomNotesJson = {
 				}
 			]
 		},
+		"11": {
+			"text" : [
+				{
+					"type": "Cool Link",
+					"text": "Brazilian Embassy, for information on visas and documents you need when traveling to Brazil.\nwww.brasilemb.org/\nBrazilian Tourism, the official web-site for tourism with information and cultural tips in English.\nwww.braziltour.com/site/en/home/index.php\nOfficial website for information on Portugal.\nwww.portugal.org/index.shtml"
+				}
+			]
+		},
 		"19": {
 			"text" : [
 				{

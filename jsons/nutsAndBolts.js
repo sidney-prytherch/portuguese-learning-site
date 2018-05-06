@@ -1096,6 +1096,59 @@ var nutsAndBoltsJson = {
 					}
 				}
 			}
+		},
+		"11": {
+			"nutsAndBolts" : {
+				"1": {
+					"tips" : {
+						"1": {
+							"tip category": "Question Words",
+							"tip": "You already know how to ask simple yes-no questions in portuguese, so now let's look at question words. We'll begin with *o que* (_what_), *quando* (_when_), *onde* (_where_), *por que* (_why_) and *como* (_how_). Notice that unlike in English, you never have to use an auxiliary verb like _do_ or _does_. Just begin the question with the question word.",
+							"list" : 
+							]
+						},
+						"2": {
+							"tip": "Notice that *por que* (_why_) is two separate words. The answer _because_, is one word: *porque*. *Por que você está atrasado? Eu estou atrasado porque o trânsito está ruim. (_Why are you late? I'm late because traffic is bad._)"
+						}
+					}
+				},
+				"2": {
+					"tips" : {
+						"1": {
+							"tip category": "The Verb Fazer (_To do, to make_)",
+							"tip": "Let's take a look at the conjugation of the very common irregular verb *fazer* (_to do, to make_).",
+							"table" : [
+								{
+									"left": "*",
+									"right": "*"
+								},
+								{
+									"left": "eu faço",
+									"right": "nós fazemos"
+								},
+								{
+									"left": "você faz",
+									"right": "vocês fazem"
+								},
+								{
+									"left": "ele/ela faz",
+									"right": "eles/elas fazem"
+								}
+							]
+						},
+						"2": {
+							"tip": "*Fazer* can be translated in a few different ways.",
+							"list" : 
+							]
+						},
+						"3": {
+							"tip": "Another common use of *fazer* is the expression *faz tempo que...* This can translated as something along the lines of \"it's been a while/a long time since...\"",
+							"list" : 
+							]
+						}
+					}
+				}
+			}
 		}
 	}
 }

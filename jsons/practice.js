@@ -946,6 +946,87 @@ var practiceJson = {
 					"instructions": "Fill in the blanks with the verb *gostar* using the corect form of the preposition *de*."
 				}
 			}
+		},
+		"11": {
+			"practice" : {
+				"1": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "_ você estuda português? Na universidade. (Where are you studying Portuguese? At the university.)",
+							"answer": "Onde"
+						},
+						{
+							"number": "2",
+							"question": "_ o avião chega? Às 21:00. (When does the plane get in? At 9:00 P.M.)",
+							"answer": "Quando"
+						},
+						{
+							"number": "3",
+							"question": "_ vocês chegam atrasado? Porque não usamos despertador. (Why do you arrive late? Because we don't use an alarm clock.)",
+							"answer": "Por que"
+						},
+						{
+							"number": "4",
+							"question": "_ nós acordamos? Usamos um rádio-relógio. (How do we wake up? We use a clock radio.)",
+							"answer": "Como"
+						},
+						{
+							"number": "5",
+							"question": "_ ela estuda na universidade? Ela estuda arquitetura. (What does she study at the university? She studies architecture.)",
+							"answer": "O que"
+						}
+					],
+					"type": "FIB",
+					"instructions": "Complete the following questions with the right question word or phrase: *Quando*, *Como*, *Onde*, *Por que*, *O que*."
+				},
+				"2": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "O que a sua empresa faz?",
+							"answer": "Automòveis."
+						},
+						{
+							"number": "2",
+							"question": "O que você faz na universidade?",
+							"answer": "Medicina."
+						},
+						{
+							"number": "3",
+							"question": "Quando ele faz a lição de casa?",
+							"answer": "De noite."
+						},
+						{
+							"number": "4",
+							"question": "Eles fazem negócios com a Europa?",
+							"answer": "Não, só com a Ásia."
+						},
+						{
+							"number": "5",
+							"question": "O que a sua mãe faz?",
+							"answer": "Ela é médica."
+						},
+						{
+							"number": "6",
+							"question": "Como você prepara um martini?",
+							"answer": "Com gim e vermute."
+						},
+						{
+							"number": "7",
+							"question": "Faz tempo que você mora no Rio?",
+							"answer": "Sim, faz cinco anos."
+						},
+						{
+							"number": "8",
+							"question": "Onde ele faz a reunião?",
+							"answer": "Na Sala 1."
+						}
+					],
+					"type": "MQA",
+					"instructions": "Match the question in the left column with the most appropriate answer in the right column."
+				}
+			}
 		}
 	}
 }
