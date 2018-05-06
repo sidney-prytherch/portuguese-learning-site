@@ -130,11 +130,14 @@ function loadVocabulary(lessonNumber, pageNumber) {
         if (vocabType != 'conversations') {
             mainString += '<audio id="' + audioIds[1] + '" src="' + audioIds[1] + '.mp3" preload="auto"></audio>';
         }
-        mainString += '<tr><td><b>' + vocabObj['portuguese'];
-        mainString += '<button class="audio" onclick="document.getElementById(\'' + audioIds[0] + '\').play();"><span class="glyphicon glyphicon-volume-up"></span></button></b></td>';
-        mainString += '<td><i>' + vocabObj['english'];
+        mainString += '';
+        mainString += '<tr><td><button class="audio" onclick="document.getElementById(\'' + audioIds[0] + '\').play();">';
+        mainString += vocabObj['portuguese'] + ' <span class="glyphicon glyphicon-volume-up"></span></button></td><td><i>';
         if (vocabType != 'conversations') {
-            mainString += '<button class="audio" onclick="document.getElementById(\'' + audioIds[1] + '\').play();"><span class="glyphicon glyphicon-volume-up"></span></button>';
+            mainString += '<button class="audio" onclick="document.getElementById(\'' + audioIds[1] + '\').play();">'
+            mainString += vocabObj['english'] + ' <span class="glyphicon glyphicon-volume-up"></span></button>';
+        } else {
+            mainString += vocabObj['english'];
         }
         mainString += '</i></td></tr>';
         row++;

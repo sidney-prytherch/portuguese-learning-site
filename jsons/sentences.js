@@ -282,7 +282,7 @@ var sentencesJson = {
 						},
 						{
 							"portuguese": "Eu acordo às seis, tomo banho, depois tomo café da manhã, e estudo português.",
-							"english": "I wake up at 6:00, take a bath, then I have breakfast, and I study Portuguese."
+							"english": "I wake up at 6:00, take a shower, then I have breakfast, and I study Portuguese."
 						},
 						{
 							"portuguese": "O que você faz no seu tempo livre?",
@@ -293,7 +293,7 @@ var sentencesJson = {
 							"english": "I do lots of interesting things in my free time."
 						},
 						{
-							"portuguese": "Eles fazem muitas pergunas sobre o meu dia a dia.",
+							"portuguese": "Eles fazem muitas perguntas sobre o meu dia a dia.",
 							"english": "They ask a lot of questions about my daily routine."
 						},
 						{
@@ -301,7 +301,7 @@ var sentencesJson = {
 							"english": "My friend is making plans to fo to the movies at 8:00 P.M."
 						},
 						{
-							"portuguese": "A diretora marca a reunião para as dez da manhã",
+							"portuguese": "A diretora marca a reunião para as dez da manhã.",
 							"english": "The director is scheduling the meeting for 10:00 A.M."
 						},
 						{

@@ -3,7 +3,7 @@ body {
 }
 
 #main {
-    background: #77A0A9;
+    background: linear-gradient(to top, #28666E, #77A0A9 10%);
 }
 
 .list-group {
@@ -19,6 +19,11 @@ body {
 .navbar {
     margin: 0;
     padding: 20px;
+}
+
+article button {
+    float: left;
+    padding: 0;
 }
 
 .navcontainer {
@@ -79,9 +84,14 @@ article {
     margin: 4% 8% 0% 8%;
 }
 
-button {
-    background-color: #77A0A9;
-    white-space: normal;
+.table tbody tr td {
+    vertical-align: middle;
+}
+
+article button {
+    background-color: transparent;
+    text-align: left;
+    padding: none;
 }
 
 a:link, a:visited {
@@ -125,7 +135,6 @@ th {
 }
 
 .audio {
-    margin: 0px 4px 0px 4px;
     border: none;
     outline: none;
 }
