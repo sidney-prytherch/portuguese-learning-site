@@ -1027,6 +1027,112 @@ var practiceJson = {
 					"instructions": "Match the question in the left column with the most appropriate answer in the right column."
 				}
 			}
+		},
+		"12": {
+			"practice" : {
+				"1": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "_ você acorda? Acordo à seis todos os dias.",
+							"answer": "Que horas"
+						},
+						{
+							"number": "2",
+							"question": "_ eles fazem de manhã? Eles trabalham.",
+							"answer": "O que"
+						},
+						{
+							"number": "3",
+							"question": "_ vocês viajam para o Japão? Viajamos de avião.",
+							"answer": "Como"
+						},
+						{
+							"number": "4",
+							"question": "_ perguntas o médico faz? Ele faz muitas perguntas.",
+							"answer": "Quantas"
+						},
+						{
+							"number": "5",
+							"question": "_ o diretor estuda chinês? Porque ele faz negócios com a China.",
+							"answer": "Por que"
+						},
+						{
+							"number": "6",
+							"question": "_ custa o carro? É barato ou caro? O carro é barato.",
+							"answer": "Quanto"
+						},
+						{
+							"number": "7",
+							"question": "_ você conversa? Com as minhas amigas?",
+							"answer": "Com quem"
+						},
+						{
+							"number": "8",
+							"question": "_ vocês conversam. Nós conversamos sobre os nossos manorados.",
+							"answer": "Sobre o que"
+						}
+					],
+					"type": "FIB",
+					"instructions": "Use the following words to complete the questions. *Quanto*, *Que horas*, *Quantas*, *Como*, *O que*, *Com quem*, *Sobre o que*, *Por que*"
+				},
+				"2": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "Ele _ sssenta e três.",
+							"answer": "tem"
+						},
+						{
+							"number": "2",
+							"question": "Mariana _ muito dinhero.",
+							"answer": "tem"
+						},
+						{
+							"number": "3",
+							"question": "Nós não _ quando acordamos.",
+							"answer": "temos"
+						},
+						{
+							"number": "4",
+							"question": "Os preofessores não _ os livros; a loja _ os livros.",
+							"answer": "têm~tem"
+						},
+						{
+							"number": "5",
+							"question": "Nós não _ muito tempo. Quanto tempo demora?",
+							"answer": "temos"
+						},
+						{
+							"number": "6",
+							"question": "Vocês _ certeza do endereço?",
+							"answer": "têm"
+						},
+						{
+							"number": "7",
+							"question": "O Brasil _ muitas cidades grandes.",
+							"answer": "tem"
+						},
+						{
+							"number": "8",
+							"question": "Eu _ uma surpresa para você!",
+							"answer": "tenho"
+						},
+						{
+							"number": "9",
+							"question": "Quando eles _ aulaas de português?",
+							"answer": "têm"
+						},
+						{
+							"number": "10",
+							"question": "Eu _ um presente para vocês!",
+							"answer": "tenho"
+						}
+					],
+					"type": "FIB",
+					"instructions": "Complete each sentence with the correct form of the verb *ter*."
+				}
+			}
 		}
 	}
 }

@@ -196,6 +196,144 @@ var conversationsJson = {
 					"beforeNotes": "Listen in while Luiza shows Carolina a picture taken a week earlier at her family reunion."
 				}
 			}
+		},
+		"12": {
+			"sections" : {
+				"1": {
+					"conversations" : [
+						{
+							"portuguese": "Entrevistador: Com licença. Posso fazer algumas perguntas para uma pesquisa?",
+							"english": "Interviewer: Excuse me, can I ask you some questions for a survey?"
+						},
+						{
+							"portuguese": "Flávia: Depende. Demora muito? Eu estou sem tempo.",
+							"english": "Flávia: It depends. Does it take long? I don't have much time."
+						},
+						{
+							"portuguese": "Entrevistador: Só aulguns minutos.",
+							"english": "Interviewer: Only a couple of minutes."
+						},
+						{
+							"portuguese": "Flávia: Sobre o que é a pesquisa?",
+							"english": "Flávia: What's the survey about?"
+						},
+						{
+							"portuguese": "Entrevistador: A pesquisa é sobre como você usa o seu celular. Você trabalha?",
+							"english": "Interviewer: The survey is about how you use your cell phone. Do you work?"
+						},
+						{
+							"portuguese": "Flávia: Não, não trabalho, sou estudante.",
+							"english": "Flávia: No, I don't work. I'm a student."
+						},
+						{
+							"portuguese": "Entrevistador: Que horas você acorda?",
+							"english": "Interviewer: What time do you wake up?"
+						},
+						{
+							"portuguese": "Flávia: Geralmente, eu acordo às seis e meia, mas nos fins de semana eu acordo entre nove e dez da manhã.",
+							"english": "Flávia: I usually wake up at 6:30, but on weekends I wake up between 9:00 and 10:00 in the morning."
+						},
+						{
+							"portuguese": "Entrevistador: Como você gosta de acordar? Você usa radio-relógio, despertador ou celular?",
+							"english": "Interviewer: How do you prefer to wake up? Do you use a clock radio, alarm clock, or your cell phone?"
+						},
+						{
+							"portuguese": "Flávia: Eu uso o meu celular.",
+							"english": "Flávia: I use my cell phone."
+						},
+						{
+							"portuguese": "Entrevistador: Quando você usa mais o seu celular?",
+							"english": "Interviewer: When do you use your cell phone the most?"
+						},
+						{
+							"portuguese": "Flávia: Quando combino encontros com meus amigos.",
+							"english": "Flávia: When I make plans to see my friends."
+						},
+						{
+							"portuguese": "Entrevistador: E com quem você conversa mais tempo no celular? Com a sua família ou com os seus amigos?",
+							"english": "Interviewer: And who do you speak with the most on your cell phone? With your family or with your friends?"
+						},
+						{
+							"portuguese": "Flávia: Eu coverso mais com meus amigos.",
+							"english": "Flávia: I speak with my friends the most."
+						},
+						{
+							"portuguese": "Entrevistador: Você manda mensagens de texto?",
+							"english": "Interviewer: Do you send text messages?"
+						},
+						{
+							"portuguese": "Flávia: Sim, claro.",
+							"english": "Flávia: Yes, of course."
+						},
+						{
+							"portuguese": "Entrevistador: Para quem você manda mais mensagens de texto?",
+							"english": "Interviewer: Who do you send text messages to the most?"
+						},
+						{
+							"portuguese": "Flávia: Acho que mando mais mensagens de texto para minha família.",
+							"english": "Flávia: I send text messages to my family the most."
+						},
+						{
+							"portuguese": "Entrevistador: É só. Muito obrigado.",
+							"english": "Interviewer: TThat's all. Thank you very much."
+						},
+						{
+							"portuguese": "Flávia: De nada.",
+							"english": "Flávia: You're welcome."
+						}
+					],
+					"beforeNotes": "Listen in while Flávia answers some questions for a cell phone survey."
+				},
+				"2": {
+					"conversations" : [
+						{
+							"portuguese": "Paulo: Oi, quanto tempo! Que legal encontrar você aqui! Tudo bem?",
+							"english": "Paulo: Hi! It's been a long time! How nice to run into you here! How are you doing?"
+						},
+						{
+							"portuguese": "Roberto: Tudo bem. Faz tempo, mesmo. Como vai sua mulher, a Ana?",
+							"english": "Roberto: Fine. It's really been a long time. How's your wife, Ana?"
+						},
+						{
+							"portuguese": "Paulo: Ela está bem. E a sua mulher, como vai?",
+							"english": "Paulo: She is well. And your wife, how is she?"
+						},
+						{
+							"portuguese": "Roberto: Ela está ótima. Ela está feliz com a casa nova.",
+							"english": "Roberto: She's great. She is happy about the new house."
+						},
+						{
+							"portuguese": "Paulo: Vocês mudaram? Onde vocês moram agora?",
+							"english": "Paulo: Did you move? Where do you live now?"
+						},
+						{
+							"portuguese": "Roberto: Sim, nos mudamos. Agora moramos no Morumbi. A casa é muito boa e muito grande. Quando você e a Glória vão nos fazer uma visita?",
+							"english": "Roberto: Yes, we've moved. Now we live in Morumbi. The house is very nice and very big. When are you and Glória coming to visit?"
+						},
+						{
+							"portuguese": "Paulo: Em breve, espero. Você ainda trabalha na mesma empresa?",
+							"english": "Paulo: Soon, I hope. Do you still work at the same company?"
+						},
+						{
+							"portuguese": "Roberto: Sim, ainda trabalho no Banco do Brasil. E você? Onde você trabalha agora?",
+							"english": "Roberto: Yes, I still work at Banco do Brasil. And you? Where do you work now?"
+						},
+						{
+							"portuguese": "Paulo: Agora trabalho no Museu de Arte Moderna, o MASP. Eu gosto do meu novo emprego. Tenho muitos benefícios, e tenho tempo livre para fazer outras coisas. Por examplo, eu faço um curso de fotografia. Agora quando eu viajo, eu tiro fotos incríveis. O que você faz no seu tempo livre?",
+							"english": "Paulo: Now I work at the Museum of Modern Art, MASP. I like my new job. There are lots of benefits, and I have free time to do other things. For example, I'm taking a photography course. Now when I travel, I take incredible pictures. What do you do in your free time?"
+						},
+						{
+							"portuguese": "Roberto: Que tempo livre? Eu só trabalho. Às vezes, das oito da manhã até às oito da noite. Nunca tenho tempo para tirar férias ou fazer cursos.",
+							"english": "Roberto: What free time? All I do is work, and sometimes from eight in the morning to either at night. I never have free time to take vacations or take courses."
+						},
+						{
+							"portuguese": "Paulo: Que vida dura! Mas, é bom falar com você de novo. Lembranças à sua mulher.",
+							"english": "Paulo: What a hard life! But it's good to talk to you again. Send my regards to your wife."
+						}
+					],
+					"beforeNotes": "Listen in as two friends catch up."
+				}
+			}
 		}
 	}
 }

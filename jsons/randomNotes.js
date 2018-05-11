@@ -80,6 +80,14 @@ var randomNotesJson = {
 				}
 			]
 		},
+		"12": {
+			"text" : [
+				{
+					"type": "Tip",
+					"text": "Listening to and singing along with Brasilian *bossa nova* is an excellent way to improve your vocabulary while developing your pronunciation and intonation. In fact, you probably already know a little bossa nova, like *Garota de Ipanema* (_Girl from Ipanema_), *Águas de Março* (_Waters of March_), *Insensatez* (_How Insensitive_), and *Desadinado* (_Out of Tune_). It's relatively easy to sing along to bossa nova because of its slow and melodious cadence, and it certainly is a lot of fun, so try to get a bossa nova CD that comes with the lyrics, or download a song and do an internet search for its lyrics. To get you started, here are a few links that will give you great information, a bit of history, and suggestions for good musicians to help you fall in love with this uniquely Brazilian musical style, if you haven't already!\nhttp://www.allaboutjazz.com/php/article.php?id=251\nhttp://en.wikipedia.org/wiki/Brazilian_jazz\nhttp://en.wikipedia.org/wiki/Bossa_nova"
+				}
+			]
+		},
 		"19": {
 			"text" : [
 				{

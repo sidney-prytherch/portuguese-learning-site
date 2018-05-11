@@ -129,6 +129,71 @@ var unitsJson = {
 					"english": "How are you doing? I'm fine."
 				}
 			]
+		},
+		"3": {
+			"introNotes": "In Unit 3 you'll learn some new verbs that you'll be able to use to talk about your everyday life. You'll learn how to express your likes and dislikes, and you'll also learn how to ask and give information using question words, such as _what_, _when_, and _where_. Finally, you'll learn that very useful skill, how to tell time. *Que legal!* (_How cool!_)",
+			"essentials" : [
+				{
+					"portuguese": "Os nossos amigos estão atrasados.",
+					"english": "Our friends are late."
+				},
+				{
+					"portuguese": "O avião está adiantado.",
+					"english": "The plane is early."
+				},
+				{
+					"portuguese": "Que horas são?",
+					"english": "What time is it?"
+				},
+				{
+					"portuguese": "Minha aula é das seis às sete.",
+					"english": "My class is from 6:00 to 7:00."
+				},
+				{
+					"portuguese": "Eu gostaria de uma nova toalha de banho, por favor.",
+					"english": "May I have a new bath towel, please?"
+				},
+				{
+					"portuguese": "Você mora aqui?",
+					"english": "Do you live here?"
+				},
+				{
+					"portuguese": "Eu não agüento o calor.",
+					"english": "I can't stand the heat."
+				},
+				{
+					"portuguese": "Eu gosto de acordar cedo.",
+					"english": "I like to wake up early."
+				},
+				{
+					"portuguese": "Por que você está atrasado?",
+					"english": "Why are you late?"
+				},
+				{
+					"portuguese": "Onde você trabalha?",
+					"english": "Where do you work?"
+				},
+				{
+					"portuguese": "Eu faço muitas coisas interessantes no meu tempo livre.",
+					"english": "I do lots of interesting things in my free time."
+				},
+				{
+					"portuguese": "Faz tempo que você trabalha aqui?",
+					"english": "Have you worked here long?/Has it been a while since you've been working here?"
+				},
+				{
+					"portuguese": "Quantos livros você quer?",
+					"english": "How many books do you want?"
+				},
+				{
+					"portuguese": "Quanta gasolina o carro consome?",
+					"english": "How much gasoline does the car consume?"
+				},
+				{
+					"portuguese": "Quantos anos você tem?",
+					"english": "How old are you?"
+				}
+			]
 		}
 	}
 }
