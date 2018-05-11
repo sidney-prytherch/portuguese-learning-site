@@ -126,9 +126,9 @@ function loadVocabulary(lessonNumber, pageNumber) {
     const filePath = 'audio/L' + lessonNumber + '/V' + pageNumber;
     for (let vocabObj of vocab[vocabType]) {
         let audioIds = [filePath + '/P' + row, filePath + '/E' + row];
-        mainString += '<audio id="' + audioIds[0] + '" src="https://www.linguee.com/mp3/PT_BR/52/5276d007f855c14b08fc35bbafaa33e3-107.mp3" preload="auto"></audio>';
+        mainString += '<audio id="' + audioIds[0] + '" src="' + audioIds[0] + '.mp3" preload="auto"></audio>';
         if (vocabType != 'conversations') {
-            mainString += '<audio id="' + audioIds[1] + '" src="https://www.linguee.com/mp3/PT_BR/52/5276d007f855c14b08fc35bbafaa33e3-107.mp3" preload="auto"></audio>';
+            mainString += '<audio id="' + audioIds[1] + '" src="' + audioIds[1] + '.mp3" preload="auto"></audio>';
         }
         mainString += '';
         mainString += '<tr><td><button class="audio" onclick="document.getElementById(\'' + audioIds[0] + '\').play();">';
