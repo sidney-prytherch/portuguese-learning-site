@@ -275,7 +275,7 @@ var conversationsJson = {
 						},
 						{
 							"portuguese": "Entrevistador: É só. Muito obrigado.",
-							"english": "Interviewer: TThat's all. Thank you very much."
+							"english": "Interviewer: That's all. Thank you very much."
 						},
 						{
 							"portuguese": "Flávia: De nada.",

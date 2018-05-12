@@ -9,65 +9,65 @@ var nutsAndBoltsJson = {
 							"tip": "As you know, a noun refers to a person, place, or thing. Nouns in both English and Portuguese can be singular or plural, but in Portuguese all nouns also have grammatical gender, either masculine or feminine. The definite article (_the_) reflects the gender of the noun. *O* is masculine, and *a* is feminine. Take a look at the following examples.",
 							"table" : [
 								{
-									"rightleft": "masculine",
-									"rightright": "feminine"
+									"col1": "~masculine",
+									"col2": "~feminine"
 								},
 								{
-									"rightleft": "o brasileiro (the Brazilian man)",
-									"rightright": "a brasileira (the Brazilian woman)"
+									"col1": "*o brasileiro* (_the Brazilian man_)",
+									"col2": "*a brasileira* (_the Brazilian woman_)"
 								},
 								{
-									"rightleft": "o italiano (the Italian man)",
-									"rightright": "a italiana (the Italian woman)"
+									"col1": "*o italiano* (_the Italian man_)",
+									"col2": "*a italiana* (_the Italian woman_)"
 								},
 								{
-									"rightleft": "o japonês (the Japonese man)",
-									"rightright": "a japonesa (the Japonese woman)"
+									"col1": "*o japonês* (_the Japonese man_)",
+									"col2": "*a japonesa* (_the Japonese woman_)"
 								},
 								{
-									"rightleft": "o professor (the mail teacher)",
-									"rightright": "a professora (the female teacher)"
+									"col1": "*o professor* (_the male teacher_)",
+									"col2": "*a professora* (_the female teacher_)"
 								},
 								{
-									"rightleft": "o médico (the male physician)",
-									"rightright": "a médica (the female physician)"
+									"col1": "*o médico* (_the male physician_)",
+									"col2": "*a médica* (_the female physician_)"
 								},
 								{
-									"rightleft": "o secretário (the male secretary)",
-									"rightright": "a secretária (the female secretary)"
+									"col1": "*o secretário* (_the male secretary_)",
+									"col2": "*a secretária* (_the female secretary_)"
 								},
 								{
-									"rightleft": "o homem (the man)",
-									"rightright": "a mulher (the woman)"
+									"col1": "*o homem* (_the man_)",
+									"col2": "*a mulher* (_the woman_)"
 								},
 								{
-									"rightleft": "o carro (the car)",
-									"rightright": "a casa (the house)"
+									"col1": "*o carro* (_the car_)",
+									"col2": "*a casa* (_the house_)"
 								},
 								{
-									"rightleft": "o hotel (the hotel)",
-									"rightright": "a praia (the beach)"
+									"col1": "*o hotel* (_the hotel_)",
+									"col2": "*a praia* (_the beach_)"
 								},
 								{
-									"rightleft": "o apartamento (the apartment)",
-									"rightright": "a centa (the pen)"
+									"col1": "*o apartamento* (_the apartment_)",
+									"col2": "*a centa* (_the pen_)"
 								},
 								{
-									"rightleft": "o cão (the dog)",
-									"rightright": "a mesa (the table)"
+									"col1": "*o cão* (_the dog_)",
+									"col2": "*a mesa* (_the table_)"
 								},
 								{
-									"rightleft": "o açúcar (the sugar)",
-									"rightright": "a cama (the bed)"
+									"col1": "*o açúcar* (_the sugar_)",
+									"col2": "*a cama* (_the bed_)"
 								},
 								{
-									"rightleft": "o relógio (the clock/watch)",
-									"rightright": "a mala (the suitcase)"
+									"col1": "*o relógio* (_the clock/watch_)",
+									"col2": "*a mala* (_the suitcase_)"
 								}
 							]
 						},
 						"2": {
-							"tip": "As you can see, nouns that end in *-o* are typically masculine, and nouns that end in *-a* are typically feminine. But there are some exceptions such as *o dia* (_the day_) and *o turista* (_the male tourist_). Nouns that end in *-e* may be either masculine or feminine, such as *a estudante* (_the female student_). Nouns ending in consonants are usually masculine: *o motor* (_the engine_). *o lápis* (_the pencil_), and *o jornal* (_the newspaper_). But *a mulher* (_the woman_) is a common exception. Nouns that refer to people usually match the natural gender."
+							"tip": "As you can see, nouns that end in *-o* are typically masculine, and nouns that end in *-a* are typically feminine. But there are some exceptions such as *o dia* (_the day_) and *o turista* (_the male tourist_). Nouns that end in *-e* may be either masculine or feminine, such as *a estudante* (_the female student_). Nouns ending in consonants are usually masculine: *o motor* (_the engine_), *o lápis* (_the pencil_), and *o jornal* (_the newspaper_). But *a mulher* (_the woman_) is a common exception. Nouns that refer to people usually match the natural gender."
 						},
 						"3": {
 							"tip": "The definite articles *o* and *a*, which are used much more often in Portuguese than _the_ is in English, will always tell you the gender of the noun, so when you learn new vocabulary you should learn each noun with its article."
@@ -81,16 +81,16 @@ var nutsAndBoltsJson = {
 							"tip": "To form the plural of most nouns ending in a vowel, just add *-s*, like in English. There are also plural forms of the definite articles *os* and *as*.",
 							"table" : [
 								{
-									"rightleft": "-",
-									"rightright": "-"
+									"col1": "~",
+									"col2": "~"
 								},
 								{
-									"rightleft": "o livro/os livros (the book/s)",
-									"rightright": "a camisa/as camisas (the shirt/s)"
+									"col1": "*o livro/os livros* (_the book/s_)",
+									"col2": "*a camisa/as camisas* (_the shirt/s_)"
 								},
 								{
-									"rightleft": "o escritório/os escritórios (the office/s)",
-									"rightright": "a criança/as crianças (the child/children)"
+									"col1": "*o escritório/os escritórios* (_the office/s_)",
+									"col2": "*a criança/as crianças* (_the child/children_)"
 								}
 							]
 						},
@@ -98,12 +98,12 @@ var nutsAndBoltsJson = {
 							"tip": "If a word ends in *-ão*, change it to *-ões*.",
 							"table" : [
 								{
-									"rightleft": "-",
-									"rightright": "-"
+									"col1": "~",
+									"col2": "~"
 								},
 								{
-									"rightleft": "o avião/os aviões (the airplane/s)",
-									"rightright": "a ação/as ações (the action/s)"
+									"col1": "*o avião/os aviões* (_the airplane/s_)",
+									"col2": "*a ação/as ações* (_the action/s_)"
 								}
 							]
 						},
@@ -111,12 +111,12 @@ var nutsAndBoltsJson = {
 							"tip": "There are some exceptions that have to be learned on a case-by-case basis.",
 							"table" : [
 								{
-									"rightleft": "-",
-									"rightright": "-"
+									"col1": "~",
+									"col2": "~"
 								},
 								{
-									"rightleft": "o pão/os pães (the bread/s)",
-									"rightright": "o alemão/os alemães (the Geman/s)"
+									"col1": "*o pão/os pães* (_the bread/s_)",
+									"col2": "*o alemão/os alemães* (_the Geman/s_)"
 								}
 							]
 						},
@@ -124,12 +124,12 @@ var nutsAndBoltsJson = {
 							"tip": "Nouns ending in *-m* change the *-m* to *-n* and add *-s*.",
 							"table" : [
 								{
-									"rightleft": "-",
-									"rightright": "-"
+									"col1": "~",
+									"col2": "~"
 								},
 								{
-									"rightleft": "o homem/os homens (the man/men)",
-									"rightright": "o som/os sons (the sound/s)"
+									"col1": "*o homem/os homens* (_the man/men_)",
+									"col2": "*o som/os sons* (_the sound/s_)"
 								}
 							]
 						},
@@ -137,16 +137,16 @@ var nutsAndBoltsJson = {
 							"tip": "Nouns ending in *-r*, *-z*, and *-s* add *-es*.",
 							"table" : [
 								{
-									"rightleft": "-",
-									"rightright": "-"
+									"col1": "~",
+									"col2": "~"
 								},
 								{
-									"rightleft": "o doutor/os doutores (the doctor/s)",
-									"rightright": "a luz/as luzes (the light/s)"
+									"col1": "*o doutor/os doutores* (_the doctor/s_)",
+									"col2": "*a luz/as luzes* (_the light/s_)"
 								},
 								{
-									"rightleft": "o professor/os professores (the professor/s)",
-									"rightright": "o mês/os meses (the month/s)"
+									"col1": "*o professor/os professores* (_the professor/s_)",
+									"col2": "*o mês/os meses* (_the month/s_)"
 								}
 							]
 						},
@@ -154,16 +154,16 @@ var nutsAndBoltsJson = {
 							"tip": "Nouns ending in *-l* drop the *-l* and add *-is*. An accent is often added to show the stress.",
 							"table" : [
 								{
-									"rightleft": "-",
-									"rightright": "-"
+									"col1": "~",
+									"col2": "~"
 								},
 								{
-									"rightleft": "a capital/as capitais (the capital/s)",
-									"rightright": "o espanhol/os espanhóis (the Spaniard/s)"
+									"col1": "*a capital/as capitais* (_the capital/s_)",
+									"col2": "*o espanhol/os espanhóis* (_the Spaniard/s_)"
 								},
 								{
-									"rightleft": "o hotel/os hotéis (the hotel/s)",
-									"rightright": "o papel/os papéis (the paper/s)"
+									"col1": "*o hotel/os hotéis* (_the hotel/s_)",
+									"col2": "*o papel/os papéis* (_the paper/s_)"
 								}
 							]
 						}
@@ -180,46 +180,46 @@ var nutsAndBoltsJson = {
 							"tip": "Here are the subject pronouns in Portuguese",
 							"table" : [
 								{
-									"rightleft": "*",
-									"rightright": "_"
+									"col1": "*",
+									"col2": "_"
 								},
 								{
-									"rightleft": "eu",
-									"rightright": "I"
+									"col1": "eu",
+									"col2": "I"
 								},
 								{
-									"rightleft": "você",
-									"rightright": "you (sg.)"
+									"col1": "você",
+									"col2": "you (sg.)"
 								},
 								{
-									"rightleft": "ele",
-									"rightright": "he, it"
+									"col1": "ele",
+									"col2": "he, it"
 								},
 								{
-									"rightleft": "ela",
-									"rightright": "she, it"
+									"col1": "ela",
+									"col2": "she, it"
 								},
 								{
-									"rightleft": "nós",
-									"rightright": "we"
+									"col1": "nós",
+									"col2": "we"
 								},
 								{
-									"rightleft": "vocês",
-									"rightright": "you (pl.)"
+									"col1": "vocês",
+									"col2": "you (pl.)"
 								},
 								{
-									"rightleft": "eles",
-									"rightright": "they (m.)"
+									"col1": "eles",
+									"col2": "they (m.)"
 								},
 								{
-									"rightleft": "elas",
-									"rightright": "they (f.)"
+									"col1": "elas",
+									"col2": "they (f.)"
 								}
 							],
 							"testable": "true"
 						},
 						"2": {
-							"tip": "Notice that there are two forms of _you_ in Portuguese, singular and plural. In fact, you'll also come across *tu* (sg. infml.) in Portugal, as well as the archaic *vós* (pl. infml.) in literature and poetry. Also notice that in Portuguese the third person plural _they_ has both a masuline and a feminine form. For mixed groups of people, use the masculine. Finally, keep in mind that all nouns have gender, so 'ele' can mean _it_ for a masculine noun, and 'ela' can mean _it_ for a feminine noun. The same is true of *eles* and *elas* in the plural.",
+							"tip": "Notice that there are two forms of _you_ in Portuguese, singular and plural. In fact, you'll also come across *tu* (sg. infml.) in Portugal, as well as the archaic *vós* (pl. infml.) in literature and poetry. Also notice that in Portuguese the third person plural _they_ has both a masuline and a feminine form. For mixed groups of people, use the masculine. Finally, keep in mind that all nouns have gender, so *ele* can mean _it_ for a masculine noun, and *ela* can mean _it_ for a feminine noun. The same is true of *eles* and *elas* in the plural.",
 							"list" : [
 								{
 									"portuguese": "Elas são japonesas.",
@@ -244,46 +244,46 @@ var nutsAndBoltsJson = {
 							"tip": "Now, let's look at one of the most important verbs, *ser* (_to be_).",
 							"table" : [
 								{
-									"rightleft": "*",
-									"rightright": "_"
+									"col1": "*",
+									"col2": "_"
 								},
 								{
-									"rightleft": "eu sou",
-									"rightright": "I am"
+									"col1": "eu sou",
+									"col2": "I am"
 								},
 								{
-									"rightleft": "você é",
-									"rightright": "you are"
+									"col1": "você é",
+									"col2": "you are"
 								},
 								{
-									"rightleft": "ele é",
-									"rightright": "he is"
+									"col1": "ele é",
+									"col2": "he is"
 								},
 								{
-									"rightleft": "ela é",
-									"rightright": "she is"
+									"col1": "ela é",
+									"col2": "she is"
 								},
 								{
-									"rightleft": "nós somos",
-									"rightright": "we are"
+									"col1": "nós somos",
+									"col2": "we are"
 								},
 								{
-									"rightleft": "vocês são",
-									"rightright": "you are"
+									"col1": "vocês são",
+									"col2": "you are"
 								},
 								{
-									"rightleft": "eles são",
-									"rightright": "they are (m. or mixed)"
+									"col1": "eles são",
+									"col2": "they are (m. or mixed)"
 								},
 								{
-									"rightleft": "elas são",
-									"rightright": "they are (f.)"
+									"col1": "elas são",
+									"col2": "they are (f.)"
 								}
 							],
 							"testable": "true"
 						},
 						"2": {
-							"tip": "As in English, *ser* can be used to express nationality or place of origin with the preposition *de* (_of_)",
+							"tip": "As in English, *ser* can be used to express nationality or place of origin with the preposition *de* (_of_).",
 							"list" : [
 								{
 									"portuguese": "Eu sou italiano.",
@@ -296,13 +296,7 @@ var nutsAndBoltsJson = {
 							]
 						},
 						"3": {
-							"tip": "It's also used to give professions and occupations and to describe inherent characteristics of people, places, and things",
-							"table" : [
-								{
-									"rightleft": "Eu sou turista / Pedro é professor / O brasil é grande / Ana é casada",
-									"rightright": "I am a tourist / Pedro is a professor / Brazil is big / Ana is married"
-								}
-							],
+							"tip": "It's also used to give professions and occupations and to describe inherent characteristics of people, places, and things.",
 							"list" : [
 								{
 									"portuguese": "Eu sou turista.",
@@ -337,88 +331,88 @@ var nutsAndBoltsJson = {
 							"tip category": "Numbers 1-20",
 							"table" : [
 								{
-									"rightleft": "*",
-									"rightright": "_"
+									"col1": "*",
+									"col2": "_"
 								},
 								{
-									"rightleft": "um/uma",
-									"rightright": "one"
+									"col1": "um/uma",
+									"col2": "one"
 								},
 								{
-									"rightleft": "dois/duas",
-									"rightright": "two"
+									"col1": "dois/duas",
+									"col2": "two"
 								},
 								{
-									"rightleft": "três",
-									"rightright": "three"
+									"col1": "três",
+									"col2": "three"
 								},
 								{
-									"rightleft": "quatro",
-									"rightright": "four"
+									"col1": "quatro",
+									"col2": "four"
 								},
 								{
-									"rightleft": "cinco",
-									"rightright": "five"
+									"col1": "cinco",
+									"col2": "five"
 								},
 								{
-									"rightleft": "seis",
-									"rightright": "six"
+									"col1": "seis",
+									"col2": "six"
 								},
 								{
-									"rightleft": "sete",
-									"rightright": "seven"
+									"col1": "sete",
+									"col2": "seven"
 								},
 								{
-									"rightleft": "oito",
-									"rightright": "eight"
+									"col1": "oito",
+									"col2": "eight"
 								},
 								{
-									"rightleft": "nove",
-									"rightright": "nine"
+									"col1": "nove",
+									"col2": "nine"
 								},
 								{
-									"rightleft": "dez",
-									"rightright": "ten"
+									"col1": "dez",
+									"col2": "ten"
 								},
 								{
-									"rightleft": "onze",
-									"rightright": "eleven"
+									"col1": "onze",
+									"col2": "eleven"
 								},
 								{
-									"rightleft": "doze",
-									"rightright": "twelve"
+									"col1": "doze",
+									"col2": "twelve"
 								},
 								{
-									"rightleft": "treze",
-									"rightright": "thirteen"
+									"col1": "treze",
+									"col2": "thirteen"
 								},
 								{
-									"rightleft": "quatorze",
-									"rightright": "fourteen"
+									"col1": "quatorze",
+									"col2": "fourteen"
 								},
 								{
-									"rightleft": "quinze",
-									"rightright": "fifteen"
+									"col1": "quinze",
+									"col2": "fifteen"
 								},
 								{
-									"rightleft": "dezessis",
-									"rightright": "sixteen"
+									"col1": "dezessis",
+									"col2": "sixteen"
 								},
 								{
-									"rightleft": "desessete",
-									"rightright": "seventeen"
+									"col1": "desessete",
+									"col2": "seventeen"
 								},
 								{
-									"rightleft": "dezoito",
-									"rightright": "eighteen"
+									"col1": "dezoito",
+									"col2": "eighteen"
 								},
 								{
-									"rightleft": "dezenove",
-									"rightright": "nineteen"
+									"col1": "dezenove",
+									"col2": "nineteen"
 								},
 								{
-									"rightleft": "vinte",
-									"rightright": "twenty"
+									"col1": "vinte",
+									"col2": "twenty"
 								}
 							],
 							"testable": "true"
@@ -443,7 +437,7 @@ var nutsAndBoltsJson = {
 									"english": "She's not an architect."
 								},
 								{
-									"portuguese": "nós não somos casados.",
+									"portuguese": "Nós não somos casados.",
 									"english": "We're not married."
 								}
 							]
@@ -476,7 +470,7 @@ var nutsAndBoltsJson = {
 									"english": "Are they Columbian?"
 								},
 								{
-									"portuguese": "Eles sã suíços?",
+									"portuguese": "Eles são suíços?",
 									"english": "Are they Swiss?"
 								},
 								{
@@ -498,23 +492,24 @@ var nutsAndBoltsJson = {
 							"tip": "Just as in English, there are two kinds of articles in Portuguese, definite and indefinite.\nYou already know the definie articles *o*, *a*, *os*, and *as* (_the_), so now let's look at the indefinite articles and learn how to use them.",
 							"table" : [
 								{
-									"rightleft": "singular",
-									"rightright": "plural",
-									"leftleft": "masculine"
+									"col1": "-",
+									"col2": "~singular",
+									"col3": "~plural"
 								},
 								{
-									"rightleft": "um (a/an)",
-									"rightright": "uns (some)",
-									"leftleft": "feminine"
+									"col1": "masculine",
+									"col2": "*um* (_a/an_)",
+									"col3": "*uns* (_some_)"
 								},
 								{
-									"rightleft": "uma (a/an)",
-									"rightright": "umas (some)"
+									"col1": "feminine",
+									"col2": "*uma* (_a/an_)",
+									"col3": "*umas* (_some_)"
 								}
 							]
 						},
 						"2": {
-							"tip": "The singulars can be trianslated as _a_ or _an_: *um quarto* (_a bedroom_), *um banheiro* (_a bathroom_), *um habinete* (_a cabinet_), *uma estante* (_a bookcase_), *uma cama* (_a bed_), *uma chave* (_a key_). The plurals can be translated as some: *uns quartos* (_some bedrooms_), *uns banheiros* (_some bathrooms_), *uns gabinetes* (_some cabinets_), *umas estantes* (_some bookcases_), *umas camas* (_some beds_), *umas chaves* (_some keys_)."
+							"tip": "The singulars can be translated as _a_ or _an_: *um quarto* (_a bedroom_), *um banheiro* (_a bathroom_), *um habinete* (_a cabinet_), *uma estante* (_a bookcase_), *uma cama* (_a bed_), *uma chave* (_a key_). The plurals can be translated as some: *uns quartos* (_some bedrooms_), *uns banheiros* (_some bathrooms_), *uns gabinetes* (_some cabinets_), *umas estantes* (_some bookcases_), *umas camas* (_some beds_), *umas chaves* (_some keys_)."
 						}
 					}
 				},
@@ -551,20 +546,20 @@ var nutsAndBoltsJson = {
 							"tip": "In Unit 1, you learned that the verb *ser* (*eu sou*, *você é*, *ele/ela é*, *nós somos*, *vocês são*, *ele/ela são*) is used to talk about places of origin, to state professions and occupations, and to describe inherent characteristics of people, places, or things. *Estar* also means _to be_, but it is used a bit differently. First, let's see its forms.",
 							"table" : [
 								{
-									"rightleft": "_",
-									"rightright": "_"
+									"col1": "*",
+									"col2": "*"
 								},
 								{
-									"rightleft": "eu estou",
-									"rightright": "nós estamos"
+									"col1": "eu estou",
+									"col2": "nós estamos"
 								},
 								{
-									"rightleft": "você está",
-									"rightright": "vocês estão"
+									"col1": "você está",
+									"col2": "vocês estão"
 								},
 								{
-									"rightleft": "ele/ela está",
-									"rightright": "eles/elas estão"
+									"col1": "ele/ela está",
+									"col2": "eles/elas estão"
 								}
 							]
 						},
@@ -594,18 +589,19 @@ var nutsAndBoltsJson = {
 							"tip": "When you use an adjective to describe a noun in Portuguese, you have to make the adjective agree with the noun. That usually means that adjectives will have the familiar endings *-o* (m. sg.), *-a* (f. sg.), *-os* (m. pl.), and *-as* (f. pl.). Take a look at these examples, and notice that the adjective typically follows the noun in Portuguese.",
 							"table" : [
 								{
-									"rightleft": "singular",
-									"rightright": "plural",
-									"leftleft": "masculine"
+									"col1": "-",
+									"col2": "~singular",
+									"col3": "~plural"
 								},
 								{
-									"rightleft": "o carro pequeno (the small car)",
-									"rightright": "os carros pequenos (the small cars)",
-									"leftleft": "feminine"
+									"col1": "masculine",
+									"col2": "*o carro pequeno* (_the small car_)",
+									"col3": "*os carros pequenos* (_the small cars_)"
 								},
 								{
-									"rightleft": "a casa pequena (the small house)",
-									"rightright": "as casas pequenas (the small houses)"
+									"col1": "feminine",
+									"col2": "*a casa pequena* (_the small house_)",
+									"col3": "*as casas pequenas* (_the small houses_)"
 								}
 							]
 						},
@@ -613,24 +609,24 @@ var nutsAndBoltsJson = {
 							"tip": "This is the typical pattern of endings for adjectives that end in *-o* in the masculine singular form, which is what you'll see in dictionaries, because it's considered the basic form. Some other examples are: *o livro velho* (_the old book_), *os livros velhos* (_the old books_), *a filha bonita* (_the pretty daughters_), *o barco rápido* (_the fast boat_), *os barcos rápidos* (_the fast boats_), *a revistas novas* (_the new magazines_). There are a few irregular adjectives, for example *bom* (_good_) and *mau* (_bad_).",
 							"table" : [
 								{
-									"rightleft": "-",
-									"rightright": "-"
+									"col1": "~",
+									"col2": "~"
 								},
 								{
-									"rightleft": "o filme bom (the good film)",
-									"rightright": "os filmes bons (the good films)"
+									"col1": "*o filme bom* (_the good film_)",
+									"col2": "*os filmes bons* (_the good films_)"
 								},
 								{
-									"rightleft": "a fests boa (the good party)",
-									"rightright": "as festas boas (the good parties)"
+									"col1": "*a festa boa* (_the good party_)",
+									"col2": "*as festas boas* (_the good parties_)"
 								},
 								{
-									"rightleft": "o menino mau (the bad boy)",
-									"rightright": "os meninos maus (the bad boys)"
+									"col1": "*o menino mau* (_the bad boy_)",
+									"col2": "*os meninos maus* (_the bad boys_)"
 								},
 								{
-									"rightleft": "a menina má (the bad girl)",
-									"rightright": "as meninas más (the bad girls)"
+									"col1": "*a menina má* (_the bad girl_)",
+									"col2": "*as meninas más* (_the bad girls_)"
 								}
 							]
 						},
@@ -638,32 +634,32 @@ var nutsAndBoltsJson = {
 							"tip": "Adjectives that end in *-e* or in a consonant usually have just one form for the singular, and one form for the plural. Just as the case with nouns, if an adjective ends in *-l* in the singular, it will drop the *-l* and add *-is*, and if it ends with *-m* in the singular, it will end in *-ns* in the plural.",
 							"table" : [
 								{
-									"rightleft": "-",
-									"rightright": "-"
+									"col1": "~",
+									"col2": "~"
 								},
 								{
-									"rightleft": "o banheiro grande (the big bathroom)",
-									"rightright": "os banheiros grandes (the big bathrooms)"
+									"col1": "*o banheiro grande* (_the big bathroom_)",
+									"col2": "*os banheiros grandes* (_the big bathrooms_)"
 								},
 								{
-									"rightleft": "a banheira grande (the big bathtub)",
-									"rightright": "as banheiras grandes (the big bathtubs)"
+									"col1": "*a banheira grande* (_the big bathtub_)",
+									"col2": "*as banheiras grandes* (_the big bathtubs_)"
 								},
 								{
-									"rightleft": "a cadeira confortável (the comfortable chair)",
-									"rightright": "as cadeiras confortáveis (the comfortable chairs)"
+									"col1": "*a cadeira confortável* (_the comfortable chair_)",
+									"col2": "*as cadeiras confortáveis* (_the comfortable chairs_)"
 								},
 								{
-									"rightleft": "o sofá confortável (the comfortable sofa)",
-									"rightright": "os sofás confortáveis (the comfortable sofas)"
+									"col1": "*o sofá confortável* (_the comfortable sofa_)",
+									"col2": "*os sofás confortáveis* (_the comfortable sofas_)"
 								},
 								{
-									"rightleft": "o café ruim (the bad coffee)",
-									"rightright": "os café ruins (the bad coffees)"
+									"col1": "*o café ruim* (_the bad coffee_)",
+									"col2": "*os café ruins* (_the bad coffees_)"
 								},
 								{
-									"rightleft": "a maçã ruim (the bad apple)",
-									"rightright": "as maçãs ruins (the bad apples)"
+									"col1": "*a maçã ruim* (_the bad apple_)",
+									"col2": "*as maçãs ruins* (_the bad apples_)"
 								}
 							]
 						}
@@ -680,28 +676,28 @@ var nutsAndBoltsJson = {
 							"tip": "A possessive adjective is a kind of adjective that shows possession, like the English _my_, _your_, _her_, _our_, and so on. A possessive pronoun is similar, but it actually stands in for a noun, like _mine_, _yours_, _hers_, _ours_, and so on. Thankfully, possessive nouns and pronouns in Portuguese have the same forms:",
 							"table" : [
 								{
-									"rightleft": "Possessive adjectives",
-									"rightright": "Possessive pronouns"
+									"col1": "~Possessive adjectives",
+									"col2": "~Possessive pronouns"
 								},
 								{
-									"rightleft": "o meu livro (my book)",
-									"rightright": "O livro é meu. (The book is mine.)"
+									"col1": "*o meu livro* (_my book_)",
+									"col2": "*o livro é meu.* (_The book is mine._)"
 								},
 								{
-									"rightleft": "os meus livros (my books)",
-									"rightright": "Os livros são meus. (The books are mine.)"
+									"col1": "*os meus livros* (_my books_)",
+									"col2": "*os livros são meus.* (_The books are mine._)"
 								},
 								{
-									"rightleft": "o seu livro (your book)",
-									"rightright": "O livro é seu. (The book is yours.)"
+									"col1": "*o seu livro* (_your book_)",
+									"col2": "*o livro é seu.* (_The book is yours._)"
 								},
 								{
-									"rightleft": "os seus livros (your books)",
-									"rightright": "Os livros são seus. (The books are yours.)"
+									"col1": "*os seus livros* (_your books_)",
+									"col2": "*os livros são seus.* (_The books are yours._)"
 								},
 								{
-									"rightleft": "os nossos livros (our books)",
-									"rightright": "Os livros são nossos. (The books are ours.)"
+									"col1": "*os nossos livros* (_our books_)",
+									"col2": "*os livros são nossos.* (_The books are ours._)"
 								}
 							]
 						},
@@ -709,32 +705,32 @@ var nutsAndBoltsJson = {
 							"tip": "As your can probably guess, possessives have to agree in number and gender. But keep in mind that they agree with the thing possessed rather than the possessor. Below you'll see the full chart for _my_, _your_, and _our_. We'll come back to the forms for _his_, _her_, and _their_ a bit later.",
 							"table" : [
 								{
-									"rightleft": "Singular",
-									"rightright": "Plural"
+									"col1": "~Singular",
+									"col2": "~Plural"
 								},
 								{
-									"rightleft": "o meu carro (my car)",
-									"rightright": "os meus carros (my cars)"
+									"col1": "*o meu carro* (_my car_)",
+									"col2": "*os meus carros* (_my cars_)"
 								},
 								{
-									"rightleft": "a minha casa (my house)",
-									"rightright": "as minhas casas (my houses)"
+									"col1": "*a minha casa* (_my house_)",
+									"col2": "*as minhas casas* (_my houses_)"
 								},
 								{
-									"rightleft": "o seu carro (your car)",
-									"rightright": "os seus carros (your cars)"
+									"col1": "*o seu carro* (_your car_)",
+									"col2": "*os seus carros* (_your cars_)"
 								},
 								{
-									"rightleft": "a sua casa (your house)",
-									"rightright": "as suas casas (your houses)"
+									"col1": "*a sua casa* (_your house_)",
+									"col2": "*as suas casas* (_your houses_)"
 								},
 								{
-									"rightleft": "o nosso carro (our car)",
-									"rightright": "os nossos carros (our cars)"
+									"col1": "*o nosso carro* (_our car_)",
+									"col2": "*os nossos carros* (_our cars_)"
 								},
 								{
-									"rightleft": "a nossa casa (our house)",
-									"rightright": "as nossas casas (our houses)"
+									"col1": "*a nossa casa* (_our house_)",
+									"col2": "*as nossas casas* (_our houses_)"
 								}
 							]
 						},
@@ -818,61 +814,61 @@ var nutsAndBoltsJson = {
 					"tips" : {
 						"1": {
 							"tip category": "Possessive Adjectives (2)",
-							"tip": "You've already learned the first and second person possessives, so now let's look at other third person possessives, which correspond to _his_, _her_, and _their_. You know that *seu*, *seus*, *sua*, or *suas* can mean _your_, but they can also mean _his_, _her_, or _their_. So, *o seu carro é bom* can be translated as _your car is good_, _his car is good_, _her car is good_, or _their car is good_. To avoid misunderstanding, instead of *seu* you can use the noun with a definite article, followed by *dele* (_his_, _of him_), *dela* (_her_, _of her_), deles (_their_, _of them_, _m._), or delas (_their_, _of them_, _f._). Let's see how that works.",
+							"tip": "You've already learned the first and second person possessives, so now let's look at other third person possessives, which correspond to _his_, _her_, and _their_. You know that *seu*, *seus*, *sua*, or *suas* can mean _your_, but they can also mean _his_, _her_, or _their_. So, *o seu carro é bom* can be translated as _your car is good_, _his car is good_, _her car is good_, or _their car is good_. To avoid misunderstanding, instead of *seu* you can use the noun with a definite article, followed by *dele* (_his_, _of him_), *dela* (_her_, _of her_), *deles* (_their_, _of them_, _m._), or *delas* (_their_, _of them_, _f._). Let's see how that works.",
 							"table" : [
 								{
-									"rightleft": "*",
-									"rightright": "_",
-									"leftleft": "*"
+									"col1": "*",
+									"col2": "*",
+									"col3": "_"
 								},
 								{
-									"rightleft": "o carro dele",
-									"rightright": "his car",
-									"leftleft": "o seu carro"
+									"col1": "o seu carro",
+									"col2": "o carro dele",
+									"col3": "his car"
 								},
 								{
-									"rightleft": "o carro dela",
-									"rightright": "her car",
-									"leftleft": "o seu carro"
+									"col1": "o seu carro",
+									"col2": "o carro dela",
+									"col3": "her car"
 								},
 								{
-									"rightleft": "o carro deles",
-									"rightright": "their (m. or mixed) car",
-									"leftleft": "o seu carro"
+									"col1": "o seu carro",
+									"col2": "o carro deles",
+									"col3": "their (m. or mixed) car"
 								},
 								{
-									"rightleft": "o carro delas",
-									"rightright": "their (f.) car",
-									"leftleft": "o seu carro"
+									"col1": "o seu carro",
+									"col2": "o carro delas",
+									"col3": "their (f.) car"
 								}
 							]
 						},
 						"2": {
 							"table" : [
 								{
-									"rightleft": "*",
-									"rightright": "_",
-									"leftleft": "*"
+									"col1": "*",
+									"col2": "*",
+									"col3": "_"
 								},
 								{
-									"rightleft": "as casas dele",
-									"rightright": "his houses",
-									"leftleft": "as suas casas"
+									"col1": "as suas casas",
+									"col2": "as casas dele",
+									"col3": "his houses"
 								},
 								{
-									"rightleft": "as casas dela",
-									"rightright": "her houses",
-									"leftleft": "as suas casas"
+									"col1": "as suas casas",
+									"col2": "as casas dela",
+									"col3": "her houses"
 								},
 								{
-									"rightleft": "as casas deles",
-									"rightright": "their (m. or mixed) houses",
-									"leftleft": "as suas casas"
+									"col1": "as suas casas",
+									"col2": "as casas deles",
+									"col3": "their (m. or mixed) houses"
 								},
 								{
-									"rightleft": "as casas delas",
-									"rightright": "their (f.) houses",
-									"leftleft": "as suas casas"
+									"col1": "as suas casas",
+									"col2": "as casas delas",
+									"col3": "their (f.) houses"
 								}
 							]
 						},
@@ -913,80 +909,80 @@ var nutsAndBoltsJson = {
 							"tip category": "The Numbers 20-100",
 							"table" : [
 								{
-									"rightleft": "*",
-									"rightright": "_"
+									"col1": "*",
+									"col2": "_"
 								},
 								{
-									"rightleft": "vinte",
-									"rightright": "20"
+									"col1": "vinte",
+									"col2": "20"
 								},
 								{
-									"rightleft": "vinte e um/uma",
-									"rightright": "21"
+									"col1": "vinte e um/uma",
+									"col2": "21"
 								},
 								{
-									"rightleft": "vinte e dois/duas",
-									"rightright": "22"
+									"col1": "vinte e dois/duas",
+									"col2": "22"
 								},
 								{
-									"rightleft": "vinte e três",
-									"rightright": "23"
+									"col1": "vinte e três",
+									"col2": "23"
 								},
 								{
-									"rightleft": "trinta",
-									"rightright": "30"
+									"col1": "trinta",
+									"col2": "30"
 								},
 								{
-									"rightleft": "trinta e um/uma",
-									"rightright": "31"
+									"col1": "trinta e um/uma",
+									"col2": "31"
 								},
 								{
-									"rightleft": "trinta e dois/duas",
-									"rightright": "32"
+									"col1": "trinta e dois/duas",
+									"col2": "32"
 								},
 								{
-									"rightleft": "trinta e três",
-									"rightright": "33"
+									"col1": "trinta e três",
+									"col2": "33"
 								},
 								{
-									"rightleft": "quarenta",
-									"rightright": "40"
+									"col1": "quarenta",
+									"col2": "40"
 								},
 								{
-									"rightleft": "cinqüenta",
-									"rightright": "50"
+									"col1": "cinqüenta",
+									"col2": "50"
 								},
 								{
-									"rightleft": "sessenta",
-									"rightright": "60"
+									"col1": "sessenta",
+									"col2": "60"
 								},
 								{
-									"rightleft": "setenta",
-									"rightright": "70"
+									"col1": "setenta",
+									"col2": "70"
 								},
 								{
-									"rightleft": "oitenta",
-									"rightright": "80"
+									"col1": "oitenta",
+									"col2": "80"
 								},
 								{
-									"rightleft": "noventa",
-									"rightright": "90"
+									"col1": "noventa",
+									"col2": "90"
 								},
 								{
-									"rightleft": "cem",
-									"rightright": "100"
+									"col1": "cem",
+									"col2": "100"
 								},
 								{
-									"rightleft": "cento e um/uma",
-									"rightright": "101"
+									"col1": "cento e um/uma",
+									"col2": "101"
 								},
 								{
-									"rightleft": "cento e dois/duas",
-									"rightright": "102"
+									"col1": "cento e dois/duas",
+									"col2": "102"
 								},
 								{
-									"rightleft": "cente e três",
-									"rightright": "103"
+									"col1": "cento e três",
+									"col2": "103"
 								}
 							]
 						},
@@ -995,7 +991,7 @@ var nutsAndBoltsJson = {
 							"list" : [
 								{
 									"portuguese": "Há vinte e duas portas, e há trinta e dois carros",
-									"english": "There are twnty-two doors, and there are thirty-two cars."
+									"english": "There are twenty-two doors, and there are thirty-two cars."
 								}
 							]
 						}
@@ -1150,56 +1146,52 @@ var nutsAndBoltsJson = {
 							"tip": "In Portuguese, most regular infinitives (the _to_ form of verbs) end in *-ar*, *-er*, or *-ir*. Each type of infinitive follow a certain conjugation, or pattern of endings, to show agreements with a subject, like the English _you speak_ and _she speaks_. In this lesson we'll start with the conjugation of *-ar* verbs such as *falar* (_to speak_).",
 							"table" : [
 								{
-									"rightleft": "-",
-									"rightright": "-",
-									"leftleft": "*",
-									"leftright": "_"
+									"col1": "*",
+									"col2": "_",
+									"col3": "*",
+									"col4": "_"
 								},
 								{
-									"rightleft": "*",
-									"rightright": "_",
-									"leftleft": "eu falo",
-									"leftright": "I speak"
+									"col1": "eu falo",
+									"col2": "I speak",
+									"col3": "nós falamos",
+									"col4": "we speak"
 								},
 								{
-									"rightleft": "nós falamos",
-									"rightright": "we speak",
-									"leftleft": "(tu falas)",
-									"leftright": "you speak"
+									"col1": "(tu falas)",
+									"col2": "you speak",
+									"col3": "(vós falais)",
+									"col4": "you speak"
 								},
 								{
-									"rightleft": "(vós falais)",
-									"rightright": "you speak",
-									"leftleft": "você fala",
-									"leftright": "you speak"
+									"col1": "você fala",
+									"col2": "you speak",
+									"col3": "vocês falam",
+									"col4": "you speak"
 								},
 								{
-									"rightleft": "vocês falam",
-									"rightright": "you speak",
-									"leftleft": "o senhor fala",
-									"leftright": "you speak (fml. m.)"
+									"col1": "o senhor fala",
+									"col2": "you speak (fml. m.)",
+									"col3": "os senhores falam",
+									"col4": "you speak (fml. m.)"
 								},
 								{
-									"rightleft": "os senhores falam",
-									"rightright": "you speak (fml. m.)",
-									"leftleft": "a senhora falas",
-									"leftright": "you speak (fml. f.)"
+									"col1": "a senhora fala",
+									"col2": "you speak (fml. f.)",
+									"col3": "as senhoras falam",
+									"col4": "you speak (fml. f.)"
 								},
 								{
-									"rightleft": "as senhoras falam",
-									"rightright": "you speak (fml. f.)",
-									"leftleft": "ele fala",
-									"leftright": "he speaks"
+									"col1": "ele fala",
+									"col2": "he speaks",
+									"col3": "eles falam",
+									"col4": "they speak (m./mixed)"
 								},
 								{
-									"rightleft": "eles falam",
-									"rightright": "they speak (m./mixed)",
-									"leftleft": "ela fala",
-									"leftright": "she speaks"
-								},
-								{
-									"rightleft": "elas falam",
-									"rightright": "they speak (f.)"
+									"col1": "ela fala",
+									"col2": "she speaks",
+									"col3": "elas falam",
+									"col4": "they speak (f.)"
 								}
 							]
 						},
@@ -1207,16 +1199,16 @@ var nutsAndBoltsJson = {
 							"tip": "As you can see, to conjugate an *-ar* verb in the simple present, you take off the *-ar* and add certain endings depending on the subject. Note that the forms in parentheses are not used in Brazil. In Portugal *tu* (_you_) is used in very informal speech, between members of a family and close friends. In Brazil people use você (_you_) when talking to friends, people the same age, and younger people. In the plural, *vocês* is used in both Brazil and Portugal, and *vós* is considered fairly archaic and rarely used. Also note that both countries use *o senhor*, *a senhora*, *os senhores*, and *as senhoras* as the less familiar and more polite forms. So, if we take away the less common forms, there are only five forms that you need to focus on: the infinitive, two singular forms, and two plural forms. let's look at them with another verb, *estudar* (_to study_).",
 							"table" : [
 								{
-									"rightleft": "*",
-									"rightright": "*"
+									"col1": "*",
+									"col2": "*"
 								},
 								{
-									"rightleft": "eu estudo",
-									"rightright": "nós estudamos"
+									"col1": "eu estudo",
+									"col2": "nós estudamos"
 								},
 								{
-									"rightleft": "você, ele, ela, o senhor, a senhora estuda",
-									"rightright": "eles, elas, vocês, os senhores, as senhoras estudam"
+									"col1": "você, ele, ela, o senhor, a senhora estuda",
+									"col2": "eles, elas, vocês, os senhores, as senhoras estudam"
 								}
 							]
 						},
@@ -1245,63 +1237,63 @@ var nutsAndBoltsJson = {
 							"tip": "Here are some more common and useful *-ar* verbs. They're conjugated in exactly the same way as *falar* and *estudar*",
 							"table" : [
 								{
-									"rightleft": "*",
-									"rightright": "_",
-									"leftleft": "*",
-									"leftright": "_"
+									"col1": "*",
+									"col2": "_",
+									"col3": "*",
+									"col4": "_"
 								},
 								{
-									"rightleft": "morar",
-									"rightright": "to live",
-									"leftleft": "conversar",
-									"leftright": "to talk"
+									"col1": "morar",
+									"col2": "to live",
+									"col3": "conversar",
+									"col4": "to talk"
 								},
 								{
-									"rightleft": "trabalhar",
-									"rightright": "to work",
-									"leftleft": "parar",
-									"leftright": "to stop"
+									"col1": "trabalhar",
+									"col2": "to work",
+									"col3": "parar",
+									"col4": "to stop"
 								},
 								{
-									"rightleft": "viajar",
-									"rightright": "to travel",
-									"leftleft": "olhar",
-									"leftright": "to look"
+									"col1": "viajar",
+									"col2": "to travel",
+									"col3": "olhar",
+									"col4": "to look"
 								},
 								{
-									"rightleft": "encontrar",
-									"rightright": "to find, to meet up",
-									"leftleft": "chamar",
-									"leftright": "to call"
+									"col1": "encontrar",
+									"col2": "to find, to meet up",
+									"col3": "chamar",
+									"col4": "to call"
 								},
 								{
-									"rightleft": "tirar",
-									"rightright": "to take out or off",
-									"leftleft": "começar",
-									"leftright": "to begin, to start"
+									"col1": "tirar",
+									"col2": "to take out or off",
+									"col3": "começar",
+									"col4": "to begin, to start"
 								},
 								{
-									"rightleft": "acordar",
-									"rightright": "to wake up",
-									"leftleft": "terminar",
-									"leftright": "to finish"
+									"col1": "acordar",
+									"col2": "to wake up",
+									"col3": "terminar",
+									"col4": "to finish"
 								},
 								{
-									"rightleft": "combinar",
-									"rightright": "to make plans",
-									"leftleft": "mandar",
-									"leftright": "to send"
+									"col1": "combinar",
+									"col2": "to make plans",
+									"col3": "mandar",
+									"col4": "to send"
 								},
 								{
-									"rightleft": "entrar",
-									"rightright": "to enter, to go in",
-									"leftleft": "usar",
-									"leftright": "to use"
+									"col1": "entrar",
+									"col2": "to enter, to go in",
+									"col3": "usar",
+									"col4": "to use"
 								}
 							]
 						},
 						"5": {
-							"tip": "Don't forget that questions use the same word order, and não (_not_) is placed before the verb in the negative sentences.",
+							"tip": "Don't forget that questions use the same word order, and *não* (_not_) is placed before the verb in the negative sentences.",
 							"list" : [
 								{
 									"portuguese": "Você mora aqui?",
@@ -1314,7 +1306,7 @@ var nutsAndBoltsJson = {
 							]
 						},
 						"6": {
-							"tip": "Notice that the Portuguese simple present can be translated differently in Egnlish, according to context.",
+							"tip": "Notice that the Portuguese simple present can be translated differently in English, according to context.",
 							"list" : [
 								{
 									"portuguese": "Eu falo francês e italiano.",
@@ -1336,7 +1328,7 @@ var nutsAndBoltsJson = {
 					"tips" : {
 						"1": {
 							"tip category": "The Verb Gostar de (_to like_)",
-							"tip": "The regular verb *gostar de* is used to talk about things you like or in the negative, things you dislike. *Gostar* is conjugated as a regular *-ar* verb, so the four main conjugated forms that you need to know are *gosto*, *gosta*, *gostamos*, and *gostam*. The thing that is liked or disliked is always introduced by the preposition *de*. That can be iether a noun or a verb.",
+							"tip": "The regular verb *gostar de* is used to talk about things you like or in the negative, things you dislike. *Gostar* is conjugated as a regular *-ar* verb, so the four main conjugated forms that you need to know are *gosto*, *gosta*, *gostamos*, and *gostam*. The thing that is liked or disliked is always introduced by the preposition *de*. That can be either a noun or a verb.",
 							"list" : [
 								{
 									"portuguese": "Eu gosto de vinho tinto.",
@@ -1404,7 +1396,7 @@ var nutsAndBoltsJson = {
 							]
 						},
 						"2": {
-							"tip": "Notice that *por que* (_why_) is two separate words. The answer _because_, is one word: *porque*. *Por que você está atrasado? Eu estou atrasado porque o trânsito está ruim. (_Why are you late? I'm late because traffic is bad._)"
+							"tip": "Notice that *por que* (_why_) is two separate words. The answer _because_, is one word: *porque*. *Por que você está atrasado? Eu estou atrasado porque o trânsito está ruim.* (_Why are you late? I'm late because traffic is bad._)"
 						}
 					}
 				},
@@ -1415,20 +1407,20 @@ var nutsAndBoltsJson = {
 							"tip": "Let's take a look at the conjugation of the very common irregular verb *fazer* (_to do, to make_).",
 							"table" : [
 								{
-									"rightleft": "*",
-									"rightright": "*"
+									"col1": "*",
+									"col2": "*"
 								},
 								{
-									"rightleft": "eu faço",
-									"rightright": "nós fazemos"
+									"col1": "eu faço",
+									"col2": "nós fazemos"
 								},
 								{
-									"rightleft": "você faz",
-									"rightright": "vocês fazem"
+									"col1": "você faz",
+									"col2": "vocês fazem"
 								},
 								{
-									"rightleft": "ele/ela faz",
-									"rightright": "eles/elas fazem"
+									"col1": "ele/ela faz",
+									"col2": "eles/elas fazem"
 								}
 							]
 						},
@@ -1607,20 +1599,20 @@ var nutsAndBoltsJson = {
 							"tip": "The verb *ter* is irregular, and it's found in many common expressions, as you'll see below. First, let's look at its conjugation.",
 							"table" : [
 								{
-									"rightleft": "*",
-									"rightright": "*"
+									"col1": "*",
+									"col2": "*"
 								},
 								{
-									"rightleft": "eu tenho",
-									"rightright": "nós temos"
+									"col1": "eu tenho",
+									"col2": "nós temos"
 								},
 								{
-									"rightleft": "você tem",
-									"rightright": "vocês têm"
+									"col1": "você tem",
+									"col2": "vocês têm"
 								},
 								{
-									"rightleft": "ele/ela tem",
-									"rightright": "eles/elas têm"
+									"col1": "ele/ela tem",
+									"col2": "eles/elas têm"
 								}
 							]
 						},
@@ -1646,7 +1638,7 @@ var nutsAndBoltsJson = {
 								},
 								{
 									"portuguese": "Eu tenho vinte e cinco anos.",
-									"english": "I'm twnty-five years old."
+									"english": "I'm twenty-five years old."
 								}
 							]
 						},

@@ -84,7 +84,122 @@ function showCorrectGlyph() {
 }
 
 function loadNutsAndBolts(lessonNumber, pageNumber) {
+    let json = nutsAndBoltsJson;
+    let tips = json['lessons'][lessonNumber]['nutsAndBolts'][pageNumber]['tips'];
+    let mainString = '<article>';
+    const audioString = 'audio/L' + lessonNumber + '/NB' + pageNumber + '/';
+    for (let tipNumber in tips) {
+        let tip = tips[tipNumber];
+        if (tipNumber === '1') {
+            if (tip.hasOwnProperty('tip category')) {
+                mainString += getHeader(lessonNumber, 'Nuts and Bolts ' + pageNumber + ' - ' + format(tip['tip category']));
+            } else {
+                mainString += getHeader(lessonNumber, 'Nuts and Bolts ' + pageNumber);
+            }
+        }
+        if (tip.hasOwnProperty('tip')) {
+            mainString += '<p>' + format(tip['tip']) + '</p>';
+        }
+        if (tip.hasOwnProperty('table')) {
+            let table = tip['table'];
+            let formats = {};
+            if (table.length > 0) {
+                mainString += '<table class="table bordered">';
+                let headerRow = table[0];
+                let containsHeader = false;
+                for (let property in headerRow) {
+                    if (headerRow[property].replace('_', '').replace('*', '').replace('-', '').replace('~', '').length > 0) {
+                        containsHeader = true;
+                        break;
+                    }
+                }
+                for (let property in headerRow) {
+                    if (headerRow[property].indexOf('_') != -1) { //italics
+                        formats[property] = '_';
+                    } else if (headerRow[property].indexOf('*') != -1) { //bold
+                        formats[property] = '*';
+                    } else if (headerRow[property].indexOf('~') != -1) { //format
+                        formats[property] = '~';
+                    } else { //nothing
+                        formats[property] = '-';
+                    }
+                    let columnHeader = headerRow[property].replace('_', '').replace('*', '').replace('-', '').replace('~', '');
+                    if (containsHeader) {
+                        if (property === 'col1') {
+                            mainString += '<thead><tr>';
+                        }
+                        if (columnHeader.length === 0) {
+                            mainString += '<th style="border: none">' + columnHeader + '</th>';
+                        } else {
+                            mainString += '<th>' + columnHeader + '</th>';
+                        }
+                        
+                    }
+                }
+                if (containsHeader) {
+                    mainString += '</tr></thead>';
+                }
 
+                for (let rowCount = 1; rowCount < table.length; rowCount++) {
+                    mainString += '<tr>';
+                    for (let cell in table[rowCount]) {
+                        const column = cell.replace('col', '');
+                        const portAudio = audioString + 'P' + tipNumber + '-' + rowCount + '-' + column;
+                        const engAudio = audioString + 'E' + tipNumber + '-' + rowCount + '-' + column;
+                        let cellContent = table[rowCount][cell];
+                        mainString += '<td class="col-md-2">';
+                        if (formats[cell] === '-') {
+                            mainString += cellContent;
+                        } else if (formats[cell] === '*') {
+                            mainString += '<audio id="' + portAudio + '" src="' + portAudio + '.mp3" preload="auto"></audio>';
+                            mainString += '<button class="audio" onclick="document.getElementById(\'' + portAudio + '\').play();">';
+                            mainString += '<b>' + cellContent + '</b>' + ' <span class="glyphicon glyphicon-volume-up"></span></button>';
+                        } else if (formats[cell] === '~') {
+                            let newCellContent = format(cellContent).split('(');
+                            if (newCellContent.length === 2) {
+                                mainString += '<audio id="' + portAudio + '" src="' + portAudio + '.mp3" preload="auto"></audio>';
+                                mainString += '<audio id="' + engAudio + '" src="' + engAudio + '.mp3" preload="auto"></audio>';
+                                mainString += '<button class="audio" onclick="document.getElementById(\'' + portAudio + '\').play();">';
+                                mainString += newCellContent[0] + ' <span class="glyphicon glyphicon-volume-up"></span>  </button>';
+                                mainString += '<button class="audio" onclick="document.getElementById(\'' + engAudio + '\').play();">';
+                                mainString += '(' + newCellContent[1].replace(')', '') + ' <span class="glyphicon glyphicon-volume-up"></span>)</button>';
+                            }
+                        } else if (formats[cell] === '_') {
+                            mainString += '<audio id="' + engAudio + '" src="' + engAudio + '.mp3" preload="auto"></audio>';
+                            mainString += '<button class="audio" onclick="document.getElementById(\'' + engAudio + '\').play();">';
+                            mainString += '<i>' + cellContent + '</i>' + ' <span class="glyphicon glyphicon-volume-up"></span></button>';
+                        }
+                        mainString += '</td>';
+                    }
+                    mainString += '</tr>';
+                }
+                mainString += '</table>';
+                
+            }
+        }
+        let list = tip.hasOwnProperty('list') ? tip['list'] : [];
+        let listNum = 1;
+        for (let item in list) {
+            mainString += '<div class="lesson-list">';
+            if (list[item].hasOwnProperty('portuguese')) {
+                const portAudio = audioString + 'P' + tipNumber + '-' + listNum;
+                mainString += '<audio id="' + portAudio + '" src="' + portAudio + '.mp3" preload="auto"></audio>';
+                mainString += '<button class="audio" onclick="document.getElementById(\'' + portAudio + '\').play();">';
+                mainString += '<b>' + list[item]['portuguese'] + '</b>' + ' <span class="glyphicon glyphicon-volume-up"></span></button>';
+            }
+            if (list[item].hasOwnProperty('english')) {
+                const engAudio = audioString + 'E' + tipNumber + '-' + listNum;
+                mainString += '</br><audio id="' + engAudio + '" src="' + engAudio + '.mp3" preload="auto"></audio>';
+                mainString += '<button class="audio" onclick="document.getElementById(\'' + engAudio + '\').play();">';
+                mainString += '<i>' + list[item]['english'] + '</i>' + ' <span class="glyphicon glyphicon-volume-up"></span></button>';
+            }
+            mainString += '</br></div>';
+            listNum++;
+        }
+    }
+
+    mainString += '</article>';
+    $('#main').append(mainString);
 }
 
 function loadVocabulary(lessonNumber, pageNumber) {
@@ -121,7 +236,7 @@ function loadVocabulary(lessonNumber, pageNumber) {
         mainString += '<p>' + format(vocab['beforeNotes']) + '</p>';
     }
 
-    mainString += '<table class="table"><tr><th>Portuguese</th><th>English</th></tr>';
+    mainString += '<table class="table"><thead><tr><th>Portuguese</th><th>English</th></thead></tr><tbody>';
     let row = 1;
     const filePath = 'audio/L' + lessonNumber + '/V' + pageNumber;
     for (let vocabObj of vocab[vocabType]) {
@@ -142,7 +257,7 @@ function loadVocabulary(lessonNumber, pageNumber) {
         mainString += '</i></td></tr>';
         row++;
     }
-    mainString += '</table>';
+    mainString += '</tbody></table>';
 
     if (vocab['afterNotes']) {
         mainString += '<p>' + format(vocab['afterNotes']) + '</p>';

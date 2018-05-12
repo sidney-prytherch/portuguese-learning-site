@@ -10,6 +10,20 @@ body {
     margin: 0;
 }
 
+.bordered td, .bordered th {
+    border: 1px solid #ddd;
+}
+
+.bordered>thead:first-child>tr:first-child>th {
+    border-top: 1px solid #ddd;
+}
+
+.lesson-list {
+    padding-left: 3em;
+    margin-bottom: 15px;
+    clear: both;
+}
+
 .col-sm-3 {
     background: #6C596E;
     border-right: thick solid #59495B;
@@ -138,4 +152,5 @@ th {
 .audio {
     border: none;
     outline: none;
+    padding-right: 5px;
 }
