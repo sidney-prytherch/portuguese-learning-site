@@ -194,6 +194,9 @@ var unitsJson = {
 					"english": "How old are you?"
 				}
 			]
+		},
+		"4": {
+			"introNotes": "In this unit you'll learn how to talk about your health, which means you'll learn important vocabulary related to the human body. Unit 4 also covers the regular verbs ending in *-er*, and the equivalents of _need to_, _have to_, _want to_, _can_, and _should_. Finally, you'll learn important expressions that use *estar*, as well as the demonstratives _this_, _that_, _these_, and _those_. *Saúde!* (_To your health!_)"
 		}
 	}
 }

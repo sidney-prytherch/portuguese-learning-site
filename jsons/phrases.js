@@ -391,6 +391,175 @@ var phrasesJson = {
 					]
 				}
 			}
+		},
+		"14": {
+			"sections" : {
+				"1": {
+					"phrases" : [
+						{
+							"portuguese": "a dor de cabeça",
+							"english": "headache"
+						},
+						{
+							"portuguese": "a dor de garganta",
+							"english": "sore throat"
+						},
+						{
+							"portuguese": "o nariz entupido",
+							"english": "stuffy nose"
+						},
+						{
+							"portuguese": "os pés inchados",
+							"english": "swollen feet"
+						},
+						{
+							"portuguese": "tomar remédios",
+							"english": "to take medicine"
+						},
+						{
+							"portuguese": "o exame médico geral",
+							"english": "medical checkup"
+						},
+						{
+							"portuguese": "o conselho do amigo",
+							"english": "friend's advice"
+						},
+						{
+							"portuguese": "as recomendações do médico",
+							"english": "the doctor's suggestion/advice"
+						},
+						{
+							"portuguese": "Isso dói!",
+							"english": "That hurts!"
+						},
+						{
+							"portuguese": "manter a forma",
+							"english": "to keep fit, to stay in shape"
+						},
+						{
+							"portuguese": "perder peso",
+							"english": "to lose weight"
+						},
+						{
+							"portuguese": "engordar",
+							"english": "to gain weight"
+						},
+						{
+							"portuguese": "ter alergias",
+							"english": "to have allergies"
+						},
+						{
+							"portuguese": "Volte aqui.",
+							"english": "Come back."
+						},
+						{
+							"portuguese": "doença contagiosa",
+							"english": "contagious disease"
+						},
+						{
+							"portuguese": "Estimo as suas melhoras.",
+							"english": "I hope you get better soon."
+						},
+						{
+							"portuguese": "contra inicação",
+							"english": "warning (contraindication)"
+						}
+					]
+				},
+				"2": {
+					"phrases" : [
+						{
+							"portuguese": "tudo azul",
+							"english": "everything's fine (infml.)"
+						},
+						{
+							"portuguese": "biblioteca pública",
+							"english": "public library"
+						},
+						{
+							"portuguese": "caminhar bastante",
+							"english": "to walk a lot"
+						},
+						{
+							"portuguese": "beber muito líquido",
+							"english": "to drink plenty of liquids"
+						},
+						{
+							"portuguese": "levantar pesos",
+							"english": "to life weights"
+						},
+						{
+							"portuguese": "fazer ioga",
+							"english": "to do yoga"
+						},
+						{
+							"portuguese": "fazer exercícios",
+							"english": "to exercise"
+						},
+						{
+							"portuguese": "em pouco tempo",
+							"english": "in no time/in little time"
+						},
+						{
+							"portuguese": "de três em três horas",
+							"english": "every three hours"
+						},
+						{
+							"portuguese": "um dia sim outro não",
+							"english": "every other day"
+						},
+						{
+							"portuguese": "ser vegetariana",
+							"english": "to be vegetarian"
+						},
+						{
+							"portuguese": "sem energia para nada",
+							"english": "without any energy"
+						},
+						{
+							"portuguese": "melhorar",
+							"english": "to get better"
+						},
+						{
+							"portuguese": "ler a bula",
+							"english": "to read the instructions (for medicine)"
+						},
+						{
+							"portuguese": "comer frutas e verduras",
+							"english": "to eat fruits and vegetables"
+						},
+						{
+							"portuguese": "estar doente",
+							"english": "to be sick"
+						},
+						{
+							"portuguese": "ser saudável",
+							"english": "to be healthy"
+						},
+						{
+							"portuguese": "estar com febre",
+							"english": "to have a fever"
+						},
+						{
+							"portuguese": "estar com tosse",
+							"english": "to have a cough"
+						},
+						{
+							"portuguese": "estar com dor de cabeça",
+							"english": "to have a headache"
+						},
+						{
+							"portuguese": "estar com pressa",
+							"english": "to be in a hurry"
+						},
+						{
+							"portuguese": "estar com medo",
+							"english": "to be afraid"
+						}
+					],
+					"afterNotes": "Did you notice two time expressions above? Some other common time expressions are: *logo/em brever/daqui a pouco* (_soon_), *até* (_until_), *uma vez/duas vezes/três vezes* (_once/twice/three times_), *às vezes* (_sometimes_), *algumas vezes* (_a few times_)."
+				}
+			}
 		}
 	}
 }

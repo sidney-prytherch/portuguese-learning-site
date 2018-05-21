@@ -44,19 +44,24 @@ function loadPage() {
             $('#main').empty();
             switch (pageType) {
                 case 'NB':
-                    loadNutsAndBolts(lessonNumber, pageNumber);
+                    loadNutsAndBolts(lessonNumber, pageNumber)
+                        .then(() => {
+                            $('#main').slideDown(700);
+                        });
                     break;
                 case 'V':
                     loadVocabulary(lessonNumber, pageNumber);
+                    $('#main').slideDown(700);
                     break;
                 case 'P':
                     loadPractice(lessonNumber, pageNumber);
+                    $('#main').slideDown(700);
                     break;
                 case 'E':
                     loadExtra(lessonNumber, pageNumber);
+                    $('#main').slideDown(700);
                     break;
             }
-            $('#main').slideDown(700);
         });
     }
 }
@@ -83,7 +88,7 @@ function showCorrectGlyph() {
     });
 }
 
-function loadNutsAndBolts(lessonNumber, pageNumber) {
+async function loadNutsAndBolts(lessonNumber, pageNumber) {
     let json = nutsAndBoltsJson;
     let tips = json['lessons'][lessonNumber]['nutsAndBolts'][pageNumber]['tips'];
     let mainString = '<article>';
@@ -144,54 +149,92 @@ function loadNutsAndBolts(lessonNumber, pageNumber) {
                     mainString += '<tr>';
                     for (let cell in table[rowCount]) {
                         const column = cell.replace('col', '');
-                        const portAudio = audioString + 'P' + tipNumber + '-' + rowCount + '-' + column;
-                        const engAudio = audioString + 'E' + tipNumber + '-' + rowCount + '-' + column;
+                        const audioId = tipNumber + '-' + rowCount + '-' + column;
+                        const portAudio = audioString + 'P' + audioId;
+                        const engAudio = audioString + 'E' + audioId;
+                        let portugueseAudioExists = true;
+                        let englishAudioExists = true;
+                        await Promise.all([UrlExists(portAudio + '.mp3'), UrlExists(engAudio + '.mp3')]).then((values) => {
+                            portugueseAudioExists = values[0];
+                            englishAudioExists = values[1];
+                        });
                         let cellContent = table[rowCount][cell];
                         mainString += '<td class="col-md-2">';
                         if (formats[cell] === '-') {
                             mainString += cellContent;
                         } else if (formats[cell] === '*') {
-                            mainString += '<audio id="' + portAudio + '" src="' + portAudio + '.mp3" preload="auto"></audio>';
-                            mainString += '<button class="audio" onclick="document.getElementById(\'' + portAudio + '\').play();">';
-                            mainString += '<b>' + cellContent + '</b>' + ' <span class="glyphicon glyphicon-volume-up"></span></button>';
+                            if (portugueseAudioExists) {
+                                mainString += '<audio id="' + portAudio + '" src="' + portAudio + '.mp3" preload="auto"></audio>';
+                                mainString += '<button class="audio" onclick="document.getElementById(\'' + portAudio + '\').play();">';
+                                mainString += '<b>' + cellContent + '</b>' + ' <span class="glyphicon glyphicon-volume-up"></span></button>';
+                            } else {
+                                mainString += '<b>' + cellContent + '</b>';
+                            }
                         } else if (formats[cell] === '~') {
                             let newCellContent = format(cellContent).split('(');
                             if (newCellContent.length === 2) {
-                                mainString += '<audio id="' + portAudio + '" src="' + portAudio + '.mp3" preload="auto"></audio>';
-                                mainString += '<audio id="' + engAudio + '" src="' + engAudio + '.mp3" preload="auto"></audio>';
-                                mainString += '<button class="audio" onclick="document.getElementById(\'' + portAudio + '\').play();">';
-                                mainString += newCellContent[0] + ' <span class="glyphicon glyphicon-volume-up"></span>  </button>';
-                                mainString += '<button class="audio" onclick="document.getElementById(\'' + engAudio + '\').play();">';
-                                mainString += '(' + newCellContent[1].replace(')', '') + ' <span class="glyphicon glyphicon-volume-up"></span>)</button>';
+                                if (portugueseAudioExists) {
+                                    mainString += '<audio id="' + portAudio + '" src="' + portAudio + '.mp3" preload="auto"></audio>';
+                                    mainString += '<button class="audio" onclick="document.getElementById(\'' + portAudio + '\').play();">';
+                                    mainString += newCellContent[0] + ' <span class="glyphicon glyphicon-volume-up"></span></button>';
+                                } else {
+                                    mainString += newCellContent[0];
+                                }
+                                if (englishAudioExists) {
+                                    mainString += '<audio id="' + engAudio + '" src="' + engAudio + '.mp3" preload="auto"></audio>';
+                                    mainString += '<button class="audio" onclick="document.getElementById(\'' + engAudio + '\').play();">';
+                                    mainString += '(' + newCellContent[1].replace(')', '') + ' <span class="glyphicon glyphicon-volume-up"></span>)</button>';
+                                } else {
+                                    mainString += '(' + newCellContent[1];
+                                }
                             }
                         } else if (formats[cell] === '_') {
-                            mainString += '<audio id="' + engAudio + '" src="' + engAudio + '.mp3" preload="auto"></audio>';
-                            mainString += '<button class="audio" onclick="document.getElementById(\'' + engAudio + '\').play();">';
-                            mainString += '<i>' + cellContent + '</i>' + ' <span class="glyphicon glyphicon-volume-up"></span></button>';
+                            if (englishAudioExists) {
+                                mainString += '<audio id="' + engAudio + '" src="' + engAudio + '.mp3" preload="auto"></audio>';
+                                mainString += '<button class="audio" onclick="document.getElementById(\'' + engAudio + '\').play();">';
+                                mainString += '<i>' + cellContent + '</i>' + ' <span class="glyphicon glyphicon-volume-up"></span></button>';
+                            } else {
+                                mainString += '<i>' + cellContent + '</i>';
+                            }
                         }
                         mainString += '</td>';
                     }
                     mainString += '</tr>';
                 }
                 mainString += '</table>';
-                
             }
         }
         let list = tip.hasOwnProperty('list') ? tip['list'] : [];
         let listNum = 1;
         for (let item in list) {
+            const audioId = tipNumber + '-' + listNum;
+            const portAudio = audioString + 'P' + audioId;
+            const engAudio = audioString + 'E' + audioId;
+            let portugueseAudioExists = true;
+            let englishAudioExists = true;
+            await Promise.all([UrlExists(portAudio + '.mp3'), UrlExists(engAudio + '.mp3')]).then((values) => {
+                portugueseAudioExists = values[0];
+                englishAudioExists = values[1];
+            });
             mainString += '<div class="lesson-list">';
             if (list[item].hasOwnProperty('portuguese')) {
-                const portAudio = audioString + 'P' + tipNumber + '-' + listNum;
-                mainString += '<audio id="' + portAudio + '" src="' + portAudio + '.mp3" preload="auto"></audio>';
-                mainString += '<button class="audio" onclick="document.getElementById(\'' + portAudio + '\').play();">';
-                mainString += '<b>' + list[item]['portuguese'] + '</b>' + ' <span class="glyphicon glyphicon-volume-up"></span></button>';
+                if (portugueseAudioExists) {
+                    mainString += '<audio id="' + portAudio + '" src="' + portAudio + '.mp3" preload="auto"></audio>';
+                    mainString += '<button class="audio" onclick="document.getElementById(\'' + portAudio + '\').play();">';
+                    mainString += '<b>' + list[item]['portuguese'] + '</b>' + ' <span class="glyphicon glyphicon-volume-up"></span></button>';
+                } else {
+                    mainString += '<b>' + list[item]['portuguese'] + '</b>';
+                }
             }
             if (list[item].hasOwnProperty('english')) {
-                const engAudio = audioString + 'E' + tipNumber + '-' + listNum;
-                mainString += '</br><audio id="' + engAudio + '" src="' + engAudio + '.mp3" preload="auto"></audio>';
-                mainString += '<button class="audio" onclick="document.getElementById(\'' + engAudio + '\').play();">';
-                mainString += '<i>' + list[item]['english'] + '</i>' + ' <span class="glyphicon glyphicon-volume-up"></span></button>';
+                mainString += '</br>';
+                if (englishAudioExists) {
+                    mainString += '<audio id="' + engAudio + '" src="' + engAudio + '.mp3" preload="auto"></audio>';
+                    mainString += '<button class="audio" onclick="document.getElementById(\'' + engAudio + '\').play();">';
+                    mainString += '<i>' + list[item]['english'] + '</i>' + ' <span class="glyphicon glyphicon-volume-up"></span></button>';
+                } else {
+                    mainString += '<i>' + list[item]['english'] + '</i>';
+                }
             }
             mainString += '</br></div>';
             listNum++;
@@ -288,6 +331,12 @@ function format(string) {
     while(string.indexOf('*') >= 0) {
         string = string.replace('*', '<b>').replace('*', '</b>');
     }
+    while(string.indexOf('\n') >= 0) {
+        string = string.replace('\n', '</br>');
+    }
+    while(string.indexOf('</br><b>') >= 0) {
+        string = string.replace('</br><b>', '</br></br> <b>'); //o espaço é importante
+    }
     return string;
 }
 
@@ -301,4 +350,18 @@ function loadExtra(lessonNumber, pageNumber) {
 
 function loadUnitEssentials(lessonNumber, pageNumber) {
 
+}
+
+function UrlExists(url) {
+    return new Promise((resolve, reject) => {
+        var http = new XMLHttpRequest();
+        http.open('HEAD', url, true);
+        http.onload = () => {
+            resolve(http.status != '404');
+        };
+        http.onerror = () => {
+            resolve(false);
+        };
+        http.send();
+    });
 }

@@ -88,6 +88,22 @@ var randomNotesJson = {
 				}
 			]
 		},
+		"13": {
+			"text" : [
+				{
+					"type": "Cool Link",
+					"text": "Both Brazil and Portugal use the metric system for measurements, which means grams and kilos for weight, liters for liquid, kilometers for distance, and Celsius for temperature. You may remember some of this from the United States' attempt to go metric in the late 1970s, or maybe that was before your time. In any event, most of the world is metric, so it's a great idea to memorize at least a few of the basic metric equivalents. Below you'll find some useful websites that will help you convert weights and measures, temperatures and areas.\nwww.metric-conversions.org/#\nwww.woldwidemetric.com/metcal.htm\nAnd if you're really interested in the metric system:\nhttp://en.wikipedia.org/wiki/SI\nhttp://en.wikipedia.org/wiki.Metrication_in_the_United_States"
+				}
+			]
+		},
+		"15": {
+			"text" : [
+				{
+					"type": "Tip",
+					"text": "Watching movies in the original language is enjoyable, and it will help you improve your listening comprehension in an entertaining way. Rent DVDs in Portuguese, and to begin, watch the film with English subtitles. Just relax, take in the rhythm and cadence of the language, and try to see how much you're able to pick up. Next, select a three- to four-minute segment to watch with the English subtitles. Finally, go back and watch the same segment wihtout the subtitles. DO that as many times, and with as many segments, as you want. On top of being a fun and entertaining way to learn a foreign language, the films listed below will give you an excellent opportunity to learn more about Brazil.\n_Dona Flor e Seus Dois Maridos_ (Dona Flor and Her Two Husbands) directed by Bruno Barreto; _Central do Brasil_ (Central Station), direction by Walter Salles; _2 Filhos de Fransisco-A História de Zezé di Camargo & Lúciano_ (Two sons of Francisco-The Story of Zezé di Camargo and Lúciano), directed by Breno Silveira; _O Que É Isso, Companheiro?_ (Four Days in September), directed by Bruno Barreto; _Ofreu Negro_ (Black Orpheus), directed by Marcel Camus."
+				}
+			]
+		},
 		"19": {
 			"text" : [
 				{

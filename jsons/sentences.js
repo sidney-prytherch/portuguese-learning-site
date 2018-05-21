@@ -323,6 +323,147 @@ var sentencesJson = {
 					]
 				}
 			}
+		},
+		"15": {
+			"sections" : {
+				"1": {
+					"sentences" : [
+						{
+							"portuguese": "Nós não estamos com sono.",
+							"english": "We're not sleepy."
+						},
+						{
+							"portuguese": "Vocês estão com fome?",
+							"english": "Are you hungry?"
+						},
+						{
+							"portuguese": "Elas estão com vontade de comer pizza.",
+							"english": "They feel like eating pizza."
+						},
+						{
+							"portuguese": "O paciente está com dor de cabeça.",
+							"english": "The patient has a headache."
+						},
+						{
+							"portuguese": "O meu filho está com febre.",
+							"english": "My son has a fever."
+						},
+						{
+							"portuguese": "Os animais estão com sede.",
+							"english": "The animals are thirsty."
+						},
+						{
+							"portuguese": "Os executivos estão com pressa.",
+							"english": "The businessmen are in a hurry."
+						},
+						{
+							"portuguese": "A garota está sem vontade de estudar.",
+							"english": "The girl doesn't want to study."
+						},
+						{
+							"portuguese": "O rapaz não está com medo.",
+							"english": "The young man is not afraid."
+						},
+						{
+							"portuguese": "Por que o functionário está com vergonha?",
+							"english": "Why is the employee embarrassed?"
+						},
+						{
+							"portuguese": "A professora está sem paciência.",
+							"english": "The teacher has no patience."
+						},
+						{
+							"portuguese": "Ele está com dor de barriga.",
+							"english": "He has a stomachache."
+						},
+						{
+							"portuguese": "As crianças estão com tosse.",
+							"english": "The children have a cough."
+						},
+						{
+							"portuguese": "As minhas penas doem.",
+							"english": "My legs hurt."
+						},
+						{
+							"portuguese": "A minha cabeça dói.",
+							"english": "My head hurts."
+						},
+						{
+							"portuguese": "Aspirina é bom para dor de dente?",
+							"english": "Is aspirin good for toothaches?"
+						},
+						{
+							"portuguese": "Você tem dor de cabeça?",
+							"english": "Do you have a headache?"
+						}
+					],
+					"afterNotes": "Here are some idiomatic expressions with body parts.\n*Mariana não pára de falar! Ela fala pelos cotovelos.*\n_Mariana won't stop talking. She really talks a lot. (lit. talks through her elbows)_\n*Pedro está com dor-de-cotovelo porque não tem mais namorada.*\n_Pedro has been feeling blue because he's lost his girlfriend._\n*Ela é meu braço direito; sem ela não faço nada.*\n_She's my right arm; I can't do anything without her._\n*Ele não entende o filme porque o filme não tem pé nem cabeça.*\n_He can't understand the movie because it doesn't make sense._\n*Você pode contar os peus problemas; sou todo ouvidos!*\n_You can tell me your problems; I'm all ears!_"
+				},
+				"2": {
+					"sentences" : [
+						{
+							"portuguese": "Qual é o problema?",
+							"english": "What's the matter?"
+						},
+						{
+							"portuguese": "O que você tem?",
+							"english": "What's the matter with you?"
+						},
+						{
+							"portuguese": "Como você se sente?",
+							"english": "How do you feel?"
+						},
+						{
+							"portuguese": "Eu não me sinto bem.",
+							"english": "I don't feel very well."
+						},
+						{
+							"portuguese": "Estou mal.",
+							"english": "I feel terrible."
+						},
+						{
+							"portuguese": "Meu corpo está dolorido.",
+							"english": "My body aches."
+						},
+						{
+							"portuguese": "Perder peso é dificil.",
+							"english": "Losing weight is hard."
+						},
+						{
+							"portuguese": "Emagrecer não é fácil.",
+							"english": "Losing weight isn't easy."
+						},
+						{
+							"portuguese": "Nadar é bom para saúde.",
+							"english": "Swimming is good for your health."
+						},
+						{
+							"portuguese": "Dançar é divertido.",
+							"english": "Dancing is fun."
+						},
+						{
+							"portuguese": "Andar de ônibus é tedioso.",
+							"english": "Riding a bus is boring."
+						},
+						{
+							"portuguese": "Fumar é proibido.",
+							"english": "Smoking is prohibited."
+						},
+						{
+							"portuguese": "Beber e dirigir é perigoso.",
+							"english": "Drinking and driving is dangerous."
+						},
+						{
+							"portuguese": "Aprender português é importante.",
+							"english": "Learning Portuguese is important."
+						},
+						{
+							"portuguese": "Correr a maratona é cansativo.",
+							"english": "Running the marathon is tiring."
+						}
+					]
+				}
+			}
 		}
 	}
 }

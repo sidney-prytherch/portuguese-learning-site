@@ -1133,6 +1133,382 @@ var practiceJson = {
 					"instructions": "Complete each sentence with the correct form of the verb *ter*."
 				}
 			}
+		},
+		"13": {
+			"practice" : {
+				"1": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "cento e dois",
+							"answer": "102"
+						},
+						{
+							"number": "2",
+							"question": "vinte e quatro",
+							"answer": "24"
+						},
+						{
+							"number": "3",
+							"question": "dois milhões e trezentos mil",
+							"answer": "2.300.000"
+						},
+						{
+							"number": "4",
+							"question": "três dúzias",
+							"answer": "36"
+						},
+						{
+							"number": "5",
+							"question": "trezentos e trinta",
+							"answer": "330"
+						},
+						{
+							"number": "6",
+							"question": "uma dúdia",
+							"answer": "12"
+						},
+						{
+							"number": "7",
+							"question": "dois mil",
+							"answer": "2"
+						},
+						{
+							"number": "8",
+							"question": "três dezenas",
+							"answer": "30"
+						},
+						{
+							"number": "9",
+							"question": "trinta e cinco mil",
+							"answer": "35"
+						},
+						{
+							"number": "10",
+							"question": "um milhão e duzentos mil",
+							"answer": "1.200.000"
+						},
+						{
+							"number": "11",
+							"question": "duzentos e dez mil",
+							"answer": "210.000"
+						}
+					],
+					"type": "MQA",
+					"instructions": "Match column A and column B."
+				},
+				"2": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "Pedro, _ é minha amiga, Mariana. (Pedro, this here is my friend, Mariana.)",
+							"answer": "esta"
+						},
+						{
+							"number": "2",
+							"question": "Ele quer _ documentos? (Does he want those documents over there?)",
+							"answer": "aqueles"
+						},
+						{
+							"number": "3",
+							"question": "_ lojas estão abertas? (Are those stores over there open?)",
+							"answer": "Aquelas"
+						},
+						{
+							"number": "4",
+							"question": "_ sapatos são caros. (These shoes I'm wearing are expensive.)",
+							"answer": "Aqueles"
+						},
+						{
+							"number": "5",
+							"question": "_ flores na minha mão são perfumadas. (These flowers I'm holding are fragrant.)",
+							"answer": "Estas"
+						},
+						{
+							"number": "6",
+							"question": "Pedro, _ é seu amigo, Ricardo? (Pedro, is that your friend, Ricardo, with you?)",
+							"answer": "Esse"
+						},
+						{
+							"number": "7",
+							"question": "_ carteira é cara? (Is that wallet you have expensive?)",
+							"answer": "Aquela"
+						}
+					],
+					"type": "FIB",
+					"instructions": "Fill in the blanks with one of the demonstratives. Use the translation to guide you."
+				}
+			}
+		},
+		"14": {
+			"practice" : {
+				"1": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "Os atletas _ a maratona de Nova York. (The athletes run in the NY Marathon.)",
+							"answer": "correm"
+						},
+						{
+							"number": "2",
+							"question": "Os meninos _ leite de manhã. (The children drink milk in the morning.)",
+							"answer": "bebem"
+						},
+						{
+							"number": "3",
+							"question": "As plantas não _ sem água. (Plants don't live without water.)",
+							"answer": "vivem"
+						},
+						{
+							"number": "4",
+							"question": "O professor de matemática _ o problema no quadro. (The math teacher solves the problem on the board.)",
+							"answer": "resolve"
+						},
+						{
+							"number": "5",
+							"question": "Você _ que eu perdi cinco quilos? (Do you notice that I lost five kilos?)",
+							"answer": "percebe"
+						},
+						{
+							"number": "6",
+							"question": "O cachorro _ o osso no jardim. (The dog hides the bone in the garden.)",
+							"answer": "esconde"
+						},
+						{
+							"number": "7",
+							"question": "Eu _ português para viajar para o Brasil. (I'm learning Portuguese to travel to Brazil.)",
+							"answer": "aprendo"
+						},
+						{
+							"number": "8",
+							"question": "Eu não _ cerveja porque não gosto de bebidas alcoólicas. (I don't drink beer because I don't like alcoholic beverages.)",
+							"answer": "bebo"
+						},
+						{
+							"number": "9",
+							"question": "Nós _ uma língua estrangeira. (We're learning a foreign language.)",
+							"answer": "aprendemos"
+						},
+						{
+							"number": "10",
+							"question": "Mariana _ a lista dos convidados. (Mariana is writing the guest list.)",
+							"answer": "escreve"
+						},
+						{
+							"number": "11",
+							"question": "O que os seus filhos _ de manhã? (What do your children eat in the morning?)",
+							"answer": "comem"
+						},
+						{
+							"number": "12",
+							"question": "Os adultos _ as emoções. (Adults hide their emotions.)",
+							"answer": "escondem"
+						}
+					],
+					"type": "FIB",
+					"instructions": "Fill in the blanks with the correct form of the verb indicated in the translation."
+				},
+				"2": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "Quantas vezes por ano você _ o médico?",
+							"answer": "vê"
+						},
+						{
+							"number": "2",
+							"question": "Eles _ o dentista duas vezes por ano.",
+							"answer": "vêem"
+						},
+						{
+							"number": "3",
+							"question": "Nós não _ o diretor de manhã.",
+							"answer": "vemos"
+						},
+						{
+							"number": "4",
+							"question": "Suzana _ a sua amiga na festa.",
+							"answer": "vê"
+						},
+						{
+							"number": "5",
+							"question": "As crianças choram quando não _ os pais.",
+							"answer": "vêem"
+						},
+						{
+							"number": "6",
+							"question": "Pedro e Mariana, vocês _ aquele cachorro?",
+							"answer": "vêem"
+						},
+						{
+							"number": "7",
+							"question": "Os turistas sempre _ as praias bonitas.",
+							"answer": "vêem"
+						},
+						{
+							"number": "8",
+							"question": "O médico _ a bula do remédio.",
+							"answer": "lê"
+						},
+						{
+							"number": "9",
+							"question": "Quantos livros você _ por ano?",
+							"answer": "lê"
+						},
+						{
+							"number": "10",
+							"question": "Mariana não _ as instruções da máquina fotográfica dela.",
+							"answer": "lê"
+						},
+						{
+							"number": "11",
+							"question": "Nós ainda não _ o contrato.",
+							"answer": "lemos"
+						},
+						{
+							"number": "12",
+							"question": "Eu _ dois jornais por dia.",
+							"answer": "leio"
+						},
+						{
+							"number": "13",
+							"question": "Felipe e Pedro não _ revistas, mas _ jornais.",
+							"answer": "lêem~lêem"
+						},
+						{
+							"number": "14",
+							"question": "O professor _ as provas dos alunos.",
+							"answer": "lê"
+						},
+						{
+							"number": "15",
+							"question": "Você _ as receitas do médico?",
+							"answer": "lê"
+						}
+					],
+					"type": "FIB"
+				}
+			}
+		},
+		"15": {
+			"practice" : {
+				"1": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "Sua testa está quente. Você está _. (Your forehead is hot. You have a fever.)",
+							"answer": "com fevre"
+						},
+						{
+							"number": "2",
+							"question": "Onde está o telefone do dentista? Estou _. (Where's the dentist's phone number? I have a toothache.)",
+							"answer": "com dor de dente"
+						},
+						{
+							"number": "3",
+							"question": "Táxi! Rápido! Estou _! (Taxi! Quick! I'm in a hurry!)",
+							"answer": "com pressa"
+						},
+						{
+							"number": "4",
+							"question": "O que você está _ de fazer? (What do you feel like doing?)",
+							"answer": "com vontade"
+						},
+						{
+							"number": "5",
+							"question": "Ele toma xarope porque está _. (He's taking cough medicine because he has a cough.)",
+							"answer": "com tosse"
+						},
+						{
+							"number": "6",
+							"question": "Nós tomamos aspirina porque estamos _. (We're taking aspirin because we have a headache.)",
+							"answer": "com dor de cabeça"
+						},
+						{
+							"number": "7",
+							"question": "Ela chama a polícia porque está _. (She's calling the police because she's afraid.)",
+							"answer": "com medo"
+						},
+						{
+							"number": "8",
+							"question": "Quando eu acordo, eu _ sede. (I feel thirsty when I wake up.)",
+							"answer": "tenho"
+						},
+						{
+							"number": "9",
+							"question": "Ela compra uma garrafa de água porque _ sede. (She's buying a bottle of water because she's thirsty.)",
+							"answer": "está com"
+						},
+						{
+							"number": "10",
+							"question": "Quando as crianças estão sozinhas, elas _ medo. (When children are alone they are scared.)",
+							"answer": "têm"
+						},
+						{
+							"number": "11",
+							"question": "Olhe! Um cachorro! _ medo. (Look! A dog! I'm scared.)",
+							"answer": "Estou com"
+						},
+						{
+							"number": "12",
+							"question": "Não gosto de cantar em público porque _ vergonha. (I don't like to sing in public because I feel embarassed.)",
+							"answer": "tenho"
+						},
+						{
+							"number": "13",
+							"question": "O menino _ vergonha porque não conhece os outros alunos. (They boy is embarrassed because he doesn't know the other students.)",
+							"answer": "está com"
+						}
+					],
+					"type": "FIB"
+				},
+				"2": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "Por que ele não trabalha na polícia? Porque _. (perigoso)",
+							"answer": "trabalhar na polícia é perigoso"
+						},
+						{
+							"number": "2",
+							"question": "Por que ela faz ginástica? Porque _. (saudável)",
+							"answer": "fazer ginástica é saudável"
+						},
+						{
+							"number": "3",
+							"question": "Por que nós dançamos? Porque _. (divertido)",
+							"answer": "dançar é divertido"
+						},
+						{
+							"number": "4",
+							"question": "Por que ele visita o médico uma vez por ano? Porque _. (importante)",
+							"answer": "visitar o médico é importante"
+						},
+						{
+							"number": "5",
+							"question": "Por que ela não perde peso? Porque _. (difícil)",
+							"answer": "perder peso é difícil"
+						},
+						{
+							"number": "6",
+							"question": "Por que eles não fumam no restaurante? Porque _. (proibido)",
+							"answer": "fumar é proibido"
+						},
+						{
+							"number": "7",
+							"question": "Por que eles não trabalham até à meia noite? Porque _. (cansativo)",
+							"answer": "trabalhar até à meia noite é cansativo"
+						},
+						{
+							"number": "8",
+							"question": "Por que Pedro não estuda inglês na Inglaterra? Porque _. (caro)",
+							"answer": "estudar na Inglaterra é caro."
+						}
+					],
+					"type": "FIB",
+					"instructions": "Answer the following questions using the adjectives in parentheses as a clue."
+				}
+			}
 		}
 	}
 }

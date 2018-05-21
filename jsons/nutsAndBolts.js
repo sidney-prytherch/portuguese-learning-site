@@ -1670,6 +1670,536 @@ var nutsAndBoltsJson = {
 					}
 				}
 			}
+		},
+		"13": {
+			"nutsAndBolts" : {
+				"1": {
+					"tips" : {
+						"1": {
+							"tip category": "Numbers 100 and Above",
+							"tip": "In Unit 2, Lesson 8, you learned that the number 100 is *cem*, 101 is *cento e um* (masculine) or *cento e uma* (feminine), 102 is *cento e dois/duas*, 103 is *cento e três*, and so on. The same happens to the other numbers in the 100s",
+							"table" : [
+								{
+									"col1": "*",
+									"col2": "_",
+									"col3": "*",
+									"col4": "_"
+								},
+								{
+									"col1": "duzento/as",
+									"col2": "200",
+									"col3": "quatrocentos/as",
+									"col4": "400"
+								},
+								{
+									"col1": "duzentos e doze",
+									"col2": "212",
+									"col3": "quinhentos/as",
+									"col4": "500"
+								},
+								{
+									"col1": "dezentos e cinqüenta",
+									"col2": "250",
+									"col3": "seiscentos/as",
+									"col4": "600"
+								},
+								{
+									"col1": "duzentas e oitenta",
+									"col2": "280",
+									"col3": "setecentos/as",
+									"col4": "700"
+								},
+								{
+									"col1": "trezentos/as",
+									"col2": "300",
+									"col3": "oitocentos/as",
+									"col4": "800"
+								},
+								{
+									"col1": "trezentas e uma",
+									"col2": "301",
+									"col3": "novecentos/as",
+									"col4": "900"
+								}
+							],
+							"list" : [
+								{
+									"portuguese": "Este livro tem mais de quatrocentas páginas.",
+									"english": "This book has more than 400 pages."
+								},
+								{
+									"portuguese": "Há mais de cento e noventa nações no mundo.",
+									"english": "There are more than 190 nations in the world."
+								}
+							]
+						},
+						"2": {
+							"tip": "There's only one form for *mil* (_one thousand_), but there's a singular and plural for both *milhão* (_million_) and *bilhão* (_billion_).",
+							"table" : [
+								{
+									"col1": "*",
+									"col2": "_",
+									"col3": "*",
+									"col4": "_"
+								},
+								{
+									"col1": "mil",
+									"col2": "1,000",
+									"col3": "um milhão",
+									"col4": "1,000,000"
+								},
+								{
+									"col1": "dois/duas mil",
+									"col2": "2,000",
+									"col3": "um milhão e duzentos/as mil",
+									"col4": "1,200,000"
+								},
+								{
+									"col1": "dez mil e duzentos/as",
+									"col2": "10,200",
+									"col3": "dois milhões",
+									"col4": "2,000,000"
+								},
+								{
+									"col1": "cem mil e um (uma)",
+									"col2": "100,001",
+									"col3": "quatro milhões",
+									"col4": "4,000,000"
+								},
+								{
+									"col1": "duzentos mil e um (uma)",
+									"col2": "200,001",
+									"col3": "um bilhão",
+									"col4": "1,000,000,000"
+								},
+								{
+									"col1": "trezentos mil, cento e dois",
+									"col2": "300,102",
+									"col3": "dois bilhões",
+									"col4": "2,000,000,000"
+								}
+							]
+						},
+						"3": {
+							"tip": "Notice that *e* (_and_) is used to separate the hundres, ten and units.",
+							"list" : [
+								{
+									"portuguese": "um milhão, cento e vinte e nove mil, trezentos e quarenta e seis",
+									"english": "1,129,346"
+								},
+								{
+									"portuguese": "quatro bilhões, duzentos milhões, oitocentos e quarenta e oito",
+									"english": "4,200,000,848"
+								}
+							]
+						},
+						"4": {
+							"tip": "If you follow *milhão*, *bilhão*, or *trilhão* (_trillion_) directly by a noun, introduce that noun with *de* (_of_).",
+							"table" : [
+								{
+									"col1": "*",
+									"col2": "_",
+									"col3": "*",
+									"col4": "_"
+								},
+								{
+									"col1": "um milhão de pessoas",
+									"col2": "a million people",
+									"col3": "um milhão e seiscentas mil pessoas",
+									"col4": "one million, six hundred thousand people"
+								},
+								{
+									"col1": "um bilhão de estrelas",
+									"col2": "a billion stars",
+									"col3": "um bilhão e trezentos mil dólares",
+									"col4": "$1,000,300,000.00"
+								}
+							]
+						},
+						"5": {
+							"tip": "Also note that in written Portuguese, periods are used to separate the hundreds, thousands, millions, and so on, and commas are used before decimal places. So, $1.300.000,00 is the Portuguese equivalent of $1,300,000.00. Some other useful vocabulary related to numbers is: *uma dezena* (_ten_), *uma dúdia* (_one dozen_), *uma centena* (_one hundred_) and *os/as milhares* (_one thousand_)."
+						}
+					}
+				},
+				"2": {
+					"tips" : {
+						"1": {
+							"tip category": "Demonstratives",
+							"tip": "Demonstratives are words that point to something, like _this_, _that_, _these_, and _those_ in English. Portuguese demostratives agree in gender and number with the nouns they refer to. Just like in English, their forms vary according to distance, but there are actually three distinctions made in Portuguese.",
+							"table" : [
+								{
+									"col1": "*masculine",
+									"col2": "*feminine",
+									"col3": "_"
+								},
+								{
+									"col1": "este",
+									"col2": "esta",
+									"col3": "this"
+								},
+								{
+									"col1": "esse",
+									"col2": "essa",
+									"col3": "that"
+								},
+								{
+									"col1": "aquele",
+									"col2": "aquela",
+									"col3": "that (over there)"
+								},
+								{
+									"col1": "estes",
+									"col2": "estas",
+									"col3": "these"
+								},
+								{
+									"col1": "esses",
+									"col2": "essas",
+									"col3": "those"
+								},
+								{
+									"col1": "aqueles",
+									"col2": "aquelas",
+									"col3": "those (over there)"
+								}
+							]
+						},
+						"2": {
+							"tip": "The forms *este*, *esta*, *estes*, and *estas* refer to something that is near both the speaker and the person spoken to. They're the equivalents of _this_ or _these_.",
+							"list" : [
+								{
+									"portuguese": "Este remédio é para resfriado?",
+									"english": "Is this a cold medicine?"
+								},
+								{
+									"portuguese": "Estas meias são de fibra natural?",
+									"english": "Are these socks made of natural fibers?"
+								}
+							]
+						},
+						"3": {
+							"tip": "The forms *esse*, *essa*, *esses*, and *essas* refer to something near or related to the person being spoken to, but not near the speaker. The most natural translation for this situation is _that_ or _those_.",
+							"list" : [
+								{
+									"portuguese": "Essa receita médica é a minha?",
+									"english": "Is that prescription (you're holding) mine?"
+								},
+								{
+									"portuguese": "Esses jornais são locais?",
+									"english": "Are those newspapers local?"
+								}
+							]
+						},
+						"4": {
+							"tip": "Finally, *aquele*, *aquela*, *aqueles*, and *aquelas* refer to something that is remote or unrelated to both the speaker and the person spoken to.",
+							"list" : [
+								{
+									"portuguese": "Quem é aquela mulher?",
+									"english": "Who is that woman (across the street)?"
+								},
+								{
+									"portuguese": "Aqueles jogadores de futebol são ótimos.",
+									"english": "Those soccer players (out on the field) are great."
+								}
+							]
+						},
+						"5": {
+							"tip": "All of these demonstratives can be used as adjectives, in other words right before a noun as in all of the examples above, or on their own as pronouns.",
+							"list" : [
+								{
+									"portuguese": "Estes aqui são meus e aqueles com você são seus.",
+									"english": "These here are mine, and those with you are yours."
+								},
+								{
+									"portuguese": "Este homem é jovem, mas aquele lá é velho.",
+									"english": "This man is young, but that one over there is old."
+								}
+							]
+						},
+						"6": {
+							"tip": "Of course, sometimes you may not know what exactly you're referring to, so you won't know if it's masculine or feminine. In this case, there are special neurer, invariable forms of the demonstratives: *isto* (_this thing here_), *isso* (_that thing you have_), and *aquilo* (_that thing over there_).",
+							"list" : [
+								{
+									"portuguese": "O que é isto aqui?",
+									"english": "What is this (thing) here?"
+								},
+								{
+									"portuguese": "O que é isso?",
+									"english": "What is that (thing) right there?"
+								},
+								{
+									"portuguese": "O que é aquilo?",
+									"english": "What is that (thing) over there?"
+								}
+							]
+						},
+						"7": {
+							"tip": "Now that you've learned the different forms, it's worth pointing out that in informal, spoken Brazilian Portuguese not much attention is paid to the differences between *esse* and *este*, *essa* and *esta*, or *isso* and *isto*. So either *este* or *esse* is used to refer to something near and *aquele* to something far. Another important point to make is that demonstratives form contractions with *de*. But they're simple - they just consist of the regular forms of the demostratives, with *d-* added at the beginning: *deste*, *desta*, *desse*, *dessa*, *daquele*, *daqueles*, *disto*, *disso*, and so on.",
+							"list" : [
+								{
+									"portuguese": "Onde é a piscina desse hotel?",
+									"english": "Where is this hotel's swimming pool?"
+								},
+								{
+									"portuguese": "Quem é o diretor daquela empresa?",
+									"english": "Who's the director of that company?"
+								},
+								{
+									"portuguese": "Eu gosto disso, mas não gosto daquilo.",
+									"english": "I like this, but I don't like that."
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		"14": {
+			"nutsAndBolts" : {
+				"1": {
+					"tips" : {
+						"1": {
+							"tip category": "Regular -er Verbs",
+							"tip": "You've already learned that regular *-ar* verbs are conjugated with the endings *-o*, *-a*, *-amos*, and *-am*. The second group of regular verbs in Portuguese are the *-er* verbs, and the *-er* endings are very similar to *-ar* endings, except *e* replaces *a*. Let's look at an example verb, entender (_to understand_).",
+							"table" : [
+								{
+									"col1": "*",
+									"col2": "*"
+								},
+								{
+									"col1": "eu entendo",
+									"col2": "nós entendemos"
+								},
+								{
+									"col1": "você entende",
+									"col2": "vocês entendem"
+								},
+								{
+									"col1": "ele/ela entende",
+									"col2": "eles/elas entendem"
+								}
+							]
+						},
+						"2": {
+							"tip": "Some other important verbs ending in *-er* are the following.",
+							"table" : [
+								{
+									"col1": "*",
+									"col2": "_",
+									"col3": "*",
+									"col4": "_"
+								},
+								{
+									"col1": "escrever",
+									"col2": "to write",
+									"col3": "resovler",
+									"col4": "to solve"
+								},
+								{
+									"col1": "beber",
+									"col2": "to drink",
+									"col3": "morrer",
+									"col4": "to die"
+								},
+								{
+									"col1": "comer",
+									"col2": "to eat",
+									"col3": "viver",
+									"col4": "to live"
+								},
+								{
+									"col1": "correr",
+									"col2": "to run",
+									"col3": "devolver",
+									"col4": "to give back"
+								},
+								{
+									"col1": "perceber",
+									"col2": "to notice",
+									"col3": "aprender",
+									"col4": "to learn"
+								},
+								{
+									"col1": "esconder",
+									"col2": "to hide",
+									"col3": "receber",
+									"col4": "to receive"
+								}
+							],
+							"list" : [
+								{
+									"portuguese": "Eu não entendo a pergunta.",
+									"english": "I don't understand the question."
+								},
+								{
+									"portuguese": "Nós aprendemos português.",
+									"english": "We learn Portuguese."
+								},
+								{
+									"portuguese": "Você come demais!",
+									"english": "You eat too much!"
+								},
+								{
+									"portuguese": "Quantas pessoas vivem aqui?",
+									"english": "How many people live here?"
+								}
+							]
+						}
+					}
+				},
+				"2": {
+					"tips" : {
+						"1": {
+							"tip category": "The Verbs ver (_to see_) and ler (_to read_)",
+							"tip": "Here are the conjugations of two more common irregular verbs. First is *ver* (_to see_).",
+							"table" : [
+								{
+									"col1": "*",
+									"col2": "*"
+								},
+								{
+									"col1": "eu vejo",
+									"col2": "nós vemos"
+								},
+								{
+									"col1": "você vê",
+									"col2": "vocês vêem"
+								},
+								{
+									"col1": "ele/ela vê",
+									"col2": "eles/elas vêem"
+								}
+							]
+						},
+						"2": {
+							"tip": "And here is *ler* (_to read_)",
+							"table" : [
+								{
+									"col1": "*",
+									"col2": "*"
+								},
+								{
+									"col1": "eu leio",
+									"col2": "nós lemos"
+								},
+								{
+									"col1": "você lê",
+									"col2": "vocês lêem"
+								},
+								{
+									"col1": "ele/ela lê",
+									"col2": "eles/elas lêem"
+								}
+							]
+						},
+						"3": {
+							"tip": "Note that the second and third person plural forms double the *e*, and that there is a circumflex on the first *e*.",
+							"list" : [
+								{
+									"portuguese": "Você vê aquele homem?",
+									"english": "Did you see that man?"
+								},
+								{
+									"portuguese": "Eu vejo muitos filmes bons.",
+									"english": "I see a lot of good movies."
+								},
+								{
+									"portuguese": "Nós não lemos muita a aula.",
+									"english": "We don't read much in class."
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		"15": {
+			"nutsAndBolts" : {
+				"1": {
+					"tips" : {
+						"1": {
+							"tip category": "Expressions with Estar Com",
+							"tip": "*Estar com* (_to be with_) is used to express a momentary or fleeting feeling:",
+							"list" : [
+								{
+									"portuguese": "Estou com dor de cabeça.",
+									"english": "I have a headache."
+								},
+								{
+									"portuguese": "As crianças estão com fome.",
+									"english": "The children are hungry."
+								}
+							]
+						},
+						"2": {
+							"tip": "In Unit 3 you learned some expressions with the verb *ter*, for example *eu tenho fome* (_I'm hungry_). *Estar com* is used to talk about something a person is feeling at a particular moment, while *ter* is used to talk about more general feelings.",
+							"list" : [
+								{
+									"portuguese": "Eu estou com sede, preciso tomar água.",
+									"english": "I'm thirsty, I need to drink water."
+								},
+								{
+									"portuguese": "Eu tenho sede quando faço ginástica.",
+									"english": "I get thirsty when I work out."
+								}
+							]
+						},
+						"3": {
+							"tip": "Another useful expression with *estar* is *estar com vontade de* + infinitive, which means _to feel like doing something_. A related expression is *estar sem vontade de*.",
+							"list" : [
+								{
+									"portuguese": "Eu estou com vontade de comer pizza.",
+									"english": "I feel like eating pizza."
+								},
+								{
+									"portuguese": "Nós não estamos com vontade de viajar de ônibus.",
+									"english": "We don't feel like traveling by bus."
+								},
+								{
+									"portuguese": "Estou sem vontade de acordar cedo.",
+									"english": "I don't feel like waking up early."
+								},
+								{
+									"portuguese": "Ela está sem vontade de ler este livro.",
+									"english": "She doesn't feel like reading this book."
+								}
+							]
+						},
+						"4": {
+							"tip": "Some other expressinos with *estarr com* are: *estar com febre* (_to have a fever_), *estar com pressa* (_to be in a hurry_), *estar com tosse* (_to have a cough_), *estar com dor de dente* (_to have a toothache_), *estar com medo* (_to be afraid_), *estar com sede* (_to be thirsty_), and *estar com dor de cabeça* (_to have a headache_)."
+						}
+					}
+				},
+				"2": {
+					"tips" : {
+						"1": {
+							"tip category": "The Infinitive as a Noun",
+							"tip": "In English, when you begin a sentence with a verb used as a noun, you generally use the _-ing_ form, also known as the gerund. For example, _to swim_ is a verb, but as a noun you'd say _swimming is fun_. In Portuguese, you use the infinitive.",
+							"list" : [
+								{
+									"portuguese": "Nadar é divertido.",
+									"english": "Swimming is fun."
+								},
+								{
+									"portuguese": "Aprender português é importante.",
+									"english": "Learning Portuguese is important."
+								},
+								{
+									"portuguese": "Cozinhar não é tedioso.",
+									"english": "Cooking is not boring."
+								},
+								{
+									"portuguese": "Manter a forma é dificil?",
+									"english": "Is staying in shape difficult?"
+								}
+							]
+						},
+						"2": {
+							"tip": "Can you guess the gender of infinitives used as nouns by looking at the adjectives above? That's right, they're masculine, so the adjectives take the masculine singular forms."
+						}
+					}
+				}
+			}
 		}
 	}
 }

@@ -382,6 +382,170 @@ var wordsJson = {
 					]
 				}
 			}
+		},
+		"13": {
+			"sections" : {
+				"1": {
+					"words" : [
+						{
+							"portuguese": "a saúde",
+							"english": "health"
+						},
+						{
+							"portuguese": "a cabeça",
+							"english": "head"
+						},
+						{
+							"portuguese": "a boca",
+							"english": "mouth"
+						},
+						{
+							"portuguese": "o olho",
+							"english": "eye"
+						},
+						{
+							"portuguese": "a orelha",
+							"english": "ear"
+						},
+						{
+							"portuguese": "o nariz",
+							"english": "nose"
+						},
+						{
+							"portuguese": "a garganta",
+							"english": "throat"
+						},
+						{
+							"portuguese": "o pescoço",
+							"english": "neck"
+						},
+						{
+							"portuguese": "a perna",
+							"english": "leg"
+						},
+						{
+							"portuguese": "o rosto",
+							"english": "face"
+						},
+						{
+							"portuguese": "o braço",
+							"english": "arm"
+						},
+						{
+							"portuguese": "o pé",
+							"english": "foot"
+						},
+						{
+							"portuguese": "a mão",
+							"english": "hand"
+						},
+						{
+							"portuguese": "o estômago",
+							"english": "stomach"
+						},
+						{
+							"portuguese": "o dente",
+							"english": "tooth"
+						},
+						{
+							"portuguese": "o dedo",
+							"english": "finger/toe"
+						},
+						{
+							"portuguese": "o coração",
+							"english": "heart"
+						},
+						{
+							"portuguese": "o pulmão",
+							"english": "lung"
+						},
+						{
+							"portuguese": "a sangue",
+							"english": "blood"
+						},
+						{
+							"portuguese": "o osso",
+							"english": "bone"
+						}
+					]
+				},
+				"2": {
+					"words" : [
+						{
+							"portuguese": "o remédio",
+							"english": "medicine"
+						},
+						{
+							"portuguese": "a vitamina",
+							"english": "vitamin"
+						},
+						{
+							"portuguese": "a consulta médica",
+							"english": "doctor's appointment"
+						},
+						{
+							"portuguese": "a receita médica",
+							"english": "medical prescription"
+						},
+						{
+							"portuguese": "o pronto socorro",
+							"english": "emergency room"
+						},
+						{
+							"portuguese": "em forma",
+							"english": "fit, in shape"
+						},
+						{
+							"portuguese": "a disposição",
+							"english": "state of mind, condition, disposition"
+						},
+						{
+							"portuguese": "cansado(a)",
+							"english": "tired"
+						},
+						{
+							"portuguese": "a injeção",
+							"english": "injection"
+						},
+						{
+							"portuguese": "a dor",
+							"english": "ache, pain"
+						},
+						{
+							"portuguese": "doente",
+							"english": "sick, ill"
+						},
+						{
+							"portuguese": "a infecção",
+							"english": "infection"
+						},
+						{
+							"portuguese": "a gripe",
+							"english": "flu"
+						},
+						{
+							"portuguese": "o resfriado",
+							"english": "a cold"
+						},
+						{
+							"portuguese": "a aspirina",
+							"english": "aspirin"
+						},
+						{
+							"portuguese": "o curativo Band-Aid",
+							"english": "adhesive bandage Band-Aid"
+						},
+						{
+							"portuguese": "o xarope",
+							"english": "cough syrup"
+						},
+						{
+							"portuguese": "o colírio",
+							"english": "eye drops"
+						}
+					]
+				}
+			}
 		}
 	}
 }
