@@ -360,7 +360,7 @@ function UrlExists(url) {
             resolve(http.status != '404');
         };
         http.onerror = () => {
-            resolve(false);
+            resolve(true);
         };
         http.send();
     });
