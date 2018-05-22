@@ -276,7 +276,7 @@ function loadVocabulary(lessonNumber, pageNumber) {
     let mainString = '<article>' + getHeader(lessonNumber, description + ' ' + pageNumber);
 
     if (vocab['beforeNotes']) {
-        mainString += '<p>' + format(vocab['beforeNotes']) + '</p>';
+        mainString += '<p>' + format(formatForTables(vocab['beforeNotes'])) + '</p>';
     }
 
     mainString += '<table class="table"><thead><tr><th>Portuguese</th><th>English</th></thead></tr><tbody>';
@@ -303,7 +303,7 @@ function loadVocabulary(lessonNumber, pageNumber) {
     mainString += '</tbody></table>';
 
     if (vocab['afterNotes']) {
-        mainString += '<p>' + format(vocab['afterNotes']) + '</p>';
+        mainString += '</br><p><b>Notes</b></p><p>' + format(formatForTables(vocab['afterNotes'])) + '</p></br>';
     }
 
     mainString += '</article>';
@@ -332,10 +332,41 @@ function format(string) {
         string = string.replace('*', '<b>').replace('*', '</b>');
     }
     while(string.indexOf('\n') >= 0) {
-        string = string.replace('\n', '</br>');
+        string = string.replace('\n', '</br></br>');
+    }
+    while(string.indexOf('\\n') >= 0) {
+        string = string.replace('\\n', '</br></br>');
     }
     while(string.indexOf('</br><b>') >= 0) {
         string = string.replace('</br><b>', '</br></br> <b>'); //o espaço é importante
+    }
+    return string;
+}
+
+function formatForTables(string) {
+    console.warn(string);
+    let tables = string.match(/\[([^\]])+\]/g);
+    console.warn(tables);
+    for (let i in tables) {
+        let table = tables[i];
+        string = string.replace('[', '</p><table class="table bordered"><tbody>');
+        console.warn(table);
+        let rows = table.match(/\{([^\}])+\}/g);
+        console.warn(rows);
+        for (let j in rows) {
+            let row = rows[j];
+            string = string.replace('{', '<tr><td>');
+            let bars = row.match(/\|/g);
+            console.warn(bars);
+            for (let k in bars) {
+                string = string.replace('|', '</td><td>');
+            }
+            string = string.replace('}', '</td></tr>');
+        }
+        string = string.replace(']', '</tbody></table><p>');
+    }
+    while (string.indexOf('<td></td>') >= 0) {
+        string = string.replace('<td></td>', '');
     }
     return string;
 }

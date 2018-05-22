@@ -104,6 +104,14 @@ var randomNotesJson = {
 				}
 			]
 		},
+		"16": {
+			"text" : [
+				{
+					"type": "Culture Note",
+					"text": "Brazil is essentially a Catholic country, but other forms of religious expression are found there as well, with unique and interesting healing practices. For example, Macumba, Candomblé and Umbanda are based on African religious traditions and were originally brought to Brazil int he 1550s through the slave trade. The term Macuma is now slang for magic and superstition, and it generally has a pejorative meaning. Candomblé has its greatest followers in Bahia, and Umbanda in Rio, although variations of both are present in all parts of Brazil. About two million Brazilians identify themselves as followers of Candomblé or Umbanda. One of the main characteristics of these religions is the importance of mediums. After performing or taking part in rituals involving dancing and singing, mediums \"receive\", or are possessed by, spiritual guides. The spiritual guides come to earth to counsel, help, and heal the devotees present at places of worship or temples.\nA related belief system is Spiritism, which also has a large following in brazil. Spiritism was established in France, in the nineteenth century, by the French educator Allan Kardec (Hippolyte Léon Denizard Rivail). One of its rituals is the séance, which is also used by Brazilians as a form of counceling and healing , and as a cure for ailments. Spiritist mediums are famous for their healing, and as a cure for ailments. Spiritist mediums are famous for their healing abilities. Chico Xavier (1910-2002) was one of the most renowned Brazilian mediums, as well as a prolific Writer.\nYou can read more about Macummba, Canomblé, Umbanda, Spiritism, and Chico Xavier on the internet. If you decide to practice your Portuguese by renting _Orfeu Negro_ (Black Orpheus), you'll find an arresting portrayal of one of these rituals."
+				}
+			]
+		},
 		"19": {
 			"text" : [
 				{

@@ -1509,6 +1509,127 @@ var practiceJson = {
 					"instructions": "Answer the following questions using the adjectives in parentheses as a clue."
 				}
 			}
+		},
+		"16": {
+			"practice" : {
+				"1": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "Você _ devolver o presente? (poder)",
+							"answer": "pode~Can you give the present back?"
+						},
+						{
+							"number": "2",
+							"question": "As crianças não _ correr na rua. (dever)",
+							"answer": "devem~The children shouldn't run in the street."
+						},
+						{
+							"number": "3",
+							"question": "Eu não _ resolver o problema. (poder)",
+							"answer": "posso~I can't solve the problem."
+						},
+						{
+							"number": "4",
+							"question": "Ela não _ esconder o rosto. (poder)",
+							"answer": "pode~She can't hide her face."
+						},
+						{
+							"number": "5",
+							"question": "O gerente _ receber o relatório. (dever)",
+							"answer": "deve~The manager should get the report."
+						},
+						{
+							"number": "6",
+							"question": "A aluna _ responder. (dever)",
+							"answer": "deve~The student should answer."
+						},
+						{
+							"number": "7",
+							"question": "O que eles _ beber? (poder)",
+							"answer": "podem~What can they drink?"
+						},
+						{
+							"number": "8",
+							"question": "Quando eu _ chegar? (dever)",
+							"answer": "devo~When should I arrive?"
+						},
+						{
+							"number": "9",
+							"question": "Nós _ ver a praia. (poder)",
+							"answer": "podemos~We can see the beach."
+						},
+						{
+							"number": "10",
+							"question": "O que os alunos _ ler? (dever)",
+							"answer": "devem~What should the students read?"
+						}
+					],
+					"type": "FIBA",
+					"instructions": "Fill in the blanks with the correct form of the verb given in parentheses. Translate your answers. See if you can guess the meaning of unfamiliar words by contextm or look them up."
+				},
+				"2": {
+					"questions" : [
+						{
+							"number": "Ex",
+							"question": "O que vocês têm que fazer hoje? _ escrever um relatório.",
+							"answer": "Nós temos que~What do you have to do today? We have to write a report."
+						},
+						{
+							"number": "1",
+							"question": "Por que você precisa estudar italiano? _ italiano porque vou mudar para Itália.",
+							"answer": "Eu preciso estudar~Why do you need to study Italian? I need to study italian because I'm going to move to Italy."
+						},
+						{
+							"number": "2",
+							"question": "Que horas você quer correr no parque? _ no parque às 7:00 da manhã.",
+							"answer": "Eu quero correr~What time do you want to run in the park? I want to run in the park at 7:00 A.M."
+						},
+						{
+							"number": "3",
+							"question": "O que ela precisa comprar? _ os jornais.",
+							"answer": "Ela precisa comprar~What does she need to buy? She needs to buy the newspapers."
+						},
+						{
+							"number": "4",
+							"question": "Qual remédio o menino tem que tomar? _ xarope.",
+							"answer": "Ele tem que tomar~Which medicine does the boy have to take? He has to take cough medicine."
+						},
+						{
+							"number": "5",
+							"question": "Quanto dinheiro nós precisamos depositar? _ $300.00.",
+							"answer": "Vocês precisam depositar~How much money do we need to deposit? You need to deposit $300.00."
+						},
+						{
+							"number": "6",
+							"question": "O que os clientes querem comprar? _ os nossos produtos.",
+							"answer": "Eles querem comprar~What do the clients want to buy? They want to buy our products."
+						},
+						{
+							"number": "7",
+							"question": "O que as professoras têm que fazer? _ escrever os exercícios.",
+							"answer": "Elas têm que~What do the teachers have to do? They have to write the exercises."
+						},
+						{
+							"number": "8",
+							"question": "Onde vocês querem morar? _ no Brasil.",
+							"answer": "Nós queremos morar~Where do you want to live? We want to live in Brazil."
+						},
+						{
+							"number": "9",
+							"question": "O que você quer beber? _ vinho.",
+							"answer": "Eu quero beber~What do you want to drink? I want to drink wine."
+						},
+						{
+							"number": "10",
+							"question": "Por que eles têm que tomar injeção? _ injeção porque estão muito doentes.",
+							"answer": "Eles têm que tomar~Why do they have to have injections? They have to have injections because they are very sick."
+						}
+					],
+					"type": "FIBA",
+					"instructions": "Complete with *ter que*, *precisar*, or *querer*. Follow the example, and try to translate the questions and answers, using context or by looking up unfamiliar words."
+				}
+			}
 		}
 	}
 }

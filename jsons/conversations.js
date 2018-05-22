@@ -334,6 +334,88 @@ var conversationsJson = {
 					"beforeNotes": "Listen in as two friends catch up."
 				}
 			}
+		},
+		"16": {
+			"sections" : {
+				"1": {
+					"conversations" : [
+						{
+							"portuguese": "Vera: Oi, como está? Tudo legal?",
+							"english": "Vera: Hi, how's everything?"
+						},
+						{
+							"portuguese": "Marina: Não, não estou bem. Estou cansada e sem disposição para nada. Ultimamente, acorda sem energia. Hoje, não estou com vontade de fazer ginástica.",
+							"english": "Marina: I don't feel well. I'm tired and I don't feel like (doing) anything. Lately, I wake up with no energy. Today, I don't feel like working out."
+						},
+						{
+							"portuguese": "Vera: Você deve tomar as vitaminas Energex-trabalhar e ficar em forma é mais fácil com Energex.",
+							"english": "Vera: You should take Energex vitamins-working and staying fit is easier with Energex."
+						},
+						{
+							"portuguese": "Marina: Onde eu posso comprar essas vitaminas?",
+							"english": "Marina: Where can I buy these vitamins?"
+						},
+						{
+							"portuguese": "Vera: Você pode comprar Energex aqui na academia ou na farmácia. Mas lebmbre-se você também deve fazer ginástica, comer frutas e verduras, e beber bastante água. Em pouco tempo, você vai ver a diferença!",
+							"english": "Vera: You can buy Energex here at the gym, or at the pharmacy. But remember, you should also work out, eat fruits and vegetables, and drink plenty of liquids. In no time, you'll see the difference!"
+						},
+						{
+							"portuguese": "Marina: E, quantas vitaminas devo tomar por dia?",
+							"english": "Marina: How many vitamins should I take a day?"
+						},
+						{
+							"portuguese": "Vera: Você pode tomar duas ou trés.",
+							"english": "Vera: You can take two or three."
+						},
+						{
+							"portuguese": "Marina: Vera, Energex tem alguma contra-indicação?",
+							"english": "Marina: Does Energex have any (drug interaction) warnings?"
+						},
+						{
+							"portuguese": "Vera: Não, não tem, é 100% (cem por cento) natural.",
+							"english": "Vera: No, it doesn't. It's 100% natural."
+						},
+						{
+							"portuguese": "Marina: Obrigada, vou experimentar.",
+							"english": "Marina: Thanks, I'll try it."
+						}
+					],
+					"beforeNotes": "Marisa is talking to Vera, her personal trainer, at the gym.",
+					"afterNotes": "The verb *perder* (_to lose_) is irregular and is conjugated as follows.[{*eu perco*|*nós perdemos*}{*você perde*|*vocês perdem*}{*ele/ela perde*|*eles/elas perdem*}]You'll be studying the verb *ficar* (_to stay_, _remain_, _be located_, etc.) in a later lesson. For now, notice that *ficar em forma* means _to get fit_ or _to get in shape_. \nIn Brazil you have *farmácias* (_pharmacies_), and *drogarias* (_drug stores_). In big cities they offer almost the same range of goods and products as their American counterparts. But in small towns, pharmacies only provide the traditional assortment of medicine and health-related items."
+				},
+				"2": {
+					"conversations" : [
+						{
+							"portuguese": "Dr. Benjamin: Boa tarde, seu Felipe. Qual é o problema? O que o senhor tem?",
+							"english": "Dr. Benjamin: Good afternoon, Mr. Felipe. What's the matter? What's your problem?"
+						},
+						{
+							"portuguese": "Felipe: Não sei, estou com dor de garganta, com dor de cabeça, e com tosse. Acho que estou com gripe.",
+							"english": "Felipe: I don't know. I have a sore throat, a headache, and a cough. I think I have the flu."
+						},
+						{
+							"portuguese": "Dr. Benjamin: Eu tenho que verificar a sua temperatura, e também quero fazer um exame geral. Sente-se nesta cadeira, por favor.",
+							"english": "Dr. Benjamin: I have to take your temperature, and I also want to give you a general checkup. Sit here, please."
+						},
+						{
+							"portuguese": "Felipe: O senhor acha que posso viajar amanhã? Tenho que visitar um cliente em outro estado.",
+							"english": "Felipe: Do you think I can travel tomorrow? I have to visit a client in another state."
+						},
+						{
+							"portuguese": "Dr. Benjamin: Sinto muito, mas a sua temperatura está muito alta, e a sua garganta está bastante inflamada. Você deve ficar em casa por dois ou três dias e descansar. Você também precisa tomar esses  remédios de seis em seis horas. Você também deve tomar muito líquido. Se não melhorar em três dias, volte aqui para um outro exame.",
+							"english": "Dr. Benjamin: I'm sorry, but your temperature is too high, and your throat is pretty inflamed. You should stay at home for two or three days and rest. You also need to take this medicine every six hours. You should also drink a lot of liquids. If you're not better in three days, come back for another checkup."
+						},
+						{
+							"portuguese": "Felipe: Está bem. Vou obedecer às suas recomendações: ficar em casa, descansar, e tomar os remédios. Muito obrigado.",
+							"english": "Felipe: Okay. I'll do as you say (lit., obey your suggestions): stay at home, rest, and take the medicine. Thank you very much."
+						},
+						{
+							"portuguese": "Dr. Benjamin: Não se preocupe, e melhoras!",
+							"english": "Dr. Benjamin: Don't worry, and get better soon!"
+						}
+					]
+				}
+			}
 		}
 	}
 }

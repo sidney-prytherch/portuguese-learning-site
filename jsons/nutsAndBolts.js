@@ -2200,6 +2200,159 @@ var nutsAndBoltsJson = {
 					}
 				}
 			}
+		},
+		"16": {
+			"nutsAndBolts" : {
+				"1": {
+					"tips" : {
+						"1": {
+							"tip category": "Dever (_Should_) and Poder (_Can_)",
+							"tip": "The verbs *dever* (_should_) and *poder* (_can_) are used with another verb in the infinitive, just as in English:",
+							"list" : [
+								{
+									"portuguese": "Ele deve estudar mais.",
+									"english": "He should study more."
+								},
+								{
+									"portuguese": "Nós podemos comprar uma casa na praia.",
+									"english": "We can buy a beach house."
+								}
+							]
+						},
+						"2": {
+							"tip": "Here are the full conjugations of *dever* and *poder*, used with the infinitive *falar* as an example.",
+							"table" : [
+								{
+									"col1": "~",
+									"col2": "~"
+								},
+								{
+									"col1": "*eu devo falar* (I should speak)",
+									"col2": "*nós devemos falar* (_we should speak_)"
+								},
+								{
+									"col1": "*você deve falar* (_you should speak_)",
+									"col2": "*vocês devem falar* (_you should speak_)"
+								},
+								{
+									"col1": "*ele/ela deve falar* (_he/she should speak_)",
+									"col2": "*eles/elas devem falar* (_they should speak_)"
+								}
+							]
+						},
+						"3": {
+							"table" : [
+								{
+									"col1": "~",
+									"col2": "~"
+								},
+								{
+									"col1": "*eu posso falar* (_I can speak_)",
+									"col2": "*nós podemos falar* (_we can speak_)"
+								},
+								{
+									"col1": "*você pode falar* (_you can speak_)",
+									"col2": "*vocês podem falar* (_all of you can speak_)"
+								},
+								{
+									"col1": "*ele/ela pode falar* (_he/she can speak_)",
+									"col2": "*eles/elas podem falar* (_they can speak_)"
+								}
+							]
+						}
+					}
+				},
+				"2": {
+					"tips" : {
+						"1": {
+							"tip category": "Querer (_To want to_), Ter que (_To have to_), and Precisar (_To need to_)",
+							"tip": "The verbs *querer* (_to want to_), *ter que* (_to have to_, _must_), and *precisar* (_to need to_) are used in the same way as *dever* and *poder* above. They are followed by infinitives, for example *falar*:",
+							"table" : [
+								{
+									"col1": "~",
+									"col2": "~"
+								},
+								{
+									"col1": "*eu quero falar* (_I want to speak_)",
+									"col2": "*nós queremos falar* (_we want to speak_)"
+								},
+								{
+									"col1": "*você quer falar* (_you want to speak_)",
+									"col2": "*vocês querem falar* (_you want to speak_)"
+								},
+								{
+									"col1": "*ele/ela quer falar* (_he/she wants to speak_)",
+									"col2": "*eles/elas querem falar* (_they want to speak_)"
+								}
+							]
+						},
+						"2": {
+							"table" : [
+								{
+									"col1": "~",
+									"col2": "~"
+								},
+								{
+									"col1": "*eu tenho que falar* (_I have to speak_)",
+									"col2": "*nós temos que falar* (_we have to speak_)"
+								},
+								{
+									"col1": "*você tem que falar* (_you have to speak_)",
+									"col2": "*vocês têm que falar* (_you have to speak_)"
+								},
+								{
+									"col1": "*ele/ela tem que falar* (_he/she has to speak_)",
+									"col2": "*eles/elas têm que falar* (_they have to speak_)"
+								}
+							]
+						},
+						"3": {
+							"table" : [
+								{
+									"col1": "~",
+									"col2": "~"
+								},
+								{
+									"col1": "*eu preciso falar* (_I need to speak_)",
+									"col2": "*nós precisamos falar* (_we need to speak_)"
+								},
+								{
+									"col1": "*você precisa falar* (_you need to speak_)",
+									"col2": "*vocês precisam falar* (_you need to speak_)"
+								},
+								{
+									"col1": "*ele/ela precisa falar* (_he/she needs to speak_)",
+									"col2": "*eles/elas precisam falar* (_they need to speak_)"
+								}
+							],
+							"list" : [
+								{
+									"portuguese": "Eu quero aprender japonês; eu gosto da cultura japonesa.",
+									"english": "I want to learn japanese; I like the Japanese culture."
+								},
+								{
+									"portuguese": "Você tem que tomar esse remédio de três em três horas.",
+									"english": "You have to take this medicine every three hours."
+								},
+								{
+									"portuguese": "Eles precisam fazer ginástica.",
+									"english": "They need to work out."
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		"17": {
+			"nutsAndBolts" : {
+				"": {
+					"tips" : {
+						"": {
+						}
+					}
+				}
+			}
 		}
 	}
 }

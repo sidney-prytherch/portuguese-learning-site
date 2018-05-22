@@ -196,7 +196,81 @@ var unitsJson = {
 			]
 		},
 		"4": {
-			"introNotes": "In this unit you'll learn how to talk about your health, which means you'll learn important vocabulary related to the human body. Unit 4 also covers the regular verbs ending in *-er*, and the equivalents of _need to_, _have to_, _want to_, _can_, and _should_. Finally, you'll learn important expressions that use *estar*, as well as the demonstratives _this_, _that_, _these_, and _those_. *Saúde!* (_To your health!_)"
+			"introNotes": "In this unit you'll learn how to talk about your health, which means you'll learn important vocabulary related to the human body. Unit 4 also covers the regular verbs ending in *-er*, and the equivalents of _need to_, _have to_, _want to_, _can_, and _should_. Finally, you'll learn important expressions that use *estar*, as well as the demonstratives _this_, _that_, _these_, and _those_. *Saúde!* (_To your health!_)",
+			"essentials" : [
+				{
+					"portuguese": "Este livro tem mais de quatrocentas páginas.",
+					"english": "This book has more than 400 pages."
+				},
+				{
+					"portuguese": "Este remédio é para resfriado?",
+					"english": "Is this a cold medicine?"
+				},
+				{
+					"portuguese": "Essa receita médica é a minha?",
+					"english": "Is that prescription (you're holding) mine?"
+				},
+				{
+					"portuguese": "Estes aqui são meus e aqueles com você são seus.",
+					"english": "These here are mine, and those with you are yours."
+				},
+				{
+					"portuguese": "Eu gosto disso, mas não gosto daquilo.",
+					"english": "I like this, but I don't like that."
+				},
+				{
+					"portuguese": "Eu não entendo a pergunta.",
+					"english": "I don't understand the question."
+				},
+				{
+					"portuguese": "Nós aprendemos portugês.",
+					"english": "We learn Portuguese."
+				},
+				{
+					"portuguese": "Você vê aquele homem?",
+					"english": "Do you see that man?"
+				},
+				{
+					"portuguese": "Nós estamos com sono.",
+					"english": "We're not sleepy."
+				},
+				{
+					"portuguese": "Vocês estão com fome?",
+					"english": "Are you hungry?"
+				},
+				{
+					"portuguese": "Elas estão com vontade de comer pizza.",
+					"english": "They feel like eating pizza."
+				},
+				{
+					"portuguese": "O paciente está com dor de cabeça.",
+					"english": "The patient has a headache."
+				},
+				{
+					"portuguese": "Ele está com dor de barriga.",
+					"english": "He has a stomachache."
+				},
+				{
+					"portuguese": "As crianças estão com tosse.",
+					"english": "The children have a cough."
+				},
+				{
+					"portuguese": "As minhas pernas doem.",
+					"english": "My legs hurt."
+				},
+				{
+					"portuguese": "Como você se sente?",
+					"english": "How do you feel?"
+				},
+				{
+					"portuguese": "Não me sinto bem.",
+					"english": "I don't feel very well."
+				},
+				{
+					"portuguese": "Estou mal.",
+					"english": "I feel terrible."
+				}
+			]
 		}
 	}
 }
