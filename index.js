@@ -187,6 +187,14 @@ async function loadNutsAndBolts(lessonNumber, pageNumber) {
                                 } else {
                                     mainString += '(' + newCellContent[1];
                                 }
+                            } else if (newCellContent.length === 1) {
+                                if (portugueseAudioExists) {
+                                    mainString += '<audio id="' + portAudio + '" src="' + portAudio + '.mp3" preload="auto"></audio>';
+                                    mainString += '<button class="audio" onclick="document.getElementById(\'' + portAudio + '\').play();">';
+                                    mainString += newCellContent[0] + ' <span class="glyphicon glyphicon-volume-up"></span></button>';
+                                } else {
+                                    mainString += newCellContent[0];
+                                }
                             }
                         } else if (formats[cell] === '_') {
                             if (englishAudioExists) {
