@@ -331,6 +331,9 @@ function format(string) {
     while(string.indexOf('*') >= 0) {
         string = string.replace('*', '<b>').replace('*', '</b>');
     }
+    while(string.indexOf('`') >= 0) {
+        string = string.replace('`', '<u>').replace('`', '</u>');
+    }
     while(string.indexOf('\n') >= 0) {
         string = string.replace('\n', '</br></br>');
     }

@@ -560,6 +560,158 @@ var phrasesJson = {
 					"afterNotes": "Did you notice two time expressions above? Some other common time expressions are: *logo/em brever/daqui a pouco* (_soon_), *até* (_until_), *uma vez/duas vezes/três vezes* (_once/twice/three times_), *às vezes* (_sometimes_), *algumas vezes* (_a few times_)."
 				}
 			}
+		},
+		"18": {
+			"sections" : {
+				"1": {
+					"phrases" : [
+						{
+							"portuguese": "o atendimento eletrônico",
+							"english": "recorded message"
+						},
+						{
+							"portuguese": "deixar um recado",
+							"english": "to leave a message"
+						},
+						{
+							"portuguese": "o código de área",
+							"english": "area code"
+						},
+						{
+							"portuguese": "digitar o número",
+							"english": "to dial the number"
+						},
+						{
+							"portuguese": "Pois não?/Pois não!",
+							"english": "Yes?/Can I help you?/Of course!"
+						},
+						{
+							"portuguese": "pois é",
+							"english": "that's true"
+						},
+						{
+							"portuguese": "a galeria de arte",
+							"english": "art gallery"
+						},
+						{
+							"portuguese": "na parte esquerda da tele",
+							"english": "on the left hand side of the screen"
+						},
+						{
+							"portuguese": "do lado direito",
+							"english": "on the right side"
+						},
+						{
+							"portuguese": "em cima da mesa",
+							"english": "on the table"
+						},
+						{
+							"portuguese": "em baixo do console",
+							"english": "under the console"
+						},
+						{
+							"portuguese": "no meio do filme",
+							"english": "in the middle of the film"
+						},
+						{
+							"portuguese": "ao lado da mesa",
+							"english": "next to the table"
+						},
+						{
+							"portuguese": "dentro do cofre",
+							"english": "in the safe deposit box"
+						},
+						{
+							"portuguese": "fora de casa",
+							"english": "outside the house"
+						},
+						{
+							"portuguese": "atrás da impressora",
+							"english": "behind the printer"
+						},
+						{
+							"portuguese": "em frente à TV",
+							"english": "in front of the TV"
+						},
+						{
+							"portuguese": "entre as duas e as três",
+							"english": "bewteen 2:00 and 3:00"
+						}
+					]
+				},
+				"2": {
+					"phrases" : [
+						{
+							"portuguese": "as estações do ano",
+							"english": "the season of the year"
+						},
+						{
+							"portuguese": "a primavera florida",
+							"english": "the blossoming spring"
+						},
+						{
+							"portuguese": "o verão úmido",
+							"english": "the humid summer"
+						},
+						{
+							"portuguese": "o ar fresco de outono",
+							"english": "the free fall air"
+						},
+						{
+							"portuguese": "o inverno frio",
+							"english": "the cold winter"
+						},
+						{
+							"portuguese": "no fim de semana",
+							"english": "over the weekend, during the weekend"
+						},
+						{
+							"portuguese": "no final da tarde",
+							"english": "at the end of the afternoon"
+						},
+						{
+							"portuguese": "antes da data",
+							"english": "before the date"
+						},
+						{
+							"portuguese": "depois do evento",
+							"english": "after the event"
+						},
+						{
+							"portuguese": "durante a cerimônia",
+							"english": "during the ceremony"
+						},
+						{
+							"portuguese": "Que tal amanhã?",
+							"english": "How about tomorrow?"
+						},
+						{
+							"portuguese": "estamos em dois de abril",
+							"english": "this is April 2nd"
+						},
+						{
+							"portuguese": "no dia onze de abril",
+							"english": "on April 11th"
+						},
+						{
+							"portuguese": "em mil novecentos e noventa e sete",
+							"english": "in 1997"
+						},
+						{
+							"portuguese": "neste século",
+							"english": "in this century"
+						},
+						{
+							"portuguese": "no final do ano",
+							"english": "at the end of the year"
+						},
+						{
+							"portuguese": "na semana que vem",
+							"english": "next week"
+						}
+					]
+				}
+			}
 		}
 	}
 }

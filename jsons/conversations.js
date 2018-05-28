@@ -416,6 +416,118 @@ var conversationsJson = {
 					]
 				}
 			}
+		},
+		"20": {
+			"sections" : {
+				"1": {
+					"conversations" : [
+						{
+							"portuguese": "Mensagem Eletrônica: Bem-vindo ao atendimento eletrônico de Digital Comunicações. Caso saiba o ramal desejado digite agora, ou aguarde para falar com um dos nossos agentes.",
+							"english": "Recorded message: Welcome to Digital Communication's automated answering service. If you know your party's extension, dial it now, or hold the line to speak to one of our representatives."
+						},
+						{
+							"portuguese": "Gustavo: Alô Luiza?",
+							"english": "Gustavo: Hello, Luiza?"
+						},
+						{
+							"portuguese": "Luiza: Pois não, quem fala?",
+							"english": "Luiza: Yes, who's this?"
+						},
+						{
+							"portuguese": "Gustavo: Aqui é o Gustavo, tudo bem?",
+							"english": "Gustavo: This is Gustavo, how are you doing?"
+						},
+						{
+							"portuguese": "Luiza: Oi Gustavo, tudo bem. Quando tempo!",
+							"english": "Luiza: Hi, Gustavo. I'm fine. It's been a long time!"
+						},
+						{
+							"portuguese": "Gustavo: Pois é! Eu estou ligando para convidá-la para a festa de inauguração da minha galeria de arte.",
+							"english": "Gustavo: It sure has! I'm calling to invite you to the opening party of my art gallery."
+						},
+						{
+							"portuguese": "Luiza: Que legal. Quando?",
+							"english": "Luiza: That's nice. When?"
+						},
+						{
+							"portuguese": "Gustavo: A festa vai ser na quarta-feira que vem, dia vinte e três, às sete e meia da noite. Você vem? Pode trazer alguém com você.",
+							"english": "Gustavo: The party will be next Wednesday, the 23rd, at 7:30 in the evening. Can you come? You can bring a friend with you."
+						},
+						{
+							"portuguese": "Luiza: Não sei, deize ver... Ah, que pena, não posso.",
+							"english": "Luiza: I dont' know, let me see... Oh, what a pity, I can't. Next Wednesday I'm traveling on business."
+						},
+						{
+							"portuguese": "Gustavo: Não faz mal. Você gostaria de vir à galeria outro dia? Quando voltar?",
+							"english": "Gustavo: It doesn't matter. Would you like to come to the gallery some other day? When you return?"
+						},
+						{
+							"portuguese": "Luiza: Adoraria ir. Para quando você quer combinar? Eu estou voltando para Belo Horizonte na sexta-feira, dia vinte e cinco.",
+							"english": "Luiza: I'd love to go. When do you want to plan it for? I'm coming back to Belo Horizonte on Friday, the 25th."
+						},
+						{
+							"portuguese": "Gustavo: Que tal no sábado à tarde, então? Você vem à galeria, e depois a gente pode tomar um café juntos.",
+							"english": "Gustavo: How about Saturday afternoon, then? You come to the gallery, and then we can have some coffee together."
+						},
+						{
+							"portuguese": "Luiza: Combinado. Sábado à tarde, entre três e quatro da tarde eu apareço por lá. Boa sorte na inauguração!",
+							"english": "Luiza: It's a date. I'll show up there Saturday afternoon, between 3:00 and 4:00. Good luck at the opening!"
+						},
+						{
+							"portuguese": "Gustavo: Obrigado, Luiza. Tchau, um abraço.",
+							"english": "Gustavo: Thanks, Luiza. Bye, take care."
+						},
+						{
+							"portuguese": "Luiza: Outro.",
+							"english": "Luiza: You too."
+						}
+					]
+				},
+				"2": {
+					"conversations" : [
+						{
+							"portuguese": "Recepcionista: Recepção, bom dia.",
+							"english": "Receptionist: Front desk, good morning."
+						},
+						{
+							"portuguese": "Sr. Duarte: Bom dia. Eu gostaria de fazer uma reclamação.",
+							"english": "Sr. Duarte: Good morning. I'd like to make a complaint."
+						},
+						{
+							"portuguese": "Recepcionista: Pois não. Qual é o problema?",
+							"english": "Receptionist: Certainly. What is the matter?"
+						},
+						{
+							"portuguese": "Sr. Duarte: Eu sempre fico neste hotel, e nunca tenho problemas. Desta vez, porém, estou tendo problemas com a o ar condicianado, com o chuveiro, e com o acesso à internet.",
+							"english": "Sr. Duarte: I always stay at this hotel, and have never had a problem. This time, though, I'm having problems with the air conditioning, with the shower, and with the internet access."
+						},
+						{
+							"portuguese": "Recepcionista: Nossa! O senhor pode dizer que tipo de problemas?",
+							"english": "Receptionist: My goodness! Could you tell me what kind of problems?"
+						},
+						{
+							"portuguese": "Sr. Duarte: O ar condicionado não está functionando; não está saindo água quente do chuveiro, e não estou conseguindo com a internet.",
+							"english": "Sr. Duarte: The air conditioning isn't working; there's no hot water coming out of the shower; and, I'm not managing to get onto the internet."
+						},
+						{
+							"portuguese": "Recepcionista: A senhor realmente está tendo muitos problemas. O senhor gostaria de mudar de quarto?",
+							"english": "Receptionist: You are really having a lot of problems. Would you like to change rooms?"
+						},
+						{
+							"portuguese": "Sr. Duarte: Sim, gostaria. A senhorita pode pedir para alguém vir ajudar com as malas?",
+							"english": "Sr. Duarte: Yes, I would. Could you please ask someone to come up to help with my bags?"
+						},
+						{
+							"portuguese": "Recepcionista: Pois não, agora mesmo. Eu realmente sinto muito, e gostaria também de pedir desculpas em nome do nosso hotel.",
+							"english": "Receptionist: Of course, immediately. I am really very sorry, and would like to apologize on behalf of our hotel."
+						},
+						{
+							"portuguese": "Sr. Duarte: Não tem nada. Estou esperando o ajudante.",
+							"english": "Sr. Duarte: That's all right. I'll be waiting for the bellboy."
+						}
+					]
+				}
+			}
 		}
 	}
 }

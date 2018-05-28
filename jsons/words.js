@@ -546,6 +546,162 @@ var wordsJson = {
 					]
 				}
 			}
+		},
+		"17": {
+			"sections" : {
+				"1": {
+					"words" : [
+						{
+							"portuguese": "alô",
+							"english": "hello"
+						},
+						{
+							"portuguese": "ligar",
+							"english": "to call"
+						},
+						{
+							"portuguese": "telefonar",
+							"english": "to telephone"
+						},
+						{
+							"portuguese": "atender",
+							"english": "to answer (the phone)"
+						},
+						{
+							"portuguese": "desligar",
+							"english": "to hang up"
+						},
+						{
+							"portuguese": "gravar",
+							"english": "to record"
+						},
+						{
+							"portuguese": "o telefone/o aparelho de telefone",
+							"english": "telephone"
+						},
+						{
+							"portuguese": "a linha",
+							"english": "telephone line"
+						},
+						{
+							"portuguese": "a ligação/a chamada",
+							"english": "phone class"
+						},
+						{
+							"portuguese": "a secretaria electrônica",
+							"english": "answering machine"
+						},
+						{
+							"portuguese": "o ramal",
+							"english": "extension"
+						},
+						{
+							"portuguese": "o sinal",
+							"english": "signal"
+						},
+						{
+							"portuguese": "ocupado",
+							"english": "busy"
+						},
+						{
+							"portuguese": "o recado",
+							"english": "message"
+						},
+						{
+							"portuguese": "caixa postal",
+							"english": "voice mail"
+						},
+						{
+							"portuguese": "a conexão",
+							"english": "connection"
+						},
+						{
+							"portuguese": "e-mail",
+							"english": "e-mail"
+						},
+						{
+							"portuguese": "o celular/o telefone celular",
+							"english": "cell phone"
+						},
+						{
+							"portuguese": "a internet",
+							"english": "internet"
+						},
+						{
+							"portuguese": "o site",
+							"english": "website"
+						}
+					]
+				},
+				"2": {
+					"words" : [
+						{
+							"portuguese": "a reclamação",
+							"english": "complaint"
+						},
+						{
+							"portuguese": "reclamar",
+							"english": "to complain"
+						},
+						{
+							"portuguese": "encomendar",
+							"english": "to order (by phone, online, catalog)"
+						},
+						{
+							"portuguese": "a encomenda",
+							"english": "order"
+						},
+						{
+							"portuguese": "o produto",
+							"english": "product"
+						},
+						{
+							"portuguese": "aguardar",
+							"english": "to wait"
+						},
+						{
+							"portuguese": "esperar",
+							"english": "to wait/to hope"
+						},
+						{
+							"portuguese": "anotar",
+							"english": "take note"
+						},
+						{
+							"portuguese": "a semana",
+							"english": "week"
+						},
+						{
+							"portuguese": "o mês",
+							"english": "month"
+						},
+						{
+							"portuguese": "o calendário",
+							"english": "calendar"
+						},
+						{
+							"portuguese": "ajudar",
+							"english": "to help/to aid/to assist"
+						},
+						{
+							"portuguese": "a tela",
+							"english": "screen"
+						},
+						{
+							"portuguese": "a urgência",
+							"english": "urgency"
+						},
+						{
+							"portuguese": "a mercadoria",
+							"english": "merchandise"
+						},
+						{
+							"portuguese": "a inauguração",
+							"english": "the opening/inauguration"
+						}
+					]
+				}
+			}
 		}
 	}
 }

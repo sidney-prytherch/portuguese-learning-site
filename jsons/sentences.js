@@ -464,6 +464,150 @@ var sentencesJson = {
 					]
 				}
 			}
+		},
+		"19": {
+			"sections" : {
+				"1": {
+					"sentences" : [
+						{
+							"portuguese": "Aqui quem fala é o Pedro.",
+							"english": "This is Pedro speaking."
+						},
+						{
+							"portuguese": "Um momento, por favor, a linha esta ocupada.",
+							"english": "Please hold, the line is busy."
+						},
+						{
+							"portuguese": "De onde fala?",
+							"english": "What number did I call?"
+						},
+						{
+							"portuguese": "Com quem você gostaria de falar?",
+							"english": "Who would you like to speak to?"
+						},
+						{
+							"portuguese": "Eu gostaria de falar com a senhora Ana Maria.",
+							"english": "I'd like to speak to Ms. Ana Maria."
+						},
+						{
+							"portuguese": "Você pode transferir a ligação?",
+							"english": "Can you transfer the call?"
+						},
+						{
+							"portuguese": "Você discou para o número errado.",
+							"english": "You've dialed the wrong number."
+						},
+						{
+							"portuguese": "Qual é o seu telefone?",
+							"english": "What's your phone number?"
+						},
+						{
+							"portuguese": "Posso ligar mais tarde?",
+							"english": "Can I call back later?"
+						},
+						{
+							"portuguese": "Você pode deixar um recado, por favor?",
+							"english": "Can you leave a message, please?"
+						},
+						{
+							"portuguese": "Qual é o ramal desejado?",
+							"english": "What is the extension you want?"
+						},
+						{
+							"portuguese": "Nós perdamos a conexão.",
+							"english": "We've lost the connection."
+						},
+						{
+							"portuguese": "Vocês têm acesso gratuito para internet?",
+							"english": "Do you have internet access?"
+						},
+						{
+							"portuguese": "Você precisa discaar zero para falar com a recepção.",
+							"english": "You need to dial zero to talk to reception."
+						},
+						{
+							"portuguese": "Esse hotel tem internet rápida?",
+							"english": "Does this internet have high-speed internet?"
+						},
+						{
+							"portuguese": "Vocês podem usar internet sem fio aqui?",
+							"english": "Can you use wireless internet here?"
+						},
+						{
+							"portuguese": "Ele manda mensagens de texto para os amigos.",
+							"english": "He sends text messages to his friends."
+						},
+						{
+							"portuguese": "Eu telefono mais tarde.",
+							"english": "I'll call later."
+						},
+						{
+							"portuguese": "Vocês ligam para o hotel.",
+							"english": "You call the hotel."
+						}
+					]
+				},
+				"2": {
+					"sentences" : [
+						{
+							"portuguese": "Você gostaria de fazer uma excusão?",
+							"english": "Would you like to go on a tour?"
+						},
+						{
+							"portuguese": "Vocês querem usar a sauna?",
+							"english": "Do you want to use the sauna?"
+						},
+						{
+							"portuguese": "Não, obrigado. Agora estou ocupado.",
+							"english": "No, thank you. I'm busy now."
+						},
+						{
+							"portuguese": "Não, muito obrigado. Adoraria, mas nesse dia estou ocupado.",
+							"english": "No, thank you. I'd love to, but I'm busy that day."
+						},
+						{
+							"portuguese": "Sinto muito. Não posso, estou com pressa.",
+							"english": "I'm sorry. I can't, I'm in a hurry."
+						},
+						{
+							"portuguese": "Sim, adoraria experimentar um doce.",
+							"english": "Yes, I'd love to try a candy."
+						},
+						{
+							"portuguese": "Aceitamos o convite com muito prazer.",
+							"english": "We accept this invitation with pleasure."
+						},
+						{
+							"portuguese": "Muito obrigado pelo convite. A que horas devemos chegar?",
+							"english": "Thank you for the invitation. What time should we arrive?"
+						},
+						{
+							"portuguese": "Agradeço a oferta, mas não podemos ir.",
+							"english": "I thank you for the offer, but we can't make it."
+						},
+						{
+							"portuguese": "Vocês gostariam de jantar agora?",
+							"english": "Would you like to have dinner now?"
+						},
+						{
+							"portuguese": "Ele gostaria de ir ao museu?",
+							"english": "Would he like to go to the museum?"
+						},
+						{
+							"portuguese": "Ela gostaria de não ser incomodada.",
+							"english": "She would rather not be disturbed."
+						},
+						{
+							"portuguese": "Nós não gostarímos de pagar extra.",
+							"english": "We wouldn't like to pay extra."
+						},
+						{
+							"portuguese": "Eu gostaria de fazer uma reclamação.",
+							"english": "I'd like to make a complaint."
+						}
+					]
+				}
+			}
 		}
 	}
 }

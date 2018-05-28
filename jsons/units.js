@@ -271,6 +271,71 @@ var unitsJson = {
 					"english": "I feel terrible."
 				}
 			]
+		},
+		"5": {
+			"introNotes": "*Alô?* In Unit 5, you'll learn how to make phone calls, including some couresy expressions that you can use ont he phone. This unit also covers the last group of regular verbs, as well as the present continuous tense, so you'll be able to say what you are doing, where you are going, and other things that are happening at the moment you're speaking.",
+			"essentials" : [
+				{
+					"portuguese": "Posso deixar um recado?",
+					"english": "Can I leave a message?"
+				},
+				{
+					"portuguese": "Eu telefone mais tarde.",
+					"english": "I'll call later."
+				},
+				{
+					"portuguese": "Você prefere chá ou café?",
+					"english": "Do you prefer tea or coffee?"
+				},
+				{
+					"portuguese": "Nós partimos para Londres às vinte e uma horas.",
+					"english": "We leave for London at 9:00 P.M."
+				},
+				{
+					"portuguese": "Eles vão à festa de aniversário?",
+					"english": "Are they going to the birthday party?"
+				},
+				{
+					"portuguese": "Nós vamos aos jogos de futebol.",
+					"english": "We're going to the soccer games."
+				},
+				{
+					"portuguese": "O carro está nesta rua ou naquele?",
+					"english": "Is the car on this street or on that one?"
+				},
+				{
+					"portuguese": "A revista está em cima da mesa.",
+					"english": "The magazine is on the table."
+				},
+				{
+					"portuguese": "O espelho está pendurado atrás da porta.",
+					"english": "The mirror is hanging behind the door."
+				},
+				{
+					"portuguese": "Amanhã eu não posso, que tal depois de amanhã?",
+					"english": "Tomorrow I can't, how about the day after tomorrow?"
+				},
+				{
+					"portuguese": "Eles gostam de viajar em setembro.",
+					"english": "They like to travel in September."
+				},
+				{
+					"portuguese": "Com quem você gostaria de falar?",
+					"english": "Who would you like to speak to?"
+				},
+				{
+					"portuguese": "Nós não trazemos muito dinheiro à praia.",
+					"english": "We don't bring a lot of money to the beach."
+				},
+				{
+					"portuguese": "O senhor quer fazer o pedido agora?",
+					"english": "Do you want to order now?"
+				},
+				{
+					"portuguese": "Eu estou escrevendo agora. O que você está fazendo?",
+					"english": "I'm writing now. What are you doing?"
+				}
+			]
 		}
 	}
 }

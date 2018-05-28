@@ -1146,51 +1146,51 @@ var nutsAndBoltsJson = {
 							"tip": "In Portuguese, most regular infinitives (the _to_ form of verbs) end in *-ar*, *-er*, or *-ir*. Each type of infinitive follow a certain conjugation, or pattern of endings, to show agreements with a subject, like the English _you speak_ and _she speaks_. In this lesson we'll start with the conjugation of *-ar* verbs such as *falar* (_to speak_).",
 							"table" : [
 								{
-									"col1": "*",
+									"col1": "~",
 									"col2": "_",
-									"col3": "*",
+									"col3": "~",
 									"col4": "_"
 								},
 								{
-									"col1": "eu falo",
+									"col1": "*eu fal`o`*",
 									"col2": "I speak",
-									"col3": "nós falamos",
+									"col3": "*nós fal`amos`*",
 									"col4": "we speak"
 								},
 								{
-									"col1": "(tu falas)",
+									"col1": "*(tu fal`as`)*",
 									"col2": "you speak",
-									"col3": "(vós falais)",
+									"col3": "*(vós fal`ais`)*",
 									"col4": "you speak"
 								},
 								{
-									"col1": "você fala",
+									"col1": "*você fal`a`*",
 									"col2": "you speak",
-									"col3": "vocês falam",
+									"col3": "*vocês fal`am`*",
 									"col4": "you speak"
 								},
 								{
-									"col1": "o senhor fala",
+									"col1": "*o senhor fal`a`*",
 									"col2": "you speak (fml. m.)",
-									"col3": "os senhores falam",
+									"col3": "*os senhores fal`am`*",
 									"col4": "you speak (fml. m.)"
 								},
 								{
-									"col1": "a senhora fala",
+									"col1": "*a senhora fal`a`*",
 									"col2": "you speak (fml. f.)",
-									"col3": "as senhoras falam",
+									"col3": "*as senhoras fal`am`*",
 									"col4": "you speak (fml. f.)"
 								},
 								{
-									"col1": "ele fala",
+									"col1": "*ele fal`a`*",
 									"col2": "he speaks",
-									"col3": "eles falam",
+									"col3": "*eles fal`am`*",
 									"col4": "they speak (m./mixed)"
 								},
 								{
-									"col1": "ela fala",
+									"col1": "*ela fal`a`*",
 									"col2": "she speaks",
-									"col3": "elas falam",
+									"col3": "*elas fal`am`*",
 									"col4": "they speak (f.)"
 								}
 							]
@@ -1963,20 +1963,20 @@ var nutsAndBoltsJson = {
 							"tip": "You've already learned that regular *-ar* verbs are conjugated with the endings *-o*, *-a*, *-amos*, and *-am*. The second group of regular verbs in Portuguese are the *-er* verbs, and the *-er* endings are very similar to *-ar* endings, except *e* replaces *a*. Let's look at an example verb, entender (_to understand_).",
 							"table" : [
 								{
-									"col1": "*",
-									"col2": "*"
+									"col1": "~",
+									"col2": "~"
 								},
 								{
-									"col1": "eu entendo",
-									"col2": "nós entendemos"
+									"col1": "*eu entend`o`*",
+									"col2": "*nós entend`emos`*"
 								},
 								{
-									"col1": "você entende",
-									"col2": "vocês entendem"
+									"col1": "*você entend`e`*",
+									"col2": "*vocês entend`em`*"
 								},
 								{
-									"col1": "ele/ela entende",
-									"col2": "eles/elas entendem"
+									"col1": "*ele/ela entend`e`*",
+									"col2": "*eles/elas entend`em`*"
 								}
 							]
 						},
@@ -1992,7 +1992,7 @@ var nutsAndBoltsJson = {
 								{
 									"col1": "escrever",
 									"col2": "to write",
-									"col3": "resovler",
+									"col3": "resolver",
 									"col4": "to solve"
 								},
 								{
@@ -2227,7 +2227,7 @@ var nutsAndBoltsJson = {
 									"col2": "~"
 								},
 								{
-									"col1": "*eu devo falar* (I should speak)",
+									"col1": "*eu devo falar* (_I should speak_)",
 									"col2": "*nós devemos falar* (_we should speak_)"
 								},
 								{
@@ -2345,6 +2345,929 @@ var nutsAndBoltsJson = {
 			}
 		},
 		"17": {
+			"nutsAndBolts" : {
+				"1": {
+					"tips" : {
+						"1": {
+							"tip category": "Regular -ir Verbs",
+							"tip": "In Unit 3 you learned that regular verbs in Portuguese are divided into three groups, ending in *-ar*, *-er*, and *-ir*. Now, take a look at the verb *abrir* (_to open_) as an example of an *-ir* verb.",
+							"table" : [
+								{
+									"col1": "~",
+									"col2": "~"
+								},
+								{
+									"col1": "*eu abr`o`*",
+									"col2": "*nós abr`imos`*"
+								},
+								{
+									"col1": "*você abr`e`*",
+									"col2": "*vocês abr`em`*"
+								},
+								{
+									"col1": "*ele/ela abr`e`*",
+									"col2": "*eles/elas abr`em`*"
+								}
+							]
+						},
+						"2": {
+							"tip": "Here's a list of some other regular verbs ending in *-ir*",
+							"table" : [
+								{
+									"col1": "*",
+									"col2": "_",
+									"col3": "*",
+									"col4": "_"
+								},
+								{
+									"col1": "assistir",
+									"col2": "to attend, to be present, to watch",
+									"col3": "insistir",
+									"col4": "to insist"
+								},
+								{
+									"col1": "discutir",
+									"col2": "to discuss/to argue",
+									"col3": "incluir",
+									"col4": "to include"
+								},
+								{
+									"col1": "preferir",
+									"col2": "to prefer",
+									"col3": "possuir",
+									"col4": "to own/to possess"
+								},
+								{
+									"col1": "dividir",
+									"col2": "to divide/to share",
+									"col3": "sentir",
+									"col4": "to feel/to be sorry"
+								},
+								{
+									"col1": "partir",
+									"col2": "to depart/to leave",
+									"col3": "repetir",
+									"col4": "to repeat"
+								},
+								{
+									"col1": "decidir",
+									"col2": "to decide",
+									"col3": "sortir",
+									"col4": "to supply, to mix"
+								}
+							],
+							"list" : [
+								{
+									"portuguese": "Você prefere chá ou café?",
+									"english": "Do you prefer tea or coffee?"
+								},
+								{
+									"portuguese": "Nós partimos para Londres às vinte e uma horas.",
+									"english": "We leave for London at 9:00 P.M."
+								},
+								{
+									"portuguese": "Você discute demais!",
+									"english": "You argue too much!"
+								},
+								{
+									"portuguese": "A oferta não inclui o transporte.",
+									"english": "The offer doesn't include transportation."
+								},
+								{
+									"portuguese": "Quantas vezes ela repete a pergunta?",
+									"english": "How many times does she repeat the question?"
+								}
+							]
+						},
+						"3": {
+							"tip": "Let's look at a table with all three conjugations side by side, so you can compare the differences and see the similarities.",
+							"table" : [
+								{
+									"col1": "~",
+									"col2": "~",
+									"col3": "~"
+								},
+								{
+									"col1": "*-ar* group",
+									"col2": "*-er* group",
+									"col3": "*-ir* group"
+								},
+								{
+									"col1": "*falar* (_to speak_)",
+									"col2": "*comer* (_to eat_)",
+									"col3": "*assitir* (_to assist_)"
+								},
+								{
+									"col1": "*eu fal`o`*",
+									"col2": "*eu com`o`*",
+									"col3": "*eu assist`o`*"
+								},
+								{
+									"col1": "*você fal`a`*",
+									"col2": "*você com`e`*",
+									"col3": "*você assist`e`*"
+								},
+								{
+									"col1": "*ele/ela fal`a`*",
+									"col2": "*ele/ela com`e`*",
+									"col3": "*ele/ela assist`e`*"
+								},
+								{
+									"col1": "*nós fal`amos`*",
+									"col2": "*nós com`emos`*",
+									"col3": "*nós assist`imos`*"
+								},
+								{
+									"col1": "*vocês fal`am`*",
+									"col2": "*vocês com`em`*",
+									"col3": "*vocês assist`em`*"
+								},
+								{
+									"col1": "*eles/elas fal`am`*",
+									"col2": "*eles/elas com`em`*",
+									"col3": "*eles/elas assist`em`*"
+								}
+							]
+						}
+					}
+				},
+				"2": {
+					"tips" : {
+						"1": {
+							"tip category": "The verb ir (_to go_) and contractions with a (_to_)",
+							"tip": "The irregular verb *ir* means _to go_.",
+							"table" : [
+								{
+									"col1": "*",
+									"col2": "*"
+								},
+								{
+									"col1": "eu vou",
+									"col2": "nós vamos"
+								},
+								{
+									"col1": "você vai",
+									"col2": "vocês vão"
+								},
+								{
+									"col1": "ele/ela vai",
+									"col2": "eles/elas vão"
+								}
+							],
+							"list" : [
+								{
+									"portuguese": "Eu vou à escola de francês.",
+									"english": "I'm going to the French school."
+								},
+								{
+									"portuguese": "Quando nós vamos?",
+									"english": "When are we going?"
+								},
+								{
+									"portuguese": "Elas sempre vão ao aeroporto duas horas antes do vôo.",
+									"english": "They always go to the airport two hours before the flight."
+								},
+								{
+									"portuguese": "Você não vai?",
+									"english": "Aren't you going?"
+								}
+							]
+						},
+						"2": {
+							"tip": "Just as in English, the verb *ir* is often followed by the preposition *a* (_to_). *A* forms contractions with definite articles, much as *de*. Notice the grave accent in the feminine forms.",
+							"table" : [
+								{
+									"col1": "*",
+									"col2": "*"
+								},
+								{
+									"col1": "a + o = ao",
+									"col2": "a + os = aos"
+								},
+								{
+									"col1": "a + a = à",
+									"col2": "a + as = às"
+								}
+							],
+							"list" : [
+								{
+									"portuguese": "Ele vai à praia de Copacabana.",
+									"english": "He's going to Copacabana beach."
+								},
+								{
+									"portuguese": "Ela vai ao parque.",
+									"english": "She's going to the park."
+								},
+								{
+									"portuguese": "Nós vamos aos jogos de futebol.",
+									"english": "We're going to the soccer games."
+								},
+								{
+									"portuguese": "Eles vão às partes mais pobres da cidade.",
+									"english": "They go to the poorest parts of the city."
+								}
+							]
+						},
+						"3": {
+							"tip": "The grave accent is also used when the preposition *a* is followed by the demonstrative *aquele*, *aquela*, and *aquilo*",
+							"list" : [
+								{
+									"portuguese": "Por que vocês vão àquela cidade?",
+									"english": "Why are you going to that city?"
+								},
+								{
+									"portuguese": "Ele prefere este hotel àquele.",
+									"english": "He prefers this hotel to that one."
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		"18": {
+			"nutsAndBolts" : {
+				"1": {
+					"tips" : {
+						"1": {
+							"tip category": "Em and Other Prepositions",
+							"tip": "The preposition *em* means _at_, _on_, _in_, or _into_. It is something contracted with the definite articles *a*, *o*, *as*, *os* and becomes *na*, *no*, *nas*, *nos*. But with no article, *em* is used alone.",
+							"list" : [
+								{
+									"portuguese": "Eu estou no escritório. (em+o)",
+									"english": "I'm at the office."
+								},
+								{
+									"portuguese": "Ela não entra na piscina. (em+a)",
+									"english": "She doesn't go into the pool."
+								},
+								{
+									"portuguese": "Você escreve nos livros? (em+os)",
+									"english": "Do you write on the books?"
+								},
+								{
+									"portuguese": "As roupas estão nas malas. (em+as)",
+									"english": "The clothes are in the bags."
+								},
+								{
+									"portuguese": "Ele mora em Belo Horizonte.",
+									"english": "He lives in Belo Horizonte."
+								}
+							]
+						},
+						"2": {
+							"tip": "*Em* also contracts with *um*, *uma*, *uns*, *umas*, and becomes *num*, *numa*, *nuns*, and *numas*.",
+							"list" : [
+								{
+									"portuguese": "Ele mora numa avenida larga. (em+uma)",
+									"english": "He lives on a wide avenue."
+								},
+								{
+									"portuguese": "Ela vive num bairro pobre. (em+um)",
+									"english": "She lives in a poor neighborhood."
+								},
+								{
+									"portuguese": "A pizzaria só entrega numas regiões da cidade. (em+umas)",
+									"english": "The pizzeria only only delivers to some areas of the city."
+								},
+								{
+									"portuguese": "Ela come nuns restaurantes vegetarianos. (em+uma)",
+									"english": "She eats in some vegetarian restaurants."
+								}
+							]
+						},
+						"3": {
+							"tip": "You also contract *em* with the demonstratives *este(s)*, *esse(s)*, *esta(s)*, *essa(s)*, *aquele(s)*, *aquela(s)*, *isto*, *isso*, *aquilo*, to form *neste(s)*, *nesse(s)*, *nesta(s)*, *nessa(s)*, *naquele(s)*, *naquela(s)*, *nisto*, *nisso*, *naquilo*",
+							"list" : [
+								{
+									"portuguese": "O carro está nesta rua ou naquela?",
+									"english": "Is the car on this street or that one?"
+								},
+								{
+									"portuguese": "Por que você não coloca seu celular naquilo?",
+									"english": "Why don't you keep your cell in that?"
+								},
+								{
+									"portuguese": "Ele não pode insistir nisso!",
+									"english": "He can't insist on that!"
+								}
+							]
+						},
+						"4": {
+							"tip": "Some other prepositions that show location are: *em cima* (_on_, _on top of_), *em baixo*, (_under_), *ao lado* (_next to_), *no meio* (_between_), *em frente* (_in front of_), *fora* (_outside_), *dentro* (_inside_), *atrás* (_behind_), *entre* (_among_, _between_).",
+							"list" : [
+								{
+									"portuguese": "A revista está em cima da mesa.",
+									"english": "The magazine is on the table."
+								},
+								{
+									"portuguese": "Os sapatos estão em baixo da cama.",
+									"english": "The shoes are under the bed."
+								},
+								{
+									"portuguese": "A impressora está está ao lado do computador.",
+									"english": "The printer is next to the computer."
+								},
+								{
+									"portuguese": "O cachorro está no meio da rua.",
+									"english": "The dog is in the middle of the street."
+								},
+								{
+									"portuguese": "Eles estão em frente ao cinema.",
+									"english": "They are in front of the movie theater."
+								},
+								{
+									"portuguese": "Ele mora fora da cidade.",
+									"english": "He lives outside the city."
+								},
+								{
+									"portuguese": "O dinheiro está dentro da bolsa.",
+									"english": "The money is in the handbag."
+								},
+								{
+									"portuguese": "O espelho está pendurado atrás da porta.",
+									"english": "The mirror is hanging behind the door."
+								},
+								{
+									"portuguese": "O sofá está bem entre as duas mesas.",
+									"english": "The sofa looks nice between the two tables."
+								}
+							]
+						}
+					}
+				},
+				"2": {
+					"tips" : {
+						"1": {
+							"tip category": "Days, Dates, and Prepositions of Time",
+							"tip": "First let's learn the days of the week and the months of the year.",
+							"table" : [
+								{
+									"col1": "*",
+									"col2": "_",
+									"col3": "*",
+									"col4": "_"
+								},
+								{
+									"col1": "dias da semana",
+									"col2": "days of the week",
+									"col3": "quinta-feira",
+									"col4": "Thursday"
+								},
+								{
+									"col1": "segunda-deira",
+									"col2": "Monday",
+									"col3": "sexta-feira",
+									"col4": "Friday"
+								},
+								{
+									"col1": "terça-feira",
+									"col2": "Tuesday",
+									"col3": "sábado",
+									"col4": "Saturday"
+								},
+								{
+									"col1": "quarta-feira",
+									"col2": "Wednesday",
+									"col3": "domingo",
+									"col4": "Sunday"
+								}
+							]
+						},
+						"2": {
+							"tip": "Note that the days of the week are no capitalized, and that the word *feira* is optional in informal and spoken Portuguese. If you want to say that something happens on a particular day, use *no* (_on the_) for *sábado* and *domingo*, which are masculine, and *na* (_on the_) for the other days, which are feminine.",
+							"list" : [
+								{
+									"portuguese": "Eu chego no domingo.",
+									"english": "I arrive on Sunday."
+								},
+								{
+									"portuguese": "Ele telefona na sexta-feira.",
+									"english": "He calls on Friday."
+								}
+							]
+						},
+						"3": {
+							"tip": "When you want to say taht something happens in general, for example, _on Mondays_, use *aos* (*sábado* and *domingo*) os às (other days):",
+							"list" : [
+								{
+									"portuguese": "Eu assisto programas de TV aos sábados, e faço ginástica às segundas e quartas.",
+									"english": "I watch TV shows on Saturdays, and work out on Mondays and Wednesdays."
+								}
+							]
+						},
+						"4": {
+							"tip": "Now let's look at *os mesos do ano* (_the months of the year_), which are also not capitalized",
+							"table" : [
+								{
+									"col1": "*",
+									"col2": "_",
+									"col3": "*",
+									"col4": "_"
+								},
+								{
+									"col1": "janeiro",
+									"col2": "January",
+									"col3": "julho",
+									"col4": "July"
+								},
+								{
+									"col1": "fevereiro",
+									"col2": "February",
+									"col3": "agosto",
+									"col4": "August"
+								},
+								{
+									"col1": "março",
+									"col2": "March",
+									"col3": "setembro",
+									"col4": "September"
+								},
+								{
+									"col1": "abril",
+									"col2": "April",
+									"col3": "outubro",
+									"col4": "October"
+								},
+								{
+									"col1": "maio",
+									"col2": "May",
+									"col3": "novembro",
+									"col4": "November"
+								},
+								{
+									"col1": "junho",
+									"col2": "June",
+									"col3": "dezembro",
+									"col4": "December"
+								}
+							]
+						},
+						"5": {
+							"tip": "If you want to say that something hapens in a particular month, use the preposition *em*:",
+							"list" : [
+								{
+									"portuguese": "No Brasil é verão em janeiro.",
+									"english": "It's summer in Brazil in January."
+								},
+								{
+									"portuguese": "Eles gostam de viajar em setembro.",
+									"english": "They like to travel in September."
+								}
+							]
+						},
+						"6": {
+							"tip": "You learned the names for the seasons in the phrase list: *a primavera* (_spring_), *o verão* (_summer_), *o outono* (_fall_), *o inverno* (_winter_). If you want to say that something happens in a particular season, use *na* from spring, and use *no* for the other seasons.",
+							"list" : [
+								{
+									"portuguese": "As praias nunca estão muito cheias na primaveira.",
+									"english": "The beaches aren't too crowded in spring."
+								},
+								{
+									"portuguese": "As aulas deles começam no outono.",
+									"english": "Their classes start in fall."
+								}
+							]
+						},
+						"7": {
+							"tip": "Dates in Portuguese are expressed in the order: day, month, and year, with the preposition *de* between. In the written language, dates are written as dd/mm/yyyy. So *27/11/1956* is November 27, 1956, and *06/08/11* is August 6, 2011.",
+							"table" : [
+								{
+									"col1": "*",
+									"col2": "_"
+								},
+								{
+									"col1": "Vinte e seis de outobro de dois mil e oito",
+									"col2": "October 26, 2008"
+								},
+								{
+									"col1": "doze de janeiro de mil, novecentos e sessenta e sete",
+									"col2": "January 12, 1967"
+								}
+							]
+						},
+						"8": {
+							"tip": "If you want to say that something happened in a particular year, or on a particular date, use the preposition *em*. *Em* is also used with the word *século* (_century_), although it is contracted with the article:",
+							"table" : [
+								{
+									"col1": "*",
+									"col2": "_"
+								},
+								{
+									"col1": "em dois mil e seis",
+									"col2": "in 2006"
+								},
+								{
+									"col1": "em vinte e seis de julho de mil novecentos e oitenta e cinco",
+									"col2": "on July 26th, 1985"
+								},
+								{
+									"col1": "no século vinte e um",
+									"col2": "in the 21st century"
+								}
+							]
+						},
+						"9": {
+							"tip": "Finally, some other common prepositions of time are *antes de* (_before_) *depois de* (_after_), and *durante* (_during_). Note that the *de* is contracted with the articles:",
+							"list" : [
+								{
+									"portuguese": "A professora chega antes dos alunos.",
+									"english": "The teacher arrives before the students."
+								},
+								{
+									"portuguese": "O avião parte depois das seis.",
+									"english": "The plane leaves after 6:00."
+								},
+								{
+									"portuguese": "Eles não atendem ao telefone durante o jogo de futebol.",
+									"english": "They don't answer the phone during the soccer game."
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		"19": {
+			"nutsAndBolts" : {
+				"1": {
+					"tips" : {
+						"1": {
+							"tip category": "The Verbs Vir (_To Come_), Pedir (_To Ask For_), and Trazer (_To Bring_)",
+							"tip": "Let's look at a few more common irregular verbs."
+						},
+						"2": {
+							"tip": "vir (_to come_)",
+							"table" : [
+								{
+									"col1": "*",
+									"col2": "*"
+								},
+								{
+									"col1": "eu benho",
+									"col2": "nós vimos"
+								},
+								{
+									"col1": "você vem",
+									"col2": "vocês vêm"
+								},
+								{
+									"col1": "ele/ela vem",
+									"col2": "eles/elas vêm"
+								}
+							]
+						},
+						"3": {
+							"tip": "pedir (_to request, to order, to ask for_)",
+							"table" : [
+								{
+									"col1": "*",
+									"col2": "*"
+								},
+								{
+									"col1": "eu peço",
+									"col2": "nós pedimos"
+								},
+								{
+									"col1": "você pede",
+									"col2": "vocês pedem"
+								},
+								{
+									"col1": "ele/ela pede",
+									"col2": "eles/elas pedem"
+								}
+							]
+						},
+						"4": {
+							"tip": "trazer (_to bring_)",
+							"table" : [
+								{
+									"col1": "*",
+									"col2": "*"
+								},
+								{
+									"col1": "eu trago",
+									"col2": "nós trazemos"
+								},
+								{
+									"col1": "você traz",
+									"col2": "vocês trazem"
+								},
+								{
+									"col1": "ele/ela traz",
+									"col2": "eles/elas trazem"
+								}
+							],
+							"list" : [
+								{
+									"portuguese": "Você traz uma garrafa de vinho e eu trago cerveja para a festa.",
+									"english": "You bring a bottle of wine, and I'll being beer to the party."
+								},
+								{
+									"portuguese": "Nós não trazemos muito dinheiro à praia.",
+									"english": "We don't bring a lot of money to the beach."
+								},
+								{
+									"portuguese": "Eles pedem um táxi na recepção.",
+									"english": "They order a taxi at the reception."
+								},
+								{
+									"portuguese": "Ângela pede um empréstimo no banco.",
+									"english": "Ângela requests a bank loan."
+								},
+								{
+									"portuguese": "Posso pedir um favor?",
+									"english": "Can I ask for a favor?"
+								},
+								{
+									"portuguese": "Quando vocês vêm a nossa casa?",
+									"english": "When are you coming to our house?"
+								},
+								{
+									"portuguese": "A menina não vem a pé da escola?",
+									"english": "Doesn't the girl walk home from school?"
+								}
+							]
+						},
+						"5": {
+							"tip": "Note that *vir a pé* is _to come on foot_; *vir de carro* is _to come in a car_ and *vir de ônibus*, *trem*, *avião is _to come by bus_, _train_, or _plane_.",
+							"list" : [
+								{
+									"portuguese": "Ele vem de carro ou de ônibus?",
+									"english": "Is he taking a car or the bus?"
+								},
+								{
+									"portuguese": "Por que vocês não vêm de trem?",
+									"english": "Why don't you take the train here?"
+								}
+							]
+						}
+					}
+				},
+				"2": {
+					"tips" : {
+						"1": {
+							"tip category": "Courtesy Expressions and Gostaria De (_Would Like_)",
+							"tip": "As you know, there are both masculine and feminine forms of _thank you_: *obrigado* and *obrigada*. Some possible responses are *Não tem de que.* (_Don't mention it._), *De nada.* (_You're welcome._), and *Obrigado você.* (_Thank you._) Both *sinto (muito)* and  *desculpe* can be translated as _I'm sorry_, but *sinto* is used before a negative, while *desculpe* is an apology.",
+							"list" : [
+								{
+									"portuguese": "Sinto muito, não tenho relógio.",
+									"english": "I'm sorry, I don't have a watch."
+								},
+								{
+									"portuguese": "Eu sinto, mas não posso ir a sua festa.",
+									"english": "I'm afraid I can't go to your party."
+								},
+								{
+									"portuguese": "Desculpe, eu disquei o numero errado.",
+									"english": "Sorry, I've dialed the wrong number."
+								},
+								{
+									"portuguese": "Desculpe o meu atraso.",
+									"english": "I'm sorry for my delay."
+								},
+								{
+									"portuguese": "Não é nada./Não faz mal.",
+									"english": "It's nothing."
+								},
+								{
+									"portuguese": "Não foi nada.",
+									"english": "It was nothing."
+								}
+							]
+						},
+						"2": {
+							"tip": "When you want to say _excuse me_, say _com licença_, as in: *Com licença, onde fica o banheiro?* (_Excuse me, where is the restroom?_)"
+						},
+						"3": {
+							"tip": "Some common verbs that express courtesy or politeness are *agradecer* (_to thank_), *desculpar* (_to forigve_), and *sentir* (_to be or feel sorry_):",
+							"list" : [
+								{
+									"portuguese": "Eu quero agradecer.",
+									"english": "I want to thank you."
+								},
+								{
+									"portuguese": "Você pode me desculpar?",
+									"english": "Can you forgive me?"
+								},
+								{
+									"portuguese": "Nós sentimos muito, mas não vamos.",
+									"english": "We're sorry, but we're not coming."
+								}
+							]
+						},
+						"4": {
+							"tip": "You've already learned the verb *gostar de* (_to like_). You can use its conditional form to make polite requests, just as the English _would like_. We'll come back to conditionals later, but for now take a look at the polite forms of *gostar de*, used to soften a request:",
+							"table" : [
+								{
+									"col1": "*",
+									"col2": "*"
+								},
+								{
+									"col1": "eu gostaria de",
+									"col2": "nós gostaríamos de"
+								},
+								{
+									"col1": "você gostaria de",
+									"col2": "vocês gostariam de"
+								},
+								{
+									"col1": "ele/ela gostaria de",
+									"col2": "eles/elas gostariam de"
+								}
+							]
+						},
+						"5": {
+							"tip": "Note that there's an accent over the *i* in *gostaríamos*. This causes the stress to fall on that syllable, so you can pronounce it *gos-ta-RI-a-mos*.",
+							"list" : [
+								{
+									"portuguese": "Você gostaria de um chá ou um café?",
+									"english": "Would you like some coffee or some tea?"
+								},
+								{
+									"portuguese": "Nós gostaríamos de chegar às nove da manhã, por favor.",
+									"english": "We'd like to arrive at 9:00 A.M., please."
+								}
+							]
+						},
+						"6": {
+							"tip": "Another polite request is *adorar* (_to love_), which forms its conditionals (_would love_) just like *gostaria*: *adoraria*, *adoraríamos*, *adorariam*:",
+							"list" : [
+								{
+									"portuguese": "Eu adoraria ir à festa de Ano Novo.",
+									"english": "I'd love to go to the New Year's party."
+								},
+								{
+									"portuguese": "Eles adorariam visitar o seu país.",
+									"english": "They'd love to visit your country."
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		"20": {
+			"nutsAndBolts" : {
+				"1": {
+					"tips" : {
+						"1": {
+							"tip category": "The Present Condinuous",
+							"tip": "The present continuous tense describes an ongoing action, like the English _I am reading_. Portuguese forms its present continuous with the verb *estar +* the gerund of the main verb. The gerund is formed by taking off the final *-r* of the infinitive, and adding *-ndo*: *falar-falando* (_to speak-speaking_), *escrever-escrevendo* (_to write-writing_), *partir-partindo* (_to leave-leaving_), *fazer-fazendo* (_to do/make-doing/making_), *ir-indo* (_to go-going_). Let's see the conjugation of *estar falando* (_to be speaking_).",
+							"table" : [
+								{
+									"col1": "*",
+									"col2": "*"
+								},
+								{
+									"col1": "eu estou falando",
+									"col2": "nós estamos falando"
+								},
+								{
+									"col1": "você está falando",
+									"col2": "vocês estão falando"
+								},
+								{
+									"col1": "ele/ela está falando",
+									"col2": "eles/elas estão falando"
+								}
+							]
+						},
+						"2": {
+							"tip": "Just as in English, you use the present continuous to talk about something that's happening at the moment you're talking, or to express an ongoing trend. Some typical adverbs you can use with the present continuous are: *agora* (_now_), *agora mesmo* (_right now_), *neste momento* (_at this moment_), *actualmente* (_currently_ - not _actually!_)",
+							"list" : [
+								{
+									"portuguese": "Eu estou escrevendo agora. O que você está fazendo?",
+									"english": "I'm writing now. What are you doing?"
+								},
+								{
+									"portuguese": "Ele está assistindo à TV enquanto ela está falando ao telefone.",
+									"english": "He's watching TV while she's talking on the phone."
+								},
+								{
+									"portuguese": "Atualmente nós estamos ampliando as instalações da nossa fábrica.",
+									"english": "Currently we are expanding the facilities in our factory."
+								},
+								{
+									"portuguese": "Esta semana eles estão trabalhando hora extra.",
+									"english": "This week they're putting in overtime."
+								}
+							]
+						}
+					}
+				},
+				"2": {
+					"tips" : {
+						"1": {
+							"tip category": "Uses of Definite and Indefinite Articles",
+							"tip": "Even though both English and Portuguese have definite and indefinite articles, there are some differences in usage. Let's start with the definite articles. Use definite articles with: abstract nouns; nouns used in a general sense; expressions of time; the days of the week and seasons of the year; names of most countries and other geographical names; first names, family names, and titles of people you know or that are close to you; and parts of the body and articles of clothing in place of the posessive form.",
+							"list" : [
+								{
+									"portuguese": "A justiça é cega.",
+									"english": "Justice is blind."
+								},
+								{
+									"portuguese": "Os brasileiros são bons jogadores de futebol.",
+									"english": "Brazilians are good soccer players."
+								},
+								{
+									"portuguese": "O samba é famoso em todo o mundo.",
+									"english": "Samba is famous all over the world."
+								},
+								{
+									"portuguese": "Ele deve chegar na próxima semana.",
+									"english": "He should arrive next week."
+								},
+								{
+									"portuguese": "Faltam dez para as cinco horas.",
+									"english": "It's ten to five."
+								},
+								{
+									"portuguese": "Ela vai ao cinema na quinta-feira.",
+									"english": "She's going to the movies on Thursday."
+								},
+								{
+									"portuguese": "Ele prefere viajar no verão.",
+									"english": "She prefers to travel in summer."
+								},
+								{
+									"portuguese": "O Brasil é o maior país da América do Sul.",
+									"english": "Brazil is the biggest country in South America."
+								},
+								{
+									"portuguese": "O Carlos vem aqui mais tarde?",
+									"english": "Is Carlos coming by later?"
+								},
+								{
+									"portuguese": "Os Silveira são muito conhecidos no Paraná.",
+									"english": "The Silveira family is very well known in Paraná."
+								},
+								{
+									"portuguese": "Ele lava as mãos.",
+									"english": "He washes his hands."
+								},
+								{
+									"portuguese": "Ela coloca as luvas.",
+									"english": "She put on her gloves."
+								}
+							]
+						},
+						"2": {
+							"tip": "Don't use the definite article with the noun *casa* when it means your home; the names of most cities; and family names, titles, and names of famous and unfamiliar people.",
+							"list" : [
+								{
+									"portuguese": "Ele está em casa.",
+									"english": "He's at home."
+								},
+								{
+									"portuguese": "Nós moramos em Tókio.",
+									"english": "We live in Tokyo."
+								},
+								{
+									"portuguese": "A encomenda chega no dia vinte e dois de maio.",
+									"english": "The order arrives on May 22."
+								},
+								{
+									"portuguese": "Antônio Carlos Jobim é músico.",
+									"english": "Antônio Carlos Jobim is a musician."
+								}
+							]
+						},
+						"3": {
+							"tip": "Use the indefinite article with singlular nouns to mean _a/an_ or _one_, and plural nouns to mean _some_.",
+							"list" : [
+								{
+									"portuguese": "Há um homem esperando o senhor.",
+									"english": "There's a man waiting for you."
+								},
+								{
+									"portuguese": "Há umas lojas de pedras preciosas brasileiras no aeroporto.",
+									"english": "There are some Brazilian gem shops in the airport."
+								}
+							]
+						},
+						"4": {
+							"tip": "Don't use the indefinite article before an unqualified noun of occupation or nationality after the verb *ser* (_to be_). But if that noun is modified, then use the indefinite article. Also remember that the indefinite article is omitted before *cem* (_one hundred_) and *mil* (one thousand_).",
+							"list" : [
+								{
+									"portuguese": "Ele é engenheiro, e elas são japonesas.",
+									"english": "He's an engineer, and they're Japanese."
+								},
+								{
+									"portuguese": "Ele é um bom engenheiro, e ela é uma designer famosa.",
+									"english": "He's a good engineer, and she's a well-known designer."
+								},
+								{
+									"portuguese": "A livraria está encomendando cem livros desse autor.",
+									"english": "The bookshop is ordering a hundred books by this author."
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		"21": {
 			"nutsAndBolts" : {
 				"": {
 					"tips" : {

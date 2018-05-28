@@ -112,11 +112,27 @@ var randomNotesJson = {
 				}
 			]
 		},
+		"17": {
+			"text" : [
+				{
+					"type": "Cool Link",
+					"text": "A great place to expore Portuguese and challenge yourself is Wikipedia, of course the Portuguese version. And don't forget about wikcionário, where you can find meanings, etymologies, pronunciation, and more!"
+				}
+			]
+		},
 		"19": {
 			"text" : [
 				{
 					"type": "Culture Note",
 					"text": "An Anglicism is the use of an English word in another language. In both Brazil and Portugal this trend has been making inroads for decades. The main reason for this is that new technologies have come mostly from the United States, and the Portuguese language is sometimes slow to coin new terms for these advancements. As a result, by the time a new technology or device gets a Portuguese name, its English name has already become entrenched, either out of habit or sometimes because words in English are considered more distinctive. Whatever the reason, the incorporation of all these English names and terms happens, some believe, to the detriment of the Portuguese language, giving rise to sentences like: *No brazil você já pode navegar na _internet_ num _cybercafé_ que tenha um _hotspot_ _wireless_ para ler o seu _e-mail_, para visitar _sites_ come _blogs_, ou para fazer _downloads_. Mas cuidado com os _pop-ups_ e com os _spams_ na _web_!* (_In Brazil you can already surf the web in an internet café that has a wireless hotspot to read your e-mails, or visit sites with blogs or to download stuff. But be careful with the pop-ups or span on the web!_)\nBut not all internet-related vocabulary comes from English. Here's a list of common terms, some of which are related to English, and some of which aren't: *internet* (_internet_), *cibercafé* (_cybercafé_), *hotspot* (_hotspot/Wi-Fi access area_), *sem fio* (_wireless_), *correio eletrônico* (_e-mail_), *sítio* (site), *blog* (_blog_), *baixar* (_to download_), *pop-up* (_pop-up_), *spam* (_spam_), *rede* (_web, network_).\nAnd, in case you think that English is somehow immune to borrowing from other languages, think again. English has been called the \"vacuum cleaner\" of languages, gobbling up words from languages all over the world without shame or remorse. Of course, Portuguese is one of them:\nhttps://en.wikipedia.org/wiki/List_of_English_words_of_Portuguese_origin\nhttps://en.wikipedia.org/wiki/List_of_English_words_of_International_origin"
+				}
+			]
+		},
+		"20": {
+			"text" : [
+				{
+					"type": "Tip",
+					"text": "Look up a hotel where you'd like to stay in Brazil (whether you're planning a trip there or not) on www.ondehospedar.com.br/, www.hotelinsite.com.br/, www.decolar.com/paginas/hoteles/busquedahoteles.asp, or any other site you prefer, and get acquainted with the vocabulary. Then, if you're feeling brave enough, call the hotel to aska  few questions about prices, dates, amenities and things to do. Try to get all the information in Portuguese. This is a great way to practice, because it exposes you to the real language and real speakers."
 				}
 			]
 		},

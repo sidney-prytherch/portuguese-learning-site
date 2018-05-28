@@ -1385,8 +1385,7 @@ var practiceJson = {
 							"question": "Você _ as receitas do médico?",
 							"answer": "lê"
 						}
-					],
-					"type": "FIB"
+					]
 				}
 			}
 		},
@@ -1459,8 +1458,7 @@ var practiceJson = {
 							"question": "O menino _ vergonha porque não conhece os outros alunos. (They boy is embarrassed because he doesn't know the other students.)",
 							"answer": "está com"
 						}
-					],
-					"type": "FIB"
+					]
 				},
 				"2": {
 					"questions" : [
@@ -1628,6 +1626,349 @@ var practiceJson = {
 					],
 					"type": "FIBA",
 					"instructions": "Complete with *ter que*, *precisar*, or *querer*. Follow the example, and try to translate the questions and answers, using context or by looking up unfamiliar words."
+				}
+			}
+		},
+		"17": {
+			"practice" : {
+				"1": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "Eu não viajo, porque _ (prefirir) ficar em casa.",
+							"answer": "prefiro~I don't travel because I prefer to stay at home."
+						},
+						{
+							"number": "2",
+							"question": "Os gerentes _ (discutir) os novos planos.",
+							"answer": "discutem~The managers discuss the new plans."
+						},
+						{
+							"number": "3",
+							"question": "As crianças _ (assistir) mais de quatro horas de TV todos os dias.",
+							"answer": "assistem~The children watch more than four hours of TV every day."
+						},
+						{
+							"number": "4",
+							"question": "Que horas _ (partir) o seu vôo?",
+							"answer": "parte~What time does your flight leave?"
+						},
+						{
+							"number": "5",
+							"question": "Nós não _ (insistir) no desconto.",
+							"answer": "insistimos~We don't insist on the discount."
+						},
+						{
+							"number": "6",
+							"question": "A professora _ (repetir) a lição.",
+							"answer": "repete~The teacher repeats the lesson."
+						},
+						{
+							"number": "7",
+							"question": "Nós _ (comprar) muitas coisas para a viajem.",
+							"answer": "compramos~We buy many things for the trip."
+						},
+						{
+							"number": "8",
+							"question": "Vocês _ (beber) vinho tinto ou branco?",
+							"answer": "bebem~Do you drink red or white white?"
+						},
+						{
+							"number": "9",
+							"question": "Nós _ (preferir) cerveja, obrigado.",
+							"answer": "preferimos~We prefer beer, thank you."
+						},
+						{
+							"number": "10",
+							"question": "Carlos e Márcia _ (receber) muitos cartões de Natal.",
+							"answer": "recebem~Carlos and Márcia get many Christmas cards."
+						},
+						{
+							"number": "11",
+							"question": "Eu _ (acordar) às seis da manhã.",
+							"answer": "acordo~I wake up at six A.M."
+						},
+						{
+							"number": "12",
+							"question": "Por que você não _ (dividir) a casa com uma amiga?",
+							"answer": "divide~Why don't you share a house with a friend?"
+						},
+						{
+							"number": "13",
+							"question": "Aqueles rapazes não _ (gostar) de estudar muito.",
+							"answer": "gostam~those young men don't like to study very much."
+						},
+						{
+							"number": "14",
+							"question": "A que horas ela _ (chegar)?",
+							"answer": "chega~What time does she arrive?"
+						},
+						{
+							"number": "15",
+							"question": "Quando ele _ (encontrar) o gernete do banco?",
+							"answer": "encontra~When does he meet with the bank manager?"
+						}
+					]
+				}
+			}
+		},
+		"18": {
+			"practice" : {
+				"1": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "As chaves estão _ da mesa.",
+							"answer": "em cima"
+						},
+						{
+							"number": "2",
+							"question": "O dinheiro está _ do cofre.",
+							"answer": "dentro"
+						},
+						{
+							"number": "3",
+							"question": "O chachorro fixa _ de casa?",
+							"answer": "fora"
+						},
+						{
+							"number": "4",
+							"question": "Ele estaciona o seu carro _ ao hotel.",
+							"answer": "em frente"
+						},
+						{
+							"number": "5",
+							"question": "A colher sempre está _ da faca.",
+							"answer": "ao lado"
+						},
+						{
+							"number": "6",
+							"question": "O que há _ da cama?",
+							"answer": "em baixo"
+						},
+						{
+							"number": "7",
+							"question": "Ela coloca a flor _ as páginas do livro.",
+							"answer": "entre"
+						},
+						{
+							"number": "8",
+							"question": "Quem mora _ apartamento?",
+							"answer": "neste"
+						},
+						{
+							"number": "9",
+							"question": "Você coloca água _ plantas todos os dias?",
+							"answer": "naquelas"
+						},
+						{
+							"number": "10",
+							"question": "Você compra sempre _ loja?",
+							"answer": "nessa"
+						},
+						{
+							"number": "11",
+							"question": "Ele prefere o vinho _ ou _?",
+							"answer": "nisso~naquilo"
+						},
+						{
+							"number": "12",
+							"question": "Ele viaja _ países.",
+							"answer": "naqueles"
+						}
+					]
+				}
+			}
+		},
+		"19": {
+			"practice" : {
+				"1": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "O funcionário _ (vir) ao escritório de carro.",
+							"answer": "vem"
+						},
+						{
+							"number": "2",
+							"question": "Quando eu estou com fome, eu geralmente _ (pedir) uma pizza.",
+							"answer": "peço"
+						},
+						{
+							"number": "3",
+							"question": "O que Júlia _ (trazer) para a academia?",
+							"answer": "traz"
+						},
+						{
+							"number": "4",
+							"question": "Você e seus amigos _ (vir) à festa de natal?",
+							"answer": "vêm"
+						},
+						{
+							"number": "5",
+							"question": "Quando nós _ (trazer) os documentos?",
+							"answer": "trazemos"
+						},
+						{
+							"number": "6",
+							"question": "Eu não _ (vir) aqui sozinha porque tenho medo.",
+							"answer": "venho"
+						},
+						{
+							"number": "7",
+							"question": "Os vizinhos sempre _ (pedir) favores ao porteiro.",
+							"answer": "pedem"
+						},
+						{
+							"number": "8",
+							"question": "Eu _ (trazer) um cartão de crédito, mas não dinheiro quando vou às compras.",
+							"answer": "trago"
+						},
+						{
+							"number": "9",
+							"question": "João e Adelaide _ (pedir) ajuda aos amigos.",
+							"answer": "pedem"
+						},
+						{
+							"number": "10",
+							"question": "O que nós _ (pedir) neste restaurante?",
+							"answer": "pedimos"
+						}
+					],
+					"type": "FIB",
+					"instructions": "Complete the following sentences with the correct form of the verb given in parentheses."
+				},
+				"2": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "Muito obrigado, Sr. Paulo.~Thank you very much, Mr. Paulo.",
+							"answer": "Não tem de quê.~Don't mention it."
+						},
+						{
+							"number": "2",
+							"question": "O senhor pode me dizer as horas, por favor?~Can you tell me the time, please?",
+							"answer": "Sinto muito, não tenho relógio.~Sorry, I don't have a watch."
+						},
+						{
+							"number": "3",
+							"question": "Ai! Meu pé!~Ouch! My foot!",
+							"answer": "Desculpe!~Sorry!"
+						},
+						{
+							"number": "4",
+							"question": "Com licença, posso entrar?~Excuse me, can I come in?",
+							"answer": "Pois não. O que a senhora gostaria?~Certainly. What would you like?"
+						},
+						{
+							"number": "5",
+							"question": "Desculpe, estou atrasado.~I'm sorry, I'm late.",
+							"answer": "Não faz mal.~It doesn't matter."
+						},
+						{
+							"number": "6",
+							"question": "A senhora gostaria de uma bebida?~Would you like a drink?",
+							"answer": "Sim, muito obrigada.~Yes, thank you."
+						}
+					],
+					"type": "MQAA",
+					"instructions": "Match the phrase in Column A to its response in Column B, and then give the translations"
+				}
+			}
+		},
+		"20": {
+			"practice" : {
+				"1": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "Umas crianças _ (jogar) bola.",
+							"answer": "estão jogando"
+						},
+						{
+							"number": "2",
+							"question": "Um homem _ (ler) jornal.",
+							"answer": "está lendo"
+						},
+						{
+							"number": "3",
+							"question": "Uns cachorros _ (correr) na grama.",
+							"answer": "estão correndo"
+						},
+						{
+							"number": "4",
+							"question": "Um homem e um menino _ (alimentar) os pássaros.",
+							"answer": "estão alimetando"
+						},
+						{
+							"number": "5",
+							"question": "Os patos _ (nadar) no lago.",
+							"answer": "estão nadando"
+						},
+						{
+							"number": "6",
+							"question": "Um homem _ (pintar) um banco.",
+							"answer": "está pintando"
+						},
+						{
+							"number": "7",
+							"question": "Uns turistas _ (tirar) fotos.",
+							"answer": "estão tirando"
+						},
+						{
+							"number": "8",
+							"question": "Uma moça _ (fazer) jogging.",
+							"answer": "está fazendo"
+						}
+					],
+					"type": "FIB",
+					"instructions": "Complete with the present continuous of the verbs in parentheses."
+				},
+				"2": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "_ Ferreiras vêm à festa? (Os/Ø)",
+							"answer": "Os"
+						},
+						{
+							"number": "2",
+							"question": "Que horas são? Faltam vinte para _ sete. (as/Ø)",
+							"answer": "as"
+						},
+						{
+							"number": "3",
+							"question": "Ele mora _ Grécia. (na/Ø)",
+							"answer": "na"
+						},
+						{
+							"number": "4",
+							"question": "As folhas caem _ outono. (no/Ø)",
+							"answer": "no"
+						},
+						{
+							"number": "5",
+							"question": "_ meu amigo Pedro está vindo aqui. (O/Ø)",
+							"answer": "O"
+						},
+						{
+							"number": "6",
+							"question": "O Pedro é _ arquiteto. (um/Ø)",
+							"answer": "Ø"
+						},
+						{
+							"number": "7",
+							"question": "_ Caetando Veloso é compositor de música brasileira. (O/Ø)",
+							"answer": "Ø"
+						},
+						{
+							"number": "8",
+							"question": "Ele prefere _ Paris (a/Ø)",
+							"answer": "Ø"
+						}
+					],
+					"type": "FIB",
+					"instructions": "Fill in the blanks with one of the options given in parentheses. The correct aanswer may be nothing, or Ø:"
 				}
 			}
 		}
