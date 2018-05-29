@@ -297,8 +297,8 @@ function loadVocabulary(lessonNumber, pageNumber) {
             mainString += '<audio id="' + audioIds[1] + '" src="' + audioIds[1] + '.mp3" preload="auto"></audio>';
         }
         mainString += '';
-        mainString += '<tr><td><button class="audio" onclick="document.getElementById(\'' + audioIds[0] + '\').play();">';
-        mainString += vocabObj['portuguese'] + ' <span class="glyphicon glyphicon-volume-up"></span></button></td><td><i>';
+        mainString += '<tr><td><button class="audio" onclick="document.getElementById(\'' + audioIds[0] + '\').play();"><b>';
+        mainString += vocabObj['portuguese'] + ' </b><span class="glyphicon glyphicon-volume-up"></span></button></td><td><i>';
         if (vocabType != 'conversations') {
             mainString += '<button class="audio" onclick="document.getElementById(\'' + audioIds[1] + '\').play();">'
             mainString += vocabObj['english'] + ' <span class="glyphicon glyphicon-volume-up"></span></button>';

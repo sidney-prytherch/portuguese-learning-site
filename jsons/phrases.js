@@ -635,7 +635,7 @@ var phrasesJson = {
 						},
 						{
 							"portuguese": "entre as duas e as três",
-							"english": "bewteen 2:00 and 3:00"
+							"english": "between 2:00 and 3:00"
 						}
 					]
 				},
@@ -655,7 +655,7 @@ var phrasesJson = {
 						},
 						{
 							"portuguese": "o ar fresco de outono",
-							"english": "the free fall air"
+							"english": "the fresh fall air"
 						},
 						{
 							"portuguese": "o inverno frio",

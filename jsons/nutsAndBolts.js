@@ -2665,7 +2665,7 @@ var nutsAndBoltsJson = {
 									"english": "The shoes are under the bed."
 								},
 								{
-									"portuguese": "A impressora está está ao lado do computador.",
+									"portuguese": "A impressora está ao lado do computador.",
 									"english": "The printer is next to the computer."
 								},
 								{
@@ -2715,7 +2715,7 @@ var nutsAndBoltsJson = {
 									"col4": "Thursday"
 								},
 								{
-									"col1": "segunda-deira",
+									"col1": "segunda-feira",
 									"col2": "Monday",
 									"col3": "sexta-feira",
 									"col4": "Friday"
@@ -2897,7 +2897,7 @@ var nutsAndBoltsJson = {
 							"tip": "Let's look at a few more common irregular verbs."
 						},
 						"2": {
-							"tip": "vir (_to come_)",
+							"tip": "*vir* (_to come_)",
 							"table" : [
 								{
 									"col1": "*",
@@ -2918,7 +2918,7 @@ var nutsAndBoltsJson = {
 							]
 						},
 						"3": {
-							"tip": "pedir (_to request, to order, to ask for_)",
+							"tip": "*pedir* (_to request, to order, to ask for_)",
 							"table" : [
 								{
 									"col1": "*",
@@ -2939,7 +2939,7 @@ var nutsAndBoltsJson = {
 							]
 						},
 						"4": {
-							"tip": "trazer (_to bring_)",
+							"tip": "*trazer* (_to bring_)",
 							"table" : [
 								{
 									"col1": "*",
@@ -2990,7 +2990,7 @@ var nutsAndBoltsJson = {
 							]
 						},
 						"5": {
-							"tip": "Note that *vir a pé* is _to come on foot_; *vir de carro* is _to come in a car_ and *vir de ônibus*, *trem*, *avião is _to come by bus_, _train_, or _plane_.",
+							"tip": "Note that *vir a pé* is _to come on foot_; *vir de carro* is _to come in a car_ and *vir de ônibus*, *trem*, *avião* is _to come by bus_, _train_, or _plane_.",
 							"list" : [
 								{
 									"portuguese": "Ele vem de carro ou de ônibus?",

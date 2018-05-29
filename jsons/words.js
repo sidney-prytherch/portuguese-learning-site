@@ -585,7 +585,7 @@ var wordsJson = {
 						},
 						{
 							"portuguese": "a ligação/a chamada",
-							"english": "phone class"
+							"english": "phone call"
 						},
 						{
 							"portuguese": "a secretaria electrônica",

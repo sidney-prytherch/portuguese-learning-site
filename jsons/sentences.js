@@ -522,7 +522,7 @@ var sentencesJson = {
 							"english": "Do you have internet access?"
 						},
 						{
-							"portuguese": "Você precisa discaar zero para falar com a recepção.",
+							"portuguese": "Você precisa discar zero para falar com a recepção.",
 							"english": "You need to dial zero to talk to reception."
 						},
 						{

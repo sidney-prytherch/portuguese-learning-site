@@ -454,7 +454,7 @@ var conversationsJson = {
 							"english": "Gustavo: The party will be next Wednesday, the 23rd, at 7:30 in the evening. Can you come? You can bring a friend with you."
 						},
 						{
-							"portuguese": "Luiza: Não sei, deize ver... Ah, que pena, não posso.",
+							"portuguese": "Luiza: Não sei, deize ver... Ah, que pena, não posso. Na quarta que vem estarei viajando a negóçios.",
 							"english": "Luiza: I dont' know, let me see... Oh, what a pity, I can't. Next Wednesday I'm traveling on business."
 						},
 						{
