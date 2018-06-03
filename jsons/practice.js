@@ -1971,6 +1971,354 @@ var practiceJson = {
 					"instructions": "Fill in the blanks with one of the options given in parentheses. The correct aanswer may be nothing, or Ø:"
 				}
 			}
+		},
+		"21": {
+			"practice" : {
+				"1": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "As _ (1ª) viagens são as mehores.",
+							"answer": "primeiras~First trips are the best."
+						},
+						{
+							"number": "2",
+							"question": "Ele viaja todas as _ (3ª) semanas.",
+							"answer": "terceiras~He travels every third week."
+						},
+						{
+							"number": "3",
+							"question": "Essa é a _ (10ª) vitória consecutiva desse time de futebol.",
+							"answer": "décima~This is the tenth consecutive victory of this soccer team."
+						},
+						{
+							"number": "4",
+							"question": "O seu quarto é no _ (15º) andar.",
+							"answer": "décimo quinto~Your room is on the fifteenth floor."
+						},
+						{
+							"number": "5",
+							"question": "O _ (22º) assento é ao lado da saída de emergência.",
+							"answer": "vigésimo segundo~The twenty-second sear is next to the emergency exit."
+						}
+					],
+					"type": "FIBA",
+					"instructions": "Write out the ordinal numbers. Then try to translate the full sentences."
+				},
+				"2": {
+					"questions" : 
+					],
+					"type": "FIC",
+					"instructions": "Complete the following dialogue with the following words: *à*, *fica*, *a*, *lado*, *ali*, *longe*"
+				}
+			}
+		},
+		"22": {
+			"practice" : {
+				"1": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "Mariana, _ (fechar) a porta, por favor.",
+							"answer": "feche~Mariana, please close the door."
+						},
+						{
+							"number": "2",
+							"question": "_ (seguir) em frente por duzentos metros.",
+							"answer": "siga~Go ahead for two hundred meters."
+						},
+						{
+							"number": "3",
+							"question": "Crianças, _ (comer) tudo!",
+							"answer": "comam~Children, eat everything!"
+						},
+						{
+							"number": "4",
+							"question": "Atenção alunos: _ (começar) a prova.",
+							"answer": "comecem~Attention students: start the test."
+						},
+						{
+							"number": "5",
+							"question": "Turistas, não _ (dar) comida aos pássaros.",
+							"answer": "Dêem~Tourists, don't give food to the birds."
+						},
+						{
+							"number": "6",
+							"question": "Não _ (vir) tarde, _ (chegar) cedo.",
+							"answer": "venha~chegue~Don't come late; arrive early."
+						},
+						{
+							"number": "7",
+							"question": "_ (ver) esse programa, é muito bom.",
+							"answer": "vêe~Watch this show; it's very good."
+						},
+						{
+							"number": "8",
+							"question": "Primeiro, _ (assinar) os seus nomes.",
+							"answer": "assine~First, sign your names."
+						},
+						{
+							"number": "9",
+							"question": "Pedro e Silvia, não _ (fazer) barulho, o seu pai está dormindo!",
+							"answer": "façam~Pedro and Silvia, don't make noise, your father is sleeping!"
+						},
+						{
+							"number": "10",
+							"question": "_ (trazer) um documento e duas fotos para o passaporte.",
+							"answer": "traga~Bring an ID and two photos for the passport."
+						}
+					],
+					"type": "FIBA",
+					"instructions": "Give the imperative of the verbs in parentheses. Try to translate the whole sentences."
+				},
+				"2": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "(eu) O professor _ ensine. (The teacher teaches me.)",
+							"answer": "me"
+						},
+						{
+							"number": "2",
+							"question": "(o Pedro) Eu _ espero. (I wait for him.)",
+							"answer": "o"
+						},
+						{
+							"number": "3",
+							"question": "(as moças) O rapaz _ vê. (The young man sees them.)",
+							"answer": "as"
+						},
+						{
+							"number": "4",
+							"question": "(os rapazes) O motorista _ leva. (The driver takes them.)",
+							"answer": "os"
+						},
+						{
+							"number": "5",
+							"question": "(você-feminine) Ele _ chama. (He calls you.)",
+							"answer": "a"
+						},
+						{
+							"number": "6",
+							"question": "(você-masculine) A sua mulher _ procura. (Your wife is looking for you.)",
+							"answer": "o"
+						},
+						{
+							"number": "7",
+							"question": "(os meus amigos) Eu _ encontro numa festa. (I invite them to a party.)",
+							"answer": "os"
+						},
+						{
+							"number": "8",
+							"question": "(eu e você) O hotel _ cobra muito caro. (The hotel charges us a lot.)",
+							"answer": "nos"
+						},
+						{
+							"number": "9",
+							"question": "(eu) Pedro _ convida para um jogo de futebol. (Pedro invites me to a soccer game.)",
+							"answer": "me"
+						},
+						{
+							"number": "10",
+							"question": "(você) O hotel não _ pede um documento. (The hotel saleswoman asks you for I.D.)",
+							"answer": "lhe"
+						},
+						{
+							"number": "11",
+							"question": "(eu e você) A vendedora _ promete um bom desconto. (The saleswoman promises us a good discount.)",
+							"answer": "nos"
+						},
+						{
+							"number": "12",
+							"question": "(amiga) Ele _ dá um presente. (He gives her a gift.)",
+							"answer": "lhe"
+						},
+						{
+							"number": "13",
+							"question": "(pais) Os filhos _ levam para a casa da praia. (They take them to the beach house.)",
+							"answer": "lhes"
+						},
+						{
+							"number": "14",
+							"question": "(amigos) Nós _ informamos o nosso novo endereço. (We inform them of our new address.)",
+							"answer": "lhes"
+						}
+					],
+					"type": "FIB"
+				}
+			}
+		},
+		"23": {
+			"practice" : {
+				"1": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "De manhã, ela _ (pôr) a mesa do café e _ (dizer) bom dia ao marido.",
+							"answer": "põe~diz~In the morning she sets the table and says good morning to her husband."
+						},
+						{
+							"number": "2",
+							"question": "Crianças, _ (dizer) a verdade: vocês gostam desse parque?",
+							"answer": "digam~Children, tell the truth: do you like this park?"
+						},
+						{
+							"number": "3",
+							"question": "Por que eles não _ (sair) do caminho?",
+							"answer": "saem~Why don't they get out of the way?"
+						},
+						{
+							"number": "4",
+							"question": "Por favor, _ (pôr) mais gelo no meu copo.",
+							"answer": "ponha~Please, put more ice in my cup."
+						},
+						{
+							"number": "5",
+							"question": "Pedro e Lúcia estão _ (sair) juntos ou são só amigos?",
+							"answer": "saem~Are Pedro and Lúcia going out or are they only friends?"
+						},
+						{
+							"number": "6",
+							"question": "Eu não _ (dizer) a minha idade para as pessoas!",
+							"answer": "digo~I do not tell people my age!"
+						},
+						{
+							"number": "7",
+							"question": "A nova escola está _ (dar) certo?",
+							"answer": "danda~Is the new school working out?"
+						},
+						{
+							"number": "8",
+							"question": "Eles não _ (dar) uma nova chance se você _ (diz) mentiras.",
+							"answer": "dão~diz~They will not give you a new chance if you tell lies."
+						},
+						{
+							"number": "9",
+							"question": "O nosso avião está _ (sair) atrasado, mas o seu está _ (sair) adiantado.",
+							"answer": "saindo~saindo~Our plane's leaving late, but yours is leaving early."
+						},
+						{
+							"number": "10",
+							"question": "Meu marido e eu _ (dizer) às crianças onde elas podem nos encontrar.",
+							"answer": "dizemos~My husband and I always tell the children where they can find us."
+						}
+					],
+					"type": "FIBA",
+					"instructions": "Complete the sentences using the appropriate form of the verb in parentheses. The verbs may be in the present tense, present continuous, or the imperative. Then try to translate each complete sentence."
+				},
+				"2": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "Ele sempre diz `mentiras`? Sim, ele sempre _ diz.",
+							"answer": "as"
+						},
+						{
+							"number": "2",
+							"question": "Pedro convida `eu e você` à festa? Sim, Pedro _ convida.",
+							"answer": "nos"
+						},
+						{
+							"number": "3",
+							"question": "Você dá informações `aos turidstas`? Sim, _ dou as informações.",
+							"answer": "lhes"
+						},
+						{
+							"number": "4",
+							"question": "As crianças põem `os dedos` na boca? Sim, elas _ põem na boca.",
+							"answer": "os"
+						},
+						{
+							"number": "5",
+							"question": "Ele diz a verdade `a você`? Sim, ela _ disse a verdade.",
+							"answer": "me"
+						},
+						{
+							"number": "6",
+							"question": "Nós damos o cheque `à recepcionista`? Sim, vocês _ dão o cheque.",
+							"answer": "lhe"
+						},
+						{
+							"number": "7",
+							"question": "Os estudantes telefonam `as suas famílias`? Sim, eles _ telefonam.",
+							"answer": "lhes"
+						},
+						{
+							"number": "8",
+							"question": "Os turistas trazem `os mapas`? Não, eles não _ trazem.",
+							"answer": "os"
+						}
+					],
+					"type": "FIB",
+					"instructions": "Answer the following quetions using a direct or indirect object pronoun that refers back to the underlined objects in the question."
+				}
+			}
+		},
+		"24": {
+			"practice" : {
+				"1": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "Esse remédio é para",
+							"answer": "tomar de três em três horas.~This medicine is for taking every three hours."
+						},
+						{
+							"number": "2",
+							"question": "Ele não tem tempo para",
+							"answer": "estudar ou trabalhar.~He doesn't have time to study or work."
+						},
+						{
+							"number": "3",
+							"question": "Faça silêncio para",
+							"answer": "não perturbá-la.~Be quiet so that you don't disturb her."
+						},
+						{
+							"number": "4",
+							"question": "Encha os pneus do carro para",
+							"answer": "não ter problemas.~Put air in the tires so you don't have any problems."
+						},
+						{
+							"number": "5",
+							"question": "Ande dois quarteirões para",
+							"answer": "chegar à igreja.~Walk two blocks to get to the church."
+						}
+					],
+					"type": "MQAA",
+					"instructions": "Choose the expression in column B that completes column A. Translate your anwers."
+				},
+				"2": {
+					"questions" : [
+						{
+							"number": "1",
+							"question": "Ele pede para não _ (nadar) à noite. (He asks us to not swim at night.)",
+							"answer": "nadarmos"
+						},
+						{
+							"number": "2",
+							"question": "É para _ (esperar) aqui for a ou lá dentro? (Should they wait inside or outside?)",
+							"answer": "esperarem"
+						},
+						{
+							"number": "3",
+							"question": "Estamos prontos para _ (viajar). (We're ready to travel.)",
+							"answer": "viajarmos"
+						},
+						{
+							"number": "4",
+							"question": "É necessário _ (trocar) de avião? (Do we need to change planes?)",
+							"answer": "trocarmos"
+						},
+						{
+							"number": "5",
+							"question": "Precisamos _ (ir) ao banco? (Do we need to go to the bank?)",
+							"answer": "ir"
+						}
+					],
+					"type": "FIB",
+					"instructions": "Complete the following sentences using the correct form of the infinitive. Use the translation to help you."
+				}
+			}
 		}
 	}
 }

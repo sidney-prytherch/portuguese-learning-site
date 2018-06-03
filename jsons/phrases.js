@@ -712,6 +712,140 @@ var phrasesJson = {
 					]
 				}
 			}
+		},
+		"22": {
+			"sections" : {
+				"1": {
+					"phrases" : [
+						{
+							"portuguese": "a faixa de pedestre",
+							"english": "pedestrian crosswalk"
+						},
+						{
+							"portuguese": "o sinal de trânsito",
+							"english": "traffic sign"
+						},
+						{
+							"portuguese": "o engarrafamento de carros",
+							"english": "traffic jam"
+						},
+						{
+							"portuguese": "a tráfego contrário",
+							"english": "oncoming traffic"
+						},
+						{
+							"portuguese": "a rua contramão",
+							"english": "one-way street"
+						},
+						{
+							"portuguese": "a rua de mão dupla",
+							"english": "two-way street"
+						},
+						{
+							"portuguese": "o elevador panorâmico",
+							"english": "panoramic elevator"
+						},
+						{
+							"portuguese": "a escada rolante",
+							"english": "escalator"
+						},
+						{
+							"portuguese": "a passarela rolante",
+							"english": "pedestrian overpass"
+						},
+						{
+							"portuguese": "o jardim público",
+							"english": "public garden"
+						},
+						{
+							"portuguese": "a rua arborizada",
+							"english": "tree-lined street"
+						},
+						{
+							"portuguese": "o bairro residencial",
+							"english": "residential neighborhood"
+						},
+						{
+							"portuguese": "o bilhete de ônibus",
+							"english": "bus ticket"
+						},
+						{
+							"portuguese": "o bilhete de metrô",
+							"english": "subway ticket"
+						},
+						{
+							"portuguese": "a carro alugado",
+							"english": "rented car"
+						}
+					]
+				},
+				"2": {
+					"phrases" : [
+						{
+							"portuguese": "o limite de volocidade",
+							"english": "speed limit"
+						},
+						{
+							"portuguese": "a cabine de pedágio",
+							"english": "toll booth"
+						},
+						{
+							"portuguese": "a parada obrigatória",
+							"english": "mandatory stop"
+						},
+						{
+							"portuguese": "passar o sinal vermelho",
+							"english": "to run a red light"
+						},
+						{
+							"portuguese": "a faixa exclusiva de ônibus",
+							"english": "restricted bus lane"
+						},
+						{
+							"portuguese": "a parada de ônibus/de táxi",
+							"english": "bus stop/taxi stand"
+						},
+						{
+							"portuguese": "a calçadão público",
+							"english": "pedestrian street"
+						},
+						{
+							"portuguese": "a estrada em obras",
+							"english": "road works"
+						},
+						{
+							"portuguese": "a ponte elevadiça",
+							"english": "drawbridge"
+						},
+						{
+							"portuguese": "seguir em frente",
+							"english": "to go straight ahead"
+						},
+						{
+							"portuguese": "virar à direita",
+							"english": "to turn right"
+						},
+						{
+							"portuguese": "a rua sem saída",
+							"english": "dead end street"
+						},
+						{
+							"portuguese": "à sua esquerda",
+							"english": "on your left"
+						},
+						{
+							"portuguese": "a uns dez quarteirões",
+							"english": "about ten blocks ahead"
+						}
+					]
+				}
+			}
+		},
+		"26": {
+			"sections" : {
+				"": {
+				}
+			}
 		}
 	}
 }

@@ -528,6 +528,121 @@ var conversationsJson = {
 					]
 				}
 			}
+		},
+		"24": {
+			"sections" : {
+				"1": {
+					"conversations" : [
+						{
+							"portuguese": "Receptionista: Bom dia, Senhor Robert. Posso ajudá-lo?",
+							"english": "Receptionist: Good morning, Mr. Robert. Can I help you?"
+						},
+						{
+							"portuguese": "Senhor Robert: Bom dia. Sim, eu preciso de algumas informações. Primeiro, eu gostaria de saber qual o jeito mais fácil para ir a Praça da República.",
+							"english": "Senhor Robert: Good morning. Yes, I need some information. First, I would like to know the best way to get to Praça da República."
+						},
+						{
+							"portuguese": "Receptionista: Bem, o senhor quer ir de táxi?",
+							"english": "Receptionist: Well, do you want to take a cab?"
+						},
+						{
+							"portuguese": "Senhor Robert: É possível caminhar?",
+							"english": "Senhor Robert: Is it possible to walk?"
+						},
+						{
+							"portuguese": "Receptionista: Sim, não é longe. Eu lhe explico o caminho. Saia do hotel, vire à direita e siga a rua até o segundo semáforo, então vire à esquerda. Cuidado ao atravessar a rua porque ela é muito movimentada.",
+							"english": "Receptionist: Yes, it isn't far. I'll give you directions. When you leave the hotel turn right, and go striaght down the street until you get to the second traffic light, then turn left. Be careful when you cross the street because it's a very busy road."
+						},
+						{
+							"portuguese": "Senhor Robert: Sim, obrigado. E depois?",
+							"english": "Senhor Robert: Thank you. And then?"
+						},
+						{
+							"portuguese": "Receptionista: Depois, vá até a próxima esquina e a Praça da República fica bem ali no cruzamento. Não tem como errar, é uma praça muito grande e arborizada. O senhor deseja mais alguma informação?",
+							"english": "Receptionist: After that, walk to the next corner and the Praça da República is right there at the intersection. You can't miss it; it's a very large square full of trees. Would you like to know anything else?"
+						},
+						{
+							"portuguese": "Senhor Robert: Sim. Por favor, gida-me onde posso comprar algumas lembranças para os meus filhos.",
+							"english": "Senhor Robert: Yes, please tell me where I can buy some souvenirs for my children."
+						},
+						{
+							"portuguese": "Receptionista: Pois não. O senhor pode comprar suvenires típiicos desta região na loja de suvenires no mezanino, ou pode comprá-los no shopping que fica a uns dez quarteirões daqui.",
+							"english": "Receptionist: Of course. You can buy souvenirs typical of this region at the suvenir shop on the messanine, or you can buy them at the shopping mall located about ten blocks from here."
+						},
+						{
+							"portuguese": "Senhor Robert: Não, não posso ir ao shopping, estou sem tempo. Onde fica a loja de suvenires do hotel?",
+							"english": "Senhor Robert: No, I don't have time to go to the mall. Where's the hotel souvenir shop?"
+						},
+						{
+							"portuguese": "Receptionista: É fácil. Volte às escadas rolantes e suba um andar até o mezanino. Ou pegue o elevador aperte o M. É a terceira ou quatro loja à sua direita.",
+							"english": "Receptionist: It's easy. Go back to the escalator and go up one floor to the mezzanine. Or take the elevator, press M. It's the third or fourth store on your right."
+						},
+						{
+							"portuguese": "Senhor Robert: Muito obrigado e tenha um bom dia.",
+							"english": "Senhor Robert: Thank you very much; have a nice day."
+						}
+					],
+					"beforeNotes": "Listen in while Robert asks the receptionist at the front desk of his hotel for some information."
+				},
+				"2": {
+					"conversations" : [
+						{
+							"portuguese": "Assistente: Isso é tudo. Não esqueça de trazer o carro com o tanque cheio porque é mais econômico para a senhora. A senhora precisa de mais alguma coisa?",
+							"english": "Assistant: That's all. Don't forget to bring the car back with a full tank because it's cheaper for you. Is there anything else I can do for you."
+						},
+						{
+							"portuguese": "Anne: Sim, Qual o melhor caminho para chegar ao Hotel Fasano?",
+							"english": "Anne: Yes. What's the easiest way to get to the Fasano Hotel?"
+						},
+						{
+							"portuguese": "Assistente: Olhe neste mapa. Nós estamos aqui e o seu hotel é aqui, vê? Você conhece o Parque do Ibirapuera?",
+							"english": "Assistant: Take a look at this map. We're here, and your hotel is here, see? Have you ever heard of the Ibirapuera Park?"
+						},
+						{
+							"portuguese": "Anne: Sim, conheço.",
+							"english": "Anne: Yes, I have."
+						},
+						{
+							"portuguese": "Assistente: O seu hotel fica próximo. A senhora deve pegar essa avenida larga bem em frente ao aeroporto que se chama Avenida Rubem Berta. A senhora vai em frente, uns três quilômetros, até passar o parque do Ibirapuera. Quando chegar numa rotatória, fique à sua direita, e vire na segunda rua. Essa rua se chama Brigadeiro Luís Antônio. Vá em frente por uns cem ou duzentos metros, e vire à esquerda na Rua Estados Unidos. A rua do seu hotel é essa, veja.",
+							"english": "Assistant: Your hotel is close to it. You should get on the big street that's right outside the airport called Avenida Rubem Berta. Go straight ahead for about three kilometers until you go by the Ibirapuera park. When you get to a traffic circle, stary to your right, and turn onto the second street. This street is called Brigadeiro Luís Antônio. Go straight for about one or two hundred meters, then turn onto Rua Estados Unidos. Your hotel is on this street, take a look here."
+						},
+						{
+							"portuguese": "Anne: Posso levar o mapa?",
+							"english": "Anne: Can I have the map?"
+						},
+						{
+							"portuguese": "Assistente: Claro que pode lavá-lo.",
+							"english": "Assistant: Of course you can take it."
+						},
+						{
+							"portuguese": "Anne: Então, por favor, marque o caminho para mim.",
+							"english": "Anne: Then can you please mark down the directions?"
+						},
+						{
+							"portuguese": "Assistente: Claro, aqui está. Mais alguma coisa?",
+							"english": "Assistant: Sure, here it is. Anything else?"
+						},
+						{
+							"portuguese": "Anne: Sim, por favor. Onde fica o posto de gasolina mais próximo daqui?",
+							"english": "Anne: Yes, please. Where's the nearest gas station?"
+						},
+						{
+							"portuguese": "Assistente: Na sua volta, a senhora pode encher o tanque em qualquer posto ao longo desta avenida. Olhe, bem ali em frente há um, está vendo?",
+							"english": "Assistant: When you return the car, you can fill it up at any service station along this avenue. Look, there's one right there, opposite the store. Do you see it?"
+						},
+						{
+							"portuguese": "Anne: Bem, muito obrigada.",
+							"english": "Anne: Well, thank you."
+						},
+						{
+							"portuguese": "Assistente: Boa estada em São Paulo.",
+							"english": "Assistant: Have a good stay in São Paulo."
+						}
+					],
+					"beforeNotes": "Listen in while Anne asks the assistant at São Paulo airport car rental agency the best way to get to her hotel.",
+					"afterNotes": "In Portuguese there's a difference between the verbs *saber* (_to know_) and *conhecer* (_to know_, _to meet_). *Conhecer* means to know a place, or to know or to meet someone. *Eu conheço o Brasil.* (_I know Brazil._) *Elas não conhecem o ator do filme.* (_They don't know the actor in the movie._) *Vocês já conhecem os meus pais?* (_Do you already know_/_Have you already met my parent?_) Sometimes *conhecer* has the same meaning as the English _to have been to (a place)_. *Você conhece a floresta amazônica?* (_Have you been to the Amazon forest?_)\nOn the other hand, *saber* is an irregular verb meaning to have intellectual knowledge of something, to know a fact. Its forms are *sei*, *sabe*, *sabemos*, and *sabem*. *Eu não sei o seu nome.* (_I don't know your name._) *Você sabe que horas são?* (_Do you know what time it is?_) *Ela save falar fracês.* (_She knows how to speak French._) The imperative forms are *saiba* and *saibam*. *Saiba o preço antes de comprar.* (_Know the price before you buy it._)"
+				}
+			}
 		}
 	}
 }

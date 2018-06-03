@@ -136,6 +136,14 @@ var randomNotesJson = {
 				}
 			]
 		},
+		"21": {
+			"text" : [
+				{
+					"type": "Cool Link",
+					"text": "With Google Maps, you can check out the place you want to visit in Brazil or Portugal and even see where you hotel will be located.\nhttp://maps.google.com/\nIf you want to challenge yourself in Portuguese, this Yahoo site offers maps, directions, and other useful information for Brazil:\nhttp://br.dir.yahoo.com/Ciencia/Geografia/Cartografia/Mapas/\nAnother great map resource is: www.lib.utexas.edu/maps/inder.html. You can find all sorts of different maps on just about any place on the planet."
+				}
+			]
+		},
 		"23": {
 			"text" : [
 				{

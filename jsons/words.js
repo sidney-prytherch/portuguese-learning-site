@@ -702,6 +702,190 @@ var wordsJson = {
 					]
 				}
 			}
+		},
+		"21": {
+			"sections" : {
+				"1": {
+					"words" : [
+						{
+							"portuguese": "explicar",
+							"english": "to explain"
+						},
+						{
+							"portuguese": "seguir",
+							"english": "to follow"
+						},
+						{
+							"portuguese": "parar",
+							"english": "to stop"
+						},
+						{
+							"portuguese": "estacionar",
+							"english": "to park"
+						},
+						{
+							"portuguese": "cruzar",
+							"english": "to cross"
+						},
+						{
+							"portuguese": "o cruzamento",
+							"english": "intersection"
+						},
+						{
+							"portuguese": "atravessar",
+							"english": "to cross, to traverse"
+						},
+						{
+							"portuguese": "subir",
+							"english": "to go up"
+						},
+						{
+							"portuguese": "descer",
+							"english": "to go down"
+						},
+						{
+							"portuguese": "a velocidade",
+							"english": "speed"
+						},
+						{
+							"portuguese": "a praça",
+							"english": "garden, square"
+						},
+						{
+							"portuguese": "o jardim",
+							"english": "garder"
+						},
+						{
+							"portuguese": "a rua",
+							"english": "street"
+						},
+						{
+							"portuguese": "a avenida",
+							"english": "avenue"
+						},
+						{
+							"portuguese": "a estrada",
+							"english": "road"
+						},
+						{
+							"portuguese": "a alameda",
+							"english": "boulevard"
+						},
+						{
+							"portuguese": "a auto-estrada",
+							"english": "highway"
+						},
+						{
+							"portuguese": "a rotatória",
+							"english": "traffic cricle, roundabout"
+						},
+						{
+							"portuguese": "a esquina",
+							"english": "corner"
+						}
+					],
+					"afterNotes": "The verb *seguir* (_to follow_) is irregular: [{*eu sigo*|*nós seguimos*}{*você segue*|*vocês seguem*}{*ele/ela segue*|*eles/elas seguem*}]"
+				},
+				"2": {
+					"words" : [
+						{
+							"portuguese": "a veículo",
+							"english": "vehicle"
+						},
+						{
+							"portuguese": "passar",
+							"english": "to pass (by a building, park, etc.)"
+						},
+						{
+							"portuguese": "ultrapassar",
+							"english": "to pass (a car on the highway)"
+						},
+						{
+							"portuguese": "o/a motorista",
+							"english": "driver"
+						},
+						{
+							"portuguese": "errar",
+							"english": "to make a mistake"
+						},
+						{
+							"portuguese": "proibido",
+							"english": "forbidden"
+						},
+						{
+							"portuguese": "o suvenir",
+							"english": "souvenir"
+						},
+						{
+							"portuguese": "a lembrança",
+							"english": "souvenir"
+						},
+						{
+							"portuguese": "o elevador",
+							"english": "elevator"
+						},
+						{
+							"portuguese": "Cuidado.",
+							"english": "Watch out."
+						},
+						{
+							"portuguese": "a atenção",
+							"english": "attention"
+						},
+						{
+							"portuguese": "o metrô",
+							"english": "subway"
+						},
+						{
+							"portuguese": "o metro",
+							"english": "meter"
+						},
+						{
+							"portuguese": "o quilômetro",
+							"english": "kilometer"
+						},
+						{
+							"portuguese": "o bonde",
+							"english": "tram/streetcar"
+						},
+						{
+							"portuguese": "o prefeito",
+							"english": "mayor"
+						},
+						{
+							"portuguese": "a prefeitura",
+							"english": "city hall"
+						},
+						{
+							"portuguese": "o/a guia",
+							"english": "guide (person or book)"
+						},
+						{
+							"portuguese": "o viaduto",
+							"english": "viaduct"
+						},
+						{
+							"portuguese": "a igreja",
+							"english": "church"
+						},
+						{
+							"portuguese": "a sinagoga",
+							"english": "synagogue"
+						},
+						{
+							"portuguese": "a mesquita",
+							"english": "mosque"
+						}
+					],
+					"afterNotes": "In the above word list there are several words that are smasculine even though they end in *a*. SImilar cases are: *o dia* (_day_), *o turista* (_tourist_), and *o guia* (_guide_). Some professions that end in *-ista*, such as *motorista* (_driver_), *journalista* (_journalist_), *pianista* (_pianist_), *guitarrista* (_guitarist_), *violinista* (_violinist_) are used for both genders. But remember: you can always tell the gender of a noun by the article: *O violinista é muito bom.* (_The (male) violinist is very good._) *Aquela journalista é famosa.* (_That (female) journalist is famous._)"
+				}
+			}
+		},
+		"25": {
+			"sections" : {
+				"": {
+				}
+			}
 		}
 	}
 }

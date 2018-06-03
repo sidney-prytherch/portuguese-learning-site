@@ -3269,6 +3269,922 @@ var nutsAndBoltsJson = {
 		},
 		"21": {
 			"nutsAndBolts" : {
+				"1": {
+					"tips" : {
+						"1": {
+							"tip category": "Ordianl Numbers",
+							"tip": "Ordinal numbers are used to show a sequence or order. Here are _first_ through _tenth_: *primeiro* (1st), *segundo* (2nd), *terceiro* (3rd), *quarto* (4th), *quinto* (5th), *sexto* (6th), *sétimo* (7th), *oitavo* (8th), *nono* (9th), *décimo* (10th)"
+						},
+						"2": {
+							"tip": "For 11th through 19th just add décimo: *décimo primeiro* (11th), *décimo segundo* (12th), *décimo terceiro* (13th), *décimo quarto* (14th), *décimo quinto* (15th), *décimo sexto* (16th), *décimo sétimo* (17th), *décimo oitavo* (18th), *décimo nono* (19th)."
+						},
+						"3": {
+							"tip": "Here are the ten places, along with 100th and 1000th: *vigésimo* (20th), *trigésimo* (30th), *quadragésimo* (40th), *qüinquagésimo* (50th), *sexagésimo* (60th), *septuagésimo* (70th), *octogésimo* (80th), *nonagésimo* (90th), *centésimo* (100th), *milésimo* (1000th)"
+						},
+						"4": {
+							"tip": "For numbers in between, just add the smaller ordinal: *vigésimo primeiro* (21st), *vigésimo segundo* (22nd), *trigésimo quinto* (35th)."
+						},
+						"5": {
+							"tip": "Ordinal numbers are adjectives, so they agree in gender and number. That means that *primeiro* also has the forms *primeira*, *primeiros*, and *primeiras*. Look at these examples.",
+							"list" : [
+								{
+									"portuguese": "Pedro é o primeiro na fila do cinema.",
+									"english": "Pedro is the first in line at the movies."
+								},
+								{
+									"portuguese": "Os dois primeiros meses do ano são os mais quentes.",
+									"english": "The first two months of the year are the hottest."
+								},
+								{
+									"portuguese": "A Rua Augusta é a segunda rua à direita.",
+									"english": "Augusta Street is the second street on the right."
+								},
+								{
+									"portuguese": "Eles estão entre os vigésimos colocados.",
+									"english": "They are among the twentieth finalists."
+								},
+								{
+									"portuguese": "Todas as décimas quartas notas musicais são iguais nesta música.",
+									"english": "All the fourteenth musical notes are the same in this piece of music."
+								},
+								{
+									"portuguese": "Elas estão entre as vigésimas primeiras pessoas a chegar.",
+									"english": "They're among the twenty-first people to arrive."
+								}
+							]
+						},
+						"6": {
+							"tip": "In written Portuguese, the ordinal numbers are abbreviated with a superscript º for masculine and a superscript ª for feminine.",
+							"list" : [
+								{
+									"portuguese": "Ele está no 1º ano da escola.",
+									"english": "He's in the 1st year at school."
+								},
+								{
+									"portuguese": "Ela está na 2ª série.",
+									"english": "She's in the 2nd grade."
+								}
+							]
+						}
+					}
+				},
+				"2": {
+					"tips" : {
+						"1": {
+							"tip category": "The Verb Ficar (_To Stay_) and Phrases of Location and Direction",
+							"tip": "In Lesson 16 you learned that the verb *ficar* means _to stay_ or _to remain_. It's actually a very common verb in Portuguese, with several other meanings. Let's look at them.",
+							"table" : [
+								{
+									"col1": "-",
+									"col2": "*",
+									"col3": "_"
+								},
+								{
+									"col1": "to stay, to remain (temporary location)",
+									"col2": "Você fica aqui enquanto eu peço informações.",
+									"col3": "You stay here while I ask for information."
+								},
+								{
+									"col1": "to be located (permanent location)",
+									"col2": "O nosso escritório fica na Avendia Paulista.",
+									"col3": "Our office is located on Paulista Avenue."
+								},
+								{
+									"col1": "to keep, to take, followed by *com* (_with_)",
+									"col2": "Eu fico com este livro e você fica com aquele.",
+									"col3": "I'll take this book, and you take that one."
+								},
+								{
+									"col1": "to become, to get (followed by an adjective)",
+									"col2": "Ele fica feliz quando você chega em casa.",
+									"col3": "He gets happy when you get home."
+								},
+								{
+									"col1": "to keep on, to continue doing something (followed by a verb in the gerund)",
+									"col2": "Ele fica falando, mas nós não entendemos nada.",
+									"col3": "He keeps on talking, but we don't understand anything."
+								}
+							]
+						},
+						"2": {
+							"tip": "The verbs *ser* (_to be_) and *ficar* (_to be, to stay_) are interchangeable when they imply a permanent location of something or somebody.",
+							"list" : [
+								{
+									"portuguese": "Onde fica o parque?",
+									"english": "Where's the park?"
+								},
+								{
+									"portuguese": "Onde é a praia?",
+									"english": "Where's the beach?"
+								}
+							]
+						},
+						"3": {
+							"tip": "Now let's look at common phrases of location and direction. Note that *cá* and *aqui* (_here_) are interchangeable as are *ali* and *lá* (_there_).",
+							"list" : [
+								{
+									"portuguese": "O meu celular não está aqui.",
+									"english": "My cell phone isn't here."
+								},
+								{
+									"portuguese": "Venha cá, por favor.",
+									"english": "Come over here, please."
+								},
+								{
+									"portuguese": "O estacionamento fica ali, está vendo?",
+									"english": "The parking lot is there, do you see it?"
+								},
+								{
+									"portuguese": "Quem fica lá com seus filhos?",
+									"english": "Who stays there with your children?"
+								},
+								{
+									"portuguese": "O aeroporto fica perto da cidade?",
+									"english": "Is the airport near the city?"
+								},
+								{
+									"portuguese": "O seu hotel não é longe.",
+									"english": "You hotel isn't far."
+								},
+								{
+									"portuguese": "O cinema fica do outro lado da rua.",
+									"english": "The movie theater is across the street."
+								},
+								{
+									"portuguese": "O correio fica do lado oposto da igreja.",
+									"english": "The post office is opposite the church."
+								},
+								{
+									"portuguese": "Há uma sinagoga a cem metros daqui.",
+									"english": "There's a synagogue a hundred meters from here."
+								},
+								{
+									"portuguese": "Devo virar à esquerda ou à direita?",
+									"english": "Should I turn left or right?"
+								},
+								{
+									"portuguese": "Há um posto de gasolina mais adiante.",
+									"english": "There's a gas station farther on."
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		"22": {
+			"nutsAndBolts" : {
+				"1": {
+					"tips" : {
+						"1": {
+							"tip category": "The Imperative",
+							"tip": "The imperative is used to give orders, commands, and instructions. It can be affirmative (_Have a seat!_) or negative (_Don't smoke!_). To form the imperative, start with the *eu* form of the present, remove the final *-o*, and add the following endings, depending on the type of verb, and on whether you're speaking to one person or to a group of people:",
+							"table" : [
+								{
+									"col1": "-",
+									"col2": "*-ar",
+									"col3": "*-er/-ir"
+								},
+								{
+									"col1": "singular",
+									"col2": "-e",
+									"col3": "-a"
+								},
+								{
+									"col1": "plural",
+									"col2": "-em",
+									"col3": "-am"
+								}
+							]
+						},
+						"2": {
+							"tip": "Notice that the vowels in these endings are the reverse of the vowels used in the regular conjugation. Here are some examples with three different verbs:",
+							"table" : [
+								{
+									"col1": "*Infinitive",
+									"col2": "*Present",
+									"col3": "*Imperative Sg.",
+									"col4": "_Imperative Pl."
+								},
+								{
+									"col1": "falar",
+									"col2": "eu falo",
+									"col3": "Fale!",
+									"col4": "Speak!"
+								},
+								{
+									"col1": "beber",
+									"col2": "eu bebo",
+									"col3": "Beba!",
+									"col4": "Drink!"
+								},
+								{
+									"col1": "vir",
+									"col2": "eu venho",
+									"col3": "Venha!",
+									"col4": "Come!"
+								}
+							],
+							"list" : [
+								{
+									"portuguese": "Vire à direita e ande três quarteirões.",
+									"english": "Turn left and walk three blocks."
+								},
+								{
+									"portuguese": "Não fume aqui!",
+									"english": "Don't smoke here!"
+								},
+								{
+									"portuguese": "Preencham esses formulários, por favor.",
+									"english": "Fill in these forms, please."
+								}
+							]
+						},
+						"3": {
+							"tip": "A few common verbs have irregular imperative forms.",
+							"table" : [
+								{
+									"col1": "*",
+									"col2": "*",
+									"col3": "_"
+								},
+								{
+									"col1": "ser: seja, segam",
+									"col2": "Seja feliz!",
+									"col3": "Be happy!"
+								},
+								{
+									"col1": "estar: esteja, estejam",
+									"col2": "Estejam à vontade!",
+									"col3": "make yourselves comfortable!"
+								},
+								{
+									"col1": "ir: vá, vão",
+									"col2": "Não vá lá.",
+									"col3": "Don't go there."
+								},
+								{
+									"col1": "dar: dê, dêem",
+									"col2": "Dê-me um.",
+									"col3": "Give me one."
+								},
+								{
+									"col1": "querer: queira, queiram",
+									"col2": "Queiram sentar-se.",
+									"col3": "Please sit down."
+								}
+							]
+						},
+						"4": {
+							"tip": "There are also spelling changes in some verbs. For example, verbs ending in *-car* and *-gar* change the *c* to *qu* and the *g* to *gu* before ending *e* to keep the hard *_k_ and _g_ sounds. Take *explicar* (_to explain_) and *pagar* (_to pay_) as examples.",
+							"list" : [
+								{
+									"portuguese": "Explique-me como funciona, por favor.",
+									"english": "Explain to me how that works, please."
+								},
+								{
+									"portuguese": "Pague depois.",
+									"english": "Pay later."
+								}
+							]
+						},
+						"5": {
+							"tip": "To retain the soft _s_ sound, verbs ending in *-cer* change the *c* to *ç* before ending the ending *-a*. Here's an example with *esquecer* (_to forget_).",
+							"list" : [
+								{
+									"portuguese": "Não esqueçam o guarda-chuva!",
+									"english": "Don't forget your umbrella!"
+								}
+							]
+						},
+						"6": {
+							"tip": "And if a verb ends in the soft *-çar*, there's no need to keep the spelling *ç* before *-e*, since *-ce_ is pronounced as a soft _s_. Take *dançar* (_to dance_) as an example.",
+							"list" : [
+								{
+									"portuguese": "Dancem perto da piscina.",
+									"english": "Dance near the pool."
+								}
+							]
+						},
+						"7": {
+							"tip": "You can soften commands by using *querer* (_to want_) and *poder* (_can_), or with common courtesy expressions.",
+							"list" : [
+								{
+									"portuguese": "Vocês podem vir aqui, por favor?",
+									"english": "Can you come here, please?"
+								},
+								{
+									"portuguese": "Você quer repetir o seu nome, por favor?",
+									"english": "Would you care to repeat your name, please?"
+								},
+								{
+									"portuguese": "Venha aqui, por gentileza.",
+									"english": "Would you be kind enough to come here?"
+								},
+								{
+									"portuguese": "Abram a porta, por favor.",
+									"english": "Open the door, please."
+								},
+								{
+									"portuguese": "Por favor, não façam barulho.",
+									"english": "Please don't make any noise."
+								}
+							]
+						}
+					}
+				},
+				"2": {
+					"tips" : {
+						"1": {
+							"tip category": "Object Pronouns",
+							"tip": "A direct object is a noun or pronoun that in a sense \"receives\" the action of the verb. In *Mariana compra uma revista* (_Mariana buys a magazine_), *revista* (_magazine_) is the direct object of *compra* (_buys_). It is the thing that Mariana buys. An indirect object is a noun or pronoun that benefits in some way from the action of the verb. In *ele manda a carta à Maria* (_he sends the letter to Maria_),*Maria* is the indirect object of the verb *manda* (_sends_). (Notice that there is also a direct object, *a carta* (_the letter_), which is the thing sent.) Just like with subject pronouns, you can replace both direct and indirect object nouns with pronouns.",
+							"list" : [
+								{
+									"portuguese": "Ele vê a lua. Ele `a` vê da janela do quarto.",
+									"english": "He sees the moon. He sees `it` from his bedroom window. (direct object)"
+								},
+								{
+									"portuguese": "Ela escreve um e-mail ao amigo. Ela `lhe` escreve muitos e-mails.",
+									"english": "She writes an email to her friend. She writes many e-mails `to him`. (indirect object)"
+								}
+							]
+						},
+						"2": {
+							"tip": "Here are all the direct and indirect object pronouns in Portuguese",
+							"table" : [
+								{
+									"col1": "*Subject Pronouns",
+									"col2": "~Direct Object Pronouns",
+									"col3": "~Indirect Object Pronouns"
+								},
+								{
+									"col1": "eu",
+									"col2": "*me* (_me_)",
+									"col3": "*me* (_to me_)"
+								},
+								{
+									"col1": "tu",
+									"col2": "*te* (_you_)",
+									"col3": "*te* (_to you_)"
+								},
+								{
+									"col1": "você/ele",
+									"col2": "*o* (_you/her/it_)",
+									"col3": "*lhe* (_to you/him/it_)"
+								},
+								{
+									"col1": "você/ela",
+									"col2": "*a* (_you/him/it_)",
+									"col3": "*lhe* (_to you/her/it_)"
+								},
+								{
+									"col1": "nós",
+									"col2": "*nos* (_us_)",
+									"col3": "*nos* (_to us_)"
+								},
+								{
+									"col1": "vocês/eles",
+									"col2": "*os* (_you/them, m._)",
+									"col3": "*lhes* (_to you/them, m._)"
+								},
+								{
+									"col1": "vocês/elas",
+									"col2": "*as* (_you/them, f._)",
+									"col3": "*lhes* (_to you/them, f._)"
+								}
+							]
+						},
+						"3": {
+							"tip": "Notice that *me*, *te* and *nos* have the same forms for both types of objects. But don't forget that the form *tu* is not commonly used in Brasil, except for some regions such as Porto Alegre and Rio Grande do Sul. It is, however, used in Portugal in informal speech between family members or close friends. Also notice that the pronoun *nós* (_we_) has an accent, but *nos* (_us/to us_) does not. *Nós* is pronounced with an open *o*, as in _off_, and *nos* is pronounced with a closed *o*, as in *rose*."
+						},
+						"4": {
+							"tip": "For the third person forms, notice that the direct object pronouns are the same as the articles: *o*, *a*, *os*, *as*. These forms can refer to people (_him, her, them_), or to inanimate object (_it, them_). The gender of the noun determines which pronoun to use. So, *a* can mean *Maria* in one context, but *a caneta* (_the pen_) in another."
+						},
+						"5": {
+							"tip": "The third person indirect object pronouns only make a distinction for number, not gender: *lhe* (_to him/to her/to it_) and *lhes* (_to them_). These forms are also used to mean _you/to you_, corresponding to *você* and *vocês*, or *o Senhor*/*os Senhores* and *a Senhora*/*as Senhoras* in formal conversation."
+						},
+						"6": {
+							"tip": "In lesson 24 we'll come back to the use and position of direct and indirect object pronouns. For now, just familiarize yourself with their forms."
+						}
+					}
+				}
+			}
+		},
+		"23": {
+			"nutsAndBolts" : {
+				"1": {
+					"tips" : {
+						"1": {
+							"tip category": "The Verbs Pôr (_To Put_), Sair (_To Go Out_), Dizer (_To Say_), and Dar (_To Give_)",
+							"tip": "These common verbs are all irregular. Here are their conjugations in the present tense."
+						},
+						"2": {
+							"tip": "*pôr* (_to put_)",
+							"table" : [
+								{
+									"col1": "*",
+									"col2": "*"
+								},
+								{
+									"col1": "eu ponho",
+									"col2": "nós pomos"
+								},
+								{
+									"col1": "você põe",
+									"col2": "vocês põem"
+								},
+								{
+									"col1": "ele/ela põe",
+									"col2": "eles/elas põem"
+								}
+							]
+						},
+						"3": {
+							"tip": "*sair* (_to go out/to leave_)",
+							"table" : [
+								{
+									"col1": "*",
+									"col2": "*"
+								},
+								{
+									"col1": "eu saio",
+									"col2": "nós saímos"
+								},
+								{
+									"col1": "você sai",
+									"col2": "vocês saem"
+								},
+								{
+									"col1": "ele/ela sai",
+									"col2": "eles/elas saem"
+								}
+							]
+						},
+						"4": {
+							"tip": "*dizer* (_to say/to tell_)",
+							"table" : [
+								{
+									"col1": "*",
+									"col2": "*"
+								},
+								{
+									"col1": "eu digo",
+									"col2": "nós dizemos"
+								},
+								{
+									"col1": "você diz",
+									"col2": "vocês dizem"
+								},
+								{
+									"col1": "ele/ela diz",
+									"col2": "eles/elas dizem"
+								}
+							]
+						},
+						"5": {
+							"tip": "*dar* (_to give_)",
+							"table" : [
+								{
+									"col1": "*",
+									"col2": "*"
+								},
+								{
+									"col1": "eu dou",
+									"col2": "nós damos"
+								},
+								{
+									"col1": "você dá",
+									"col2": "vocês dão"
+								},
+								{
+									"col1": "ele/ela dá",
+									"col2": "eles/elas dão"
+								}
+							]
+						},
+						"6": {
+							"tip": "Here are some examples of how to use these verbs, including some common idiomatic expressions and commands, which you learned earilier in this unit. Let's start with the verb *pôr* (_to put_).",
+							"list" : [
+								{
+									"portuguese": "Ele não põe o nome na lista.",
+									"english": "He doesn't put his name on the list."
+								},
+								{
+									"portuguese": "Quando vocês põem os casacos?",
+									"english": "When do you put your coats on?"
+								},
+								{
+									"portuguese": "Não ponha os pés no sofá!",
+									"english": "Don't put your feet on the couch!"
+								},
+								{
+									"portuguese": "Nós estamos pondo nossa casa para vender.",
+									"english": "We're putting our house on sale."
+								},
+								{
+									"portuguese": "Eles põem a mesa para os convidados.",
+									"english": "They set teh table for the guests."
+								}
+							]
+						},
+						"7": {
+							"tip": "Next look at some examples with the verb *sair* (_to go out/to leave_).",
+							"list" : [
+								{
+									"portuguese": "Eu não saio de casa à noite.",
+									"english": "I don't go out at night./I don't leave the house at night."
+								},
+								{
+									"portuguese": "A que horas sai o avião para o Rio?",
+									"english": "What time does the plane leave for Rio?"
+								},
+								{
+									"portuguese": "Para o cachorro: Saia já daí!",
+									"english": "To the dog: get out of there!"
+								},
+								{
+									"portuguese": "Eles estão saindo juntos?",
+									"english": "Are they going out together?/Are they seeing each other?"
+								},
+								{
+									"portuguese": "Essa mancha não sai; não sei o que fazer!",
+									"english": "This stain does not come out; I don't know what to do!"
+								},
+								{
+									"portuguese": "Não saiam daqui! Esperem-me.",
+									"english": "Don't leave here! Wait for me."
+								}
+							]
+						},
+						"8": {
+							"tip": "Now, look at some examples of how to use the verb *dizer* (_to say/to tell_)",
+							"list" : [
+								{
+									"portuguese": "Nós dizemos o endereço para o motorista.",
+									"english": "We tell the driver the address."
+								},
+								{
+									"portuguese": "Eu não digo mentiras.",
+									"english": "I don't tell lies."
+								},
+								{
+									"portuguese": "Diga-me as horas, por favor.",
+									"english": "Tell me the time, please."
+								},
+								{
+									"portuguese": "Você acha que ele diz coisas interessantes?",
+									"english": "Do you think he says interesting things?"
+								},
+								{
+									"portuguese": "O que eles estão dizendo?",
+									"english": "What are they saying?"
+								},
+								{
+									"portuguese": "Diga a verdade, você gosta deste vestido?",
+									"english": "Tell me the truth, do you like this dress?"
+								}
+							]
+						},
+						"9": {
+							"tip": "Finally, here are examples with the verb *dar* (_to give_).",
+							"list" : [
+								{
+									"portuguese": "Eu dou dinheiro para caridade.",
+									"english": "I give money to charity."
+								},
+								{
+									"portuguese": "Que horas vocês dão comida para o bebê?",
+									"english": "What time do you feed the baby?"
+								},
+								{
+									"portuguese": "Eles não dão atenção para crítica negativa.",
+									"english": "They pay no attention to negative criticism."
+								},
+								{
+									"portuguese": "Assim não dá!",
+									"english": "That's impossible!/That won't work!"
+								},
+								{
+									"portuguese": "Os planos delas dão certo.",
+									"english": "Their plans don't work out."
+								},
+								{
+									"portuguese": "A viagem dele dá errado.",
+									"english": "His trip works out wrong."
+								},
+								{
+									"portuguese": "Por favor, dê-me uma chance.",
+									"english": "Please give me a chance."
+								},
+								{
+									"portuguese": "Nós estamos dando-lhes uma oportunidade.",
+									"english": "We're giving them an opportunity (a chance)."
+								}
+							]
+						}
+					}
+				},
+				"2": {
+					"tips" : {
+						"1": {
+							"tip category": "Use and Position of Object Pronouns",
+							"tip": "Direct and indirect object pronounss may either precede or follow the verb in Portuguese. Their position varies depending on the region, the type of verb, whether the language is spoken or written, and on other factors. There are some general tendencies that we can look at more closely now. For example, if a sentence begins witha  noun or pronoun subject, Brazilians tend to place the pronoun before the verb, and the Portuguese tend to place it after the verb, linked with a hyphen:",
+							"list" : [
+								{
+									"portuguese": "O carro? Ele o comprou. (Brazil)",
+									"english": "The car? He bought it."
+								},
+								{
+									"portuguese": "O carro? Ele comprou-o. (Portugal)",
+									"english": "The car? He bought it."
+								},
+								{
+									"portuguese": "Guias nos informam sobre o país. (Brazil)",
+									"english": "Guides inform us about the country."
+								},
+								{
+									"portuguese": "Guias informam-nos sobre o país. (Portugal)",
+									"english": "Guides inform us about the country."
+								}
+							]
+						},
+						"2": {
+							"tip": "The same generalization is true if an object pronoun is used with an infinitive.",
+							"list" : [
+								{
+									"portuguese": "É preciso lhes avisar. (Brazil)",
+									"english": "It's necessary to advise them."
+								},
+								{
+									"portuguese": "É preciso avisar-lhes. (Portugal)",
+									"english": "It's necessary to advice them."
+								}
+							]
+						},
+						"3": {
+							"tip": "Object pronouns usually follow the verb, and are attached to it with a hyphen, after command forms and gerunds.",
+							"list" : [
+								{
+									"portuguese": "Diga-lhe a verdade.",
+									"english": "Tell him the truth."
+								},
+								{
+									"portuguese": "Abra-o.",
+									"english": "Open it."
+								},
+								{
+									"portuguese": "Estou escrevendo-lhes.",
+									"english": "I'm writing to (all of) you."
+								},
+								{
+									"portuguese": "Estamos comprando-a.",
+									"english": "We're buying it."
+								}
+							]
+						},
+						"4": {
+							"tip": "They also follow the verb in sentences that would otherwise begin with the object pronoun, in other words, in sentences where the subject is dropped.",
+							"list" : [
+								{
+									"portuguese": "Levo-os depois.",
+									"english": "I'll take them later."
+								},
+								{
+									"portuguese": "Telefono-lhes mais tarde.",
+									"english": "I'll call them later."
+								}
+							]
+						},
+						"5": {
+							"tip": "There are also cases where the object pronouns come before the verb, such as in negative sentences:",
+							"list" : [
+								{
+									"portuguese": "Não me acorde cedo.",
+									"english": "Don't wake me up early."
+								},
+								{
+									"portuguese": "Ele nunca o bebe.",
+									"english": "He never drinks it."
+								},
+								{
+									"portuguese": "Nada nos perturba.",
+									"english": "Nothing disturbs us."
+								},
+								{
+									"portuguese": "Ela jamais os convidou.",
+									"english": "She never invited them."
+								}
+							]
+						},
+						"6": {
+							"tip": "Object pronouns also generally cmoe before the verb in questions with question words and with conjunctions such as *que* (_that_), *como* (_how_), *porque* (_because_), and so on.",
+							"list" : [
+								{
+									"portuguese": "Quem lhe diz isso?",
+									"english": "Who's telling you that?"
+								},
+								{
+									"portuguese": "Eu vou porque me pediram.",
+									"english": "I'm going because they asked me."
+								}
+							]
+						},
+						"7": {
+							"tip": "They also come before the verb with certain adverbs such as *ainda* (_still_), *tudo* (_everything_), *todos*/*todas* (_every_), *sempre* (_always_), *também* (_also_/_too_), *talvez* (_maybe_), *pouco* (_little_), *bastante* (_plenty_/_enough_), and *muito* (_a lot_).",
+							"list" : [
+								{
+									"portuguese": "Vera também nos visita.",
+									"english": "Vera also visits us."
+								},
+								{
+									"portuguese": "Sempre lhes escrevo.",
+									"english": "I always write to them."
+								},
+								{
+									"portuguese": "Nós já o vimos muitas vezes.",
+									"english": "We've already seen it many times."
+								}
+							]
+						},
+						"8": {
+							"tip": "There's also a special point to be made about the direct object pronouns *o*, *a*, *os*, and *as*. If they're used after the veb form that ends in the consonants *-r* (as in infinitives), *-s*, or *-z*, then that consonant is dropped, and the object pronoun becomes *lo*, *los*, *la*, and *las*.",
+							"list" : [
+								{
+									"portuguese": "Ela quer comprá-los.",
+									"english": "She wants to buy them."
+								},
+								{
+									"portuguese": "Amamo-lo como um filho.",
+									"english": "We love him like a son."
+								},
+								{
+									"portuguese": "Eu fi-lo sem ajuda!",
+									"english": "I did it without help!"
+								}
+							]
+						},
+						"9": {
+							"tip": "In these cases, *-ar* and *-er* vebs take a written accent (*á* and *ê*, respectively), and *-uir* verbs end in *-í*, except for *-guir* verbs, which end in *-gui*.",
+							"list" : [
+								{
+									"portuguese": "Quer esperá-lo?",
+									"english": "Do you want to wait for him?"
+								},
+								{
+									"portuguese": "Precisamos vê-la.",
+									"english": "We need to see her."
+								},
+								{
+									"portuguese": "Você consegue abri-los?",
+									"english": "Can you open them?"
+								},
+								{
+									"portuguese": "É fácil construí-la?",
+									"english": "Is it easy to build it?"
+								},
+								{
+									"portuguese": "Eles querem segui-lo.",
+									"english": "They want to follow him."
+								}
+							]
+						},
+						"10": {
+							"tip": "Another such alteration occurs when a verb ends in *-m*, *-ão*, or *-õe*. The pronouns *o*, *a*, *os*, and *as* become, *no*, *nos*, *na*, and *nas*.",
+							"list" : [
+								{
+									"portuguese": "Eles acoram-no.",
+									"english": "They wake him up."
+								},
+								{
+									"portuguese": "Ela põe-na.",
+									"english": "She puts it on."
+								}
+							]
+						},
+						"11": {
+							"tip": "But these combinations are avoided in conversation by placing the pronoun before the verb.",
+							"list" : [
+								{
+									"portuguese": "Eles o acordam.",
+									"english": "They wake him up."
+								},
+								{
+									"portuguese": "Ela a põe.",
+									"english": "She puts it on."
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		"24": {
+			"nutsAndBolts" : {
+				"1": {
+					"tips" : {
+						"1": {
+							"tip category": "The Preposition Para",
+							"tip": "The preposition *para* has a few main uses. It can be used before an infinitive to indicate purpose. In these cases, it can be tranlated as _in order to_, _to_, and _so_. It can also indicate a recipient, like the English _for_. It can also indicate a destination. And when used with *estar*, it can mean _to be about to do something_.",
+							"list" : [
+								{
+									"portuguese": "Isso é para comer ou para beber?",
+									"english": "Is this to drink or to eat?"
+								},
+								{
+									"portuguese": "Para chegar ao parque, vire a primeira à direita.",
+									"english": "To get to the park, take the first right."
+								},
+								{
+									"portuguese": "Ele entra nas pontas dos pés para não acordá-la.",
+									"english": "He comes into the room on tiptoe in order to not wake her up."
+								},
+								{
+									"portuguese": "Faça um favor para o professor.",
+									"english": "Do a favor for the teacher."
+								},
+								{
+									"portuguese": "Eu posso fazer um bolo para o seu aniversário.",
+									"english": "I can make a cake for your birthday."
+								},
+								{
+									"portuguese": "Ele vai para Paris no vôo das sete horas.",
+									"english": "He's going to Paris on the 7 o'clock flight."
+								},
+								{
+									"portuguese": "Nós estamos viajando para nossa casa de praia.",
+									"english": "We're traveling to our beach house."
+								},
+								{
+									"portuguese": "Agora não podemos. Estamos para viajar.",
+									"english": "We can't now. We're about to travel."
+								}
+							]
+						}
+					}
+				},
+				"2": {
+					"tips" : {
+						"1": {
+							"tip category": "Personal Infinitives",
+							"tip": "Personal infinitives are infinitives that are conjugated to make it clear who the action of the verb relates to. To link these constructions to similar constructions in English, _to write_ is a general infinitive, and _for me to write_ is personal; you know who's doing the writing. The difference in Portuguese is that the infinitive is actually conjugated; it takes endings (in the plural, at least) to agree with the subject, which is indicated with the regular subject pronouns. Personal infinitives are usually introduced with the preposition *para*. Let's look at *levar* (_to take_) as an example.",
+							"table" : [
+								{
+									"col1": "*",
+									"col2": "_",
+									"col3": "*",
+									"col4": "_"
+								},
+								{
+									"col1": "para eu levar",
+									"col2": "for me to take",
+									"col3": "para nós levarmos",
+									"col4": "for us to take"
+								},
+								{
+									"col1": "para você levar",
+									"col2": "for you to take",
+									"col3": "para vocês levarem",
+									"col4": "for you to take"
+								},
+								{
+									"col1": "para ele/ela levar",
+									"col2": "for him/her to take",
+									"col3": "para eles/elas levarem",
+									"col4": "for them to take"
+								}
+							]
+						},
+						"2": {
+							"tip": "Take a look at how these constructions are used, and how you could translate them into English:",
+							"list" : [
+								{
+									"portuguese": "Dê-me uma caneta para eu escrever meu endereço.",
+									"english": "Give me a pen so I can write down my address/for me to write down my address."
+								},
+								{
+									"portuguese": "Esse mapa é para nós levarmos?",
+									"english": "Is this map for us to take?"
+								},
+								{
+									"portuguese": "Cuidado para você não chegar atrasada.",
+									"english": "Be sure not to arrive late."
+								},
+								{
+									"portuguese": "É muito cedo para nós comermos?",
+									"english": "Is it too early for us to eat?"
+								},
+								{
+									"portuguese": "Ele avisa para vocês andarem atrás do guia.",
+									"english": "He advises you to walk behind the guide."
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		"25": {
+			"nutsAndBolts" : {
 				"": {
 					"tips" : {
 						"": {

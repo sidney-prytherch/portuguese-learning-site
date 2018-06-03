@@ -608,6 +608,128 @@ var sentencesJson = {
 					]
 				}
 			}
+		},
+		"23": {
+			"sections" : {
+				"1": {
+					"sentences" : [
+						{
+							"portuguese": "Cuidado com os carros!",
+							"english": "Watch out for the cars!"
+						},
+						{
+							"portuguese": "É uma avendia muito movimentada.",
+							"english": "It's a very busy avenue."
+						},
+						{
+							"portuguese": "É proibido fumar.",
+							"english": "Smoking is prohibited."
+						},
+						{
+							"portuguese": "É permitido estacionar aqui?",
+							"english": "Is it legal to park here?"
+						},
+						{
+							"portuguese": "Onde posso comprar um catão de \"zona azul\"?",
+							"english": "Where can I buy a \"park and show\" ticket?"
+						},
+						{
+							"portuguese": "Onde fica a Rua Augusta?",
+							"english": "Where is Augusta Street?"
+						},
+						{
+							"portuguese": "A Praça da Sé fica perto daqui?",
+							"english": "Is Praça da Sé near here?"
+						},
+						{
+							"portuguese": "É melhoor ir de carro ou a pé?",
+							"english": "Is it better to go by car or to walk?"
+						},
+						{
+							"portuguese": "Vocês querem pegar o ônibus das dez?",
+							"english": "Do you want to take the 10:00 bus?"
+						},
+						{
+							"portuguese": "Quanto é o bilhete do metrô?",
+							"english": "How much is the subway ticket?"
+						},
+						{
+							"portuguese": "Quanto Custa a dorrida de táxi?",
+							"english": "How much is the taxi ride?"
+						},
+						{
+							"portuguese": "Posso tomar conta do carro?",
+							"english": "Can I keep an eye on your car?"
+						},
+						{
+							"portuguese": "Você pode ficar de olho no nosso carro?",
+							"english": "Can you keep an eye on our car?"
+						},
+						{
+							"portuguese": "É possível chamar um táxi para nós?",
+							"english": "Can you call a taxi for us?"
+						},
+						{
+							"portuguese": "QUal o jeito mais fácil para chegar lá?",
+							"english": "What's the easiest way to get there?"
+						}
+					]
+				},
+				"2": {
+					"sentences" : [
+						{
+							"portuguese": "Faça-me um favor.",
+							"english": "Do me a favor."
+						},
+						{
+							"portuguese": "Você pode me explicar o caminho?",
+							"english": "Can you give me some information?"
+						},
+						{
+							"portuguese": "A senhora pode nos indicar o melhor caminho para chegar ao Museu do Ipiranga?",
+							"english": "Can you show us the best way to get to the Ipiranga Museum?"
+						},
+						{
+							"portuguese": "Você pode completar o tanque com álcool, por favor?",
+							"english": "Can you fill it up with ethanol, please?"
+						},
+						{
+							"portuguese": "Você quer abastecer o automóvel com álcool ou gasolina?",
+							"english": "What kind of fuel do you want in the car - ethanol or gasoline?"
+						},
+						{
+							"portuguese": "Você pode verificar os pneus?",
+							"english": "Can you check the tires?"
+						},
+						{
+							"portuguese": "Vocês têm carro flex fuel para alugar?",
+							"english": "Do you rent \"flex-fuel\" cars?"
+						},
+						{
+							"portuguese": "Leve-nos ao aeroporto, por favor.",
+							"english": "Take us to the airport, please."
+						},
+						{
+							"portuguese": "Deixe-me do outro lado da rua, por favor.",
+							"english": "Drop me off on the other side of the street, please."
+						},
+						{
+							"portuguese": "Dou-lhe uma gorjeta?",
+							"english": "Do I give him a tip?"
+						},
+						{
+							"portuguese": "Telefone-me mais tarde, tá?",
+							"english": "Call me later, okay?"
+						}
+					]
+				}
+			}
+		},
+		"27": {
+			"sections" : {
+				"": {
+				}
+			}
 		}
 	}
 }

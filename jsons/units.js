@@ -336,6 +336,71 @@ var unitsJson = {
 					"english": "I'm writing now. What are you doing?"
 				}
 			]
+		},
+		"6": {
+			"introNotes": "In Unit 6 you'll learn how to get around town. That means asking for and giving direction, cclarifying information, and using the imperative form of verbs. In Unit 6 you'll also learn object pronouns and many new verbs to use them with: *dar* (_to give_), *pôr* (_to put_), *dizer* (_to say_), for example. You'll also be introduced to the ordinal numbers _first_, _second_, and so on. *Vá em frente!* (_Full speed ahead!_)",
+			"essentials" : [
+				{
+					"portuguese": "A Rua Augusta é a segunda rua à direita.",
+					"english": "Augustus Street is the second street on the right."
+				},
+				{
+					"portuguese": "Desculpe, mas eu não lembro o seu nome.",
+					"english": "Sorry, but I don't remember your name."
+				},
+				{
+					"portuguese": "O nosso escritório fica na Avenida Paulista.",
+					"english": "Our office is located on Avenida Paulista."
+				},
+				{
+					"portuguese": "O aeroporto fica perto da cidade?",
+					"english": "Is the airport near the city?"
+				},
+				{
+					"portuguese": "Há um posto de gasolina mais adiante.",
+					"english": "There's a gas station farther on."
+				},
+				{
+					"portuguese": "Vire à direita e ande três quarteirões.",
+					"english": "Turn left and walk three blocks."
+				},
+				{
+					"portuguese": "Preencham esses formulários, por favor.",
+					"english": "Fill out these forms, please."
+				},
+				{
+					"portuguese": "Vocês podem vir aqui, por favor?",
+					"english": "Can you come here, please?"
+				},
+				{
+					"portuguese": "Ela lhe escreve muitos e-mails.",
+					"english": "She writes many e-mails to him."
+				},
+				{
+					"portuguese": "É permitido estacionar aqui?",
+					"english": "Is it legal to park here?"
+				},
+				{
+					"portuguese": "Quanto custa a corrida de táci?",
+					"english": "How much is the taxi ride?"
+				},
+				{
+					"portuguese": "A que horas sai o avião para o Rio?",
+					"english": "What time does the plane leave for Rio?"
+				},
+				{
+					"portuguese": "Reserve o hotel com antecedência para não ter problemas.",
+					"english": "Make hotel reservations so you don't have any problems."
+				},
+				{
+					"portuguese": "Você pode me explicar o caminho?",
+					"english": "Can you give me directions?"
+				},
+				{
+					"portuguese": "Você conhece a floresta amazônica?",
+					"english": "Have you been to the Amazon forest?"
+				}
+			]
 		}
 	}
 }
