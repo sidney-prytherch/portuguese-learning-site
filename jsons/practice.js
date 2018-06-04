@@ -2006,7 +2006,26 @@ var practiceJson = {
 					"instructions": "Write out the ordinal numbers. Then try to translate the full sentences."
 				},
 				"2": {
-					"questions" : 
+					"questions" : [
+						{
+							"number": "1",
+							"question": "Paula: Com licença, onde (1) _ o correio? Fica (2) _ daqui?",
+							"answer": "fica~longe"
+						},
+						{
+							"number": "2",
+							"question": "Jornaleiro: Não. O correio é (3) _, do outro (4) _ da rua. Mas hoje está fechado.",
+							"answer": "ali~lado"
+						},
+						{
+							"number": "3",
+							"question": "Paula: Onde posso comprar selos?",
+							"answer": "a~á"
+						},
+						{
+							"number": "4",
+							"question": "Jornaleiro: A senhora pode comprá-los na loja de suvenites: (5) _ dois quarteirões, vire (6) _ esquera."
+						}
 					],
 					"type": "FIC",
 					"instructions": "Complete the following dialogue with the following words: *à*, *fica*, *a*, *lado*, *ali*, *longe*"
