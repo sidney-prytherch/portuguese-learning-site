@@ -27,10 +27,27 @@ window.addEventListener('hashchange', event => {
     loadPage();
 }, false);
 
+window.addEventListener('resize', event => {
+    checkSize();
+});
+
+function checkSize() {
+    if (window.innerWidth <= 767) {
+        if ($('.leftbar').hasClass('navbar-fixed-top')) {
+            $('.leftbar').removeClass('navbar-fixed-top');
+        }
+    } else {
+        if (!$('.leftbar').hasClass('navbar-fixed-top')) {
+            $('.leftbar').addClass('navbar-fixed-top');
+        }
+    }
+}
+
 function loadPage() {
+    checkSize();
     if (window.location.href.indexOf('#') > -1) {
         const hash = window.location.href.replace(/.+#/g, '');
-        const splitHash = hash.split('/');
+        const splitHash = hash.split('_');
         if (splitHash[0].charAt(0) === 'U') {
             const unitNumber = splitHash[0].replace(/\D*/g, '');
             loadUnitEssentials(unitNumber);
