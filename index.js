@@ -57,26 +57,38 @@ function loadPage() {
         const pageType = splitHash[1].replace(/\d*/g, '');
         const pageNumber = splitHash[1].replace(/\D*/g, '');
         showCorrectGlyph();
+
+        function showAndScroll() {
+            $('#main').slideDown(700);
+            if (window.innerWidth <= 767) {
+                setTimeout(() => {
+                    $('html, body').animate({
+                        scrollTop: $("#main").offset().top
+                    }, 700);
+                }, 10);
+            }
+        }
+
         $('#main').slideUp(700, function() {
             $('#main').empty();
             switch (pageType) {
                 case 'NB':
                     loadNutsAndBolts(lessonNumber, pageNumber)
                         .then(() => {
-                            $('#main').slideDown(700);
+                            showAndScroll();
                         });
                     break;
                 case 'V':
                     loadVocabulary(lessonNumber, pageNumber);
-                    $('#main').slideDown(700);
+                    showAndScroll();
                     break;
                 case 'P':
                     loadPractice(lessonNumber, pageNumber);
-                    $('#main').slideDown(700);
+                    showAndScroll();
                     break;
                 case 'E':
                     loadExtra(lessonNumber, pageNumber);
-                    $('#main').slideDown(700);
+                    showAndScroll();
                     break;
             }
         });
@@ -372,20 +384,15 @@ function format(string) {
 }
 
 function formatForTables(string) {
-    console.warn(string);
     let tables = string.match(/\[([^\]])+\]/g);
-    console.warn(tables);
     for (let i in tables) {
         let table = tables[i];
         string = string.replace('[', '</p><table class="table bordered"><tbody>');
-        console.warn(table);
         let rows = table.match(/\{([^\}])+\}/g);
-        console.warn(rows);
         for (let j in rows) {
             let row = rows[j];
             string = string.replace('{', '<tr><td>');
             let bars = row.match(/\|/g);
-            console.warn(bars);
             for (let k in bars) {
                 string = string.replace('|', '</td><td>');
             }
