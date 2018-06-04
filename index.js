@@ -35,6 +35,7 @@ function checkSize() {
     if (window.innerWidth <= 767) {
         if ($('.leftbar').hasClass('navbar-fixed-top')) {
             $('.leftbar').removeClass('navbar-fixed-top');
+            $('html, body').scrollTop($("#main").offset().top);
         }
     } else {
         if (!$('.leftbar').hasClass('navbar-fixed-top')) {
@@ -273,7 +274,7 @@ async function loadNutsAndBolts(lessonNumber, pageNumber) {
                     mainString += '<i>' + list[item]['english'] + '</i>';
                 }
             }
-            mainString += '</br></div>';
+            mainString += '</div></br>';
             listNum++;
         }
     }

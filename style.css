@@ -4,6 +4,7 @@ body {
 
 #main {
     background: linear-gradient(to top, #28666E, #77A0A9 10%);
+    min-height: 100%;
 }
 
 .list-group {
@@ -20,8 +21,8 @@ body {
 
 .lesson-list {
     padding-left: 3em;
-    margin-bottom: 15px;
-    clear: both;
+    margin: 3px 0 12px 0;
+    display: inline-block;
 }
 
 .col-sm-3 {
