@@ -5,6 +5,8 @@
       .mobileShow {display: inline;}
   }
 
+  .mobileShow {display: none;}
+
 body {
     background: #28666E;
 }
