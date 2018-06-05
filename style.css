@@ -13,7 +13,6 @@ body {
 
 #main {
     background: linear-gradient(to top, #28666E, #77A0A9 10%);
-    min-height: 100%;
 }
 
 .list-group {

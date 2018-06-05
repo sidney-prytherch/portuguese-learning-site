@@ -32,8 +32,6 @@ window.addEventListener('resize', event => {
 });
 
 function checkSize() {
-    alert(window.innerWidth);
-    alert(window.innerHeight);
     if (window.innerWidth <= 767) {
         if ($('.leftbar').hasClass('navbar-fixed-top')) {
             $('.leftbar').removeClass('navbar-fixed-top');
