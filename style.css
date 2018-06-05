@@ -122,12 +122,24 @@ a:hover {
     color: #65506E;
 }
 
-.unitLink, .unitLink:hover {
+.btn-link:focus, .btn-link:hover {
+    outline: none !important;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.lessonLink, .lessonLink:hover, .unitLink, .unitLink:hover {
+    text-align: left;
+    outline: none !important;
+    box-shadow: none;
+}
+
+.unitLink, .unitLink:hover, .unitLink:focus {
     font-size: large;
     color: #33223A;
 }
 
-.lessonLink, .lessonLink:hover {
+.lessonLink, .lessonLink:hover, .lessonLink:focus {
     font-size: medium;
     color: #4F345A;
 }
